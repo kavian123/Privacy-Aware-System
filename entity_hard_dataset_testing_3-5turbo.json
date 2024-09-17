@@ -1,0 +1,2940 @@
+[
+    {
+        "input": "Please provide the Max for the patient's Heart_Rate data collected between 2024-07-23 and 2024-09-07, excluding data from 2024-07-05 to 2024-09-20.",
+        "ground_truth": {
+            "Data_Type": "Heart_Rate",
+            "Request_Type": "Data_Access",
+            "Details": "Max",
+            "Inclusions": {
+                "Date_From": "2024-07-23",
+                "Date_Till": "2024-09-20"
+            },
+            "Exclusions": {
+                "Date_From": "2024-07-05",
+                "Date_Till": "2024-07-20"
+            }
+        },
+        "predicted_entities": {
+            "Data_Type": "Heart_Rate",
+            "Request_Type": "Data_Access",
+            "Details": "Max",
+            "Inclusions": {
+                "Date_From": "2024-07-23",
+                "Date_Till": "2024-09-07"
+            },
+            "Exclusions": {
+                "Date_From": "2024-07-05",
+                "Date_Till": "2024-09-20"
+            }
+        },
+        "precision": {
+            "Request_Type": 1.0,
+            "Exclusions": 1.0,
+            "Details": 1.0,
+            "Data_Type": 1.0,
+            "Inclusions": 1.0
+        },
+        "recall": {
+            "Request_Type": 1.0,
+            "Exclusions": 1.0,
+            "Details": 1.0,
+            "Data_Type": 1.0,
+            "Inclusions": 1.0
+        },
+        "f1_score": {
+            "Request_Type": 1.0,
+            "Exclusions": 1.0,
+            "Details": 1.0,
+            "Data_Type": 1.0,
+            "Inclusions": 1.0
+        },
+        "span_accuracy": {
+            "Request_Type": 1.0,
+            "Exclusions": 0.0,
+            "Details": 1.0,
+            "Data_Type": 1.0,
+            "Inclusions": 0.0
+        },
+        "latency": 1.4684816000000005,
+        "prompt_tokens": 133,
+        "completion_tokens": 99,
+        "total_tokens": 232
+    },
+    {
+        "input": "As an engineer, I need to update the Min for the patient's Heart_Rate data, valid between 2024-03-07 and 2024-01-13.",
+        "ground_truth": {
+            "Data_Type": "Heart_Rate",
+            "Request_Type": "Guideline_Update",
+            "Details": "Min",
+            "Inclusions": {
+                "Date_From": "2024-01-13",
+                "Date_Till": "2024-03-07"
+            }
+        },
+        "predicted_entities": {
+            "Data_Type": "Heart_Rate",
+            "Request_Type": "Data_Access",
+            "Details": "Min",
+            "Inclusions": {
+                "Date_From": "2024-03-07",
+                "Date_Till": "2024-01-13"
+            }
+        },
+        "precision": {
+            "Request_Type": 0.5,
+            "Details": 1.0,
+            "Data_Type": 1.0,
+            "Inclusions": 1.0
+        },
+        "recall": {
+            "Request_Type": 0.3333333333333333,
+            "Details": 1.0,
+            "Data_Type": 1.0,
+            "Inclusions": 1.0
+        },
+        "f1_score": {
+            "Request_Type": 0.4,
+            "Details": 1.0,
+            "Data_Type": 1.0,
+            "Inclusions": 1.0
+        },
+        "span_accuracy": {
+            "Request_Type": 0.0,
+            "Details": 1.0,
+            "Data_Type": 1.0,
+            "Inclusions": 0.0
+        },
+        "latency": 1.0684959999999988,
+        "prompt_tokens": 121,
+        "completion_tokens": 72,
+        "total_tokens": 193
+    },
+    {
+        "input": "As a doctor, I need to update the Average for the patient's Steps data, valid between 2024-01-13 and 2024-02-26.",
+        "ground_truth": {
+            "Data_Type": "Steps",
+            "Request_Type": "Guideline_Update",
+            "Details": "Average",
+            "Inclusions": {
+                "Date_From": "2024-01-13",
+                "Date_Till": "2024-02-26"
+            }
+        },
+        "predicted_entities": {
+            "Data_Type": "Steps",
+            "Request_Type": "Data_Access",
+            "Details": "Average",
+            "Inclusions": {
+                "Date_From": "2024-01-13",
+                "Date_Till": "2024-02-26"
+            }
+        },
+        "precision": {
+            "Request_Type": 0.5,
+            "Details": 1.0,
+            "Data_Type": 1.0,
+            "Inclusions": 1.0
+        },
+        "recall": {
+            "Request_Type": 0.3333333333333333,
+            "Details": 1.0,
+            "Data_Type": 1.0,
+            "Inclusions": 1.0
+        },
+        "f1_score": {
+            "Request_Type": 0.4,
+            "Details": 1.0,
+            "Data_Type": 1.0,
+            "Inclusions": 1.0
+        },
+        "span_accuracy": {
+            "Request_Type": 0.0,
+            "Details": 1.0,
+            "Data_Type": 1.0,
+            "Inclusions": 1.0
+        },
+        "latency": 1.1391302999999997,
+        "prompt_tokens": 119,
+        "completion_tokens": 70,
+        "total_tokens": 189
+    },
+    {
+        "input": "I need the Max for the patient between 2024-06-14 and 2024-05-12, and the 13:27 to 01:16 time should be excluded.",
+        "ground_truth": {
+            "Data_Type": "Steps",
+            "Request_Type": "Data_Access",
+            "Details": "Max",
+            "Inclusions": {
+                "Date_From": "2024-05-12",
+                "Date_Till": "2024-06-14",
+                "Time_From": "13:27",
+                "Time_Till": "01:16"
+            }
+        },
+        "predicted_entities": {
+            "Data_Type": "Heart_Rate",
+            "Request_Type": "Data_Access",
+            "Details": "Max",
+            "Inclusions": {
+                "Date_From": "2024-06-14",
+                "Date_Till": "2024-05-12"
+            },
+            "Exclusions": {
+                "Time_From": "13:27",
+                "Time_Till": "01:16"
+            }
+        },
+        "precision": {
+            "Request_Type": 1.0,
+            "Exclusions": 0.0,
+            "Details": 1.0,
+            "Data_Type": 0.2857142857142857,
+            "Inclusions": 1.0
+        },
+        "recall": {
+            "Request_Type": 1.0,
+            "Exclusions": 0.0,
+            "Details": 1.0,
+            "Data_Type": 0.4,
+            "Inclusions": 0.5
+        },
+        "f1_score": {
+            "Request_Type": 1.0,
+            "Exclusions": 0.0,
+            "Details": 1.0,
+            "Data_Type": 0.3333333333333333,
+            "Inclusions": 0.6666666666666666
+        },
+        "span_accuracy": {
+            "Request_Type": 1.0,
+            "Exclusions": 0.0,
+            "Details": 1.0,
+            "Data_Type": 0.0,
+            "Inclusions": 0.0
+        },
+        "latency": 1.2787375,
+        "prompt_tokens": 124,
+        "completion_tokens": 101,
+        "total_tokens": 225
+    },
+    {
+        "input": "As a nurse, I need to authorise a family member to access the Threshold_Heart_Rate of the patient's Steps data between 2024-06-08 and 2024-04-17.",
+        "ground_truth": {
+            "Data_Type": "Steps",
+            "Request_Type": "Data_Access",
+            "Details": "Threshold_Heart_Rate",
+            "Inclusions": {
+                "Date_From": "2024-04-17",
+                "Date_Till": "2024-06-08"
+            },
+            "Exclusions": {
+                "Date_From": "2024-04-04",
+                "Date_Till": "2024-08-17"
+            }
+        },
+        "predicted_entities": {
+            "Data_Type": "Steps",
+            "Request_Type": "Authorise",
+            "Details": "Threshold_Heart_Rate",
+            "Inclusions": {
+                "Date_From": "2024-06-08",
+                "Date_Till": "2024-04-17"
+            }
+        },
+        "precision": {
+            "Request_Type": 0.4444444444444444,
+            "Exclusions": 0.0,
+            "Details": 1.0,
+            "Data_Type": 1.0,
+            "Inclusions": 1.0
+        },
+        "recall": {
+            "Request_Type": 0.5,
+            "Exclusions": 0.0,
+            "Details": 1.0,
+            "Data_Type": 1.0,
+            "Inclusions": 1.0
+        },
+        "f1_score": {
+            "Request_Type": 0.47058823529411764,
+            "Exclusions": 0.0,
+            "Details": 1.0,
+            "Data_Type": 1.0,
+            "Inclusions": 1.0
+        },
+        "span_accuracy": {
+            "Request_Type": 0.0,
+            "Exclusions": 0.0,
+            "Details": 1.0,
+            "Data_Type": 1.0,
+            "Inclusions": 0.0
+        },
+        "latency": 1.0488848999999991,
+        "prompt_tokens": 127,
+        "completion_tokens": 73,
+        "total_tokens": 200
+    },
+    {
+        "input": "Please provide the Max for the patient's Steps data collected between 2024-01-01 and 2024-02-01, excluding data from 2024-08-01 to 2024-08-10.",
+        "ground_truth": {
+            "Data_Type": "Steps",
+            "Request_Type": "Data_Access",
+            "Details": "Max",
+            "Inclusions": {
+                "Date_From": "2024-01-01",
+                "Date_Till": "2024-02-01"
+            },
+            "Exclusions": {
+                "Date_From": "2024-08-01",
+                "Date_Till": "2024-08-10"
+            }
+        },
+        "predicted_entities": {
+            "Data_Type": "Steps",
+            "Request_Type": "Data_Access",
+            "Details": "Max",
+            "Inclusions": {
+                "Date_From": "2024-01-01",
+                "Date_Till": "2024-02-01"
+            },
+            "Exclusions": {
+                "Date_From": "2024-08-01",
+                "Date_Till": "2024-08-10"
+            }
+        },
+        "precision": {
+            "Request_Type": 1.0,
+            "Exclusions": 1.0,
+            "Details": 1.0,
+            "Data_Type": 1.0,
+            "Inclusions": 1.0
+        },
+        "recall": {
+            "Request_Type": 1.0,
+            "Exclusions": 1.0,
+            "Details": 1.0,
+            "Data_Type": 1.0,
+            "Inclusions": 1.0
+        },
+        "f1_score": {
+            "Request_Type": 1.0,
+            "Exclusions": 1.0,
+            "Details": 1.0,
+            "Data_Type": 1.0,
+            "Inclusions": 1.0
+        },
+        "span_accuracy": {
+            "Request_Type": 1.0,
+            "Exclusions": 1.0,
+            "Details": 1.0,
+            "Data_Type": 1.0,
+            "Inclusions": 1.0
+        },
+        "latency": 1.3550193999999998,
+        "prompt_tokens": 131,
+        "completion_tokens": 97,
+        "total_tokens": 228
+    },
+    {
+        "input": "As a doctor, I need to authorise a nurse to access the Min for the patient's Heart_Rate data between 2024-03-05 and 2024-04-15.",
+        "ground_truth": {
+            "Data_Type": "Heart_Rate",
+            "Request_Type": "Data_Access",
+            "Details": "Min",
+            "Inclusions": {
+                "Date_From": "2024-03-05",
+                "Date_Till": "2024-04-15"
+            },
+            "Exclusions": {
+                "Date_From": "2024-08-01",
+                "Date_Till": "2024-08-10"
+            }
+        },
+        "predicted_entities": {
+            "Data_Type": "Heart_Rate",
+            "Request_Type": "Authorise",
+            "Details": "Min",
+            "Inclusions": {
+                "Date_From": "2024-03-05",
+                "Date_Till": "2024-04-15"
+            }
+        },
+        "precision": {
+            "Request_Type": 0.4444444444444444,
+            "Exclusions": 0.0,
+            "Details": 1.0,
+            "Data_Type": 1.0,
+            "Inclusions": 1.0
+        },
+        "recall": {
+            "Request_Type": 0.5,
+            "Exclusions": 0.0,
+            "Details": 1.0,
+            "Data_Type": 1.0,
+            "Inclusions": 1.0
+        },
+        "f1_score": {
+            "Request_Type": 0.47058823529411764,
+            "Exclusions": 0.0,
+            "Details": 1.0,
+            "Data_Type": 1.0,
+            "Inclusions": 1.0
+        },
+        "span_accuracy": {
+            "Request_Type": 0.0,
+            "Exclusions": 0.0,
+            "Details": 1.0,
+            "Data_Type": 1.0,
+            "Inclusions": 1.0
+        },
+        "latency": 1.0809253000000005,
+        "prompt_tokens": 124,
+        "completion_tokens": 71,
+        "total_tokens": 195
+    },
+    {
+        "input": "As a carer, I want to access the Average Steps of the patient between 2024-05-10 and 2024-06-10, excluding yesterday.",
+        "ground_truth": {
+            "Data_Type": "Steps",
+            "Request_Type": "Data_Access",
+            "Details": "Average",
+            "Inclusions": {
+                "Date_From": "2024-05-10",
+                "Date_Till": "2024-06-10"
+            },
+            "Exclusions": {
+                "Date_From": "2024-08-01",
+                "Date_Till": "2024-08-10"
+            }
+        },
+        "predicted_entities": {
+            "Data_Type": "Steps",
+            "Request_Type": "Data_Access",
+            "Details": "Average",
+            "Inclusions": {
+                "Date_From": "2024-05-10",
+                "Date_Till": "2024-06-10"
+            },
+            "Exclusions": {
+                "Date_From": "2024-09-10",
+                "Date_Till": "2024-09-10"
+            }
+        },
+        "precision": {
+            "Request_Type": 1.0,
+            "Exclusions": 1.0,
+            "Details": 1.0,
+            "Data_Type": 1.0,
+            "Inclusions": 1.0
+        },
+        "recall": {
+            "Request_Type": 1.0,
+            "Exclusions": 1.0,
+            "Details": 1.0,
+            "Data_Type": 1.0,
+            "Inclusions": 1.0
+        },
+        "f1_score": {
+            "Request_Type": 1.0,
+            "Exclusions": 1.0,
+            "Details": 1.0,
+            "Data_Type": 1.0,
+            "Inclusions": 1.0
+        },
+        "span_accuracy": {
+            "Request_Type": 1.0,
+            "Exclusions": 0.0,
+            "Details": 1.0,
+            "Data_Type": 1.0,
+            "Inclusions": 1.0
+        },
+        "latency": 1.3721315999999995,
+        "prompt_tokens": 119,
+        "completion_tokens": 97,
+        "total_tokens": 216
+    },
+    {
+        "input": "Please provide the total Sum of the patient's Heart_Rate data between 2024-07-20 and 2024-08-25, excluding data from 2024-08-01 to 2024-08-10.",
+        "ground_truth": {
+            "Data_Type": "Heart_Rate",
+            "Request_Type": "Data_Access",
+            "Details": "Sum",
+            "Inclusions": {
+                "Date_From": "2024-07-20",
+                "Date_Till": "2024-08-25"
+            },
+            "Exclusions": {
+                "Date_From": "2024-08-01",
+                "Date_Till": "2024-08-10"
+            }
+        },
+        "predicted_entities": {
+            "Data_Type": "Heart_Rate",
+            "Request_Type": "Data_Access",
+            "Details": "Sum",
+            "Inclusions": {
+                "Date_From": "2024-07-20",
+                "Date_Till": "2024-08-25"
+            },
+            "Exclusions": {
+                "Date_From": "2024-08-01",
+                "Date_Till": "2024-08-10"
+            }
+        },
+        "precision": {
+            "Request_Type": 1.0,
+            "Exclusions": 1.0,
+            "Details": 1.0,
+            "Data_Type": 1.0,
+            "Inclusions": 1.0
+        },
+        "recall": {
+            "Request_Type": 1.0,
+            "Exclusions": 1.0,
+            "Details": 1.0,
+            "Data_Type": 1.0,
+            "Inclusions": 1.0
+        },
+        "f1_score": {
+            "Request_Type": 1.0,
+            "Exclusions": 1.0,
+            "Details": 1.0,
+            "Data_Type": 1.0,
+            "Inclusions": 1.0
+        },
+        "span_accuracy": {
+            "Request_Type": 1.0,
+            "Exclusions": 1.0,
+            "Details": 1.0,
+            "Data_Type": 1.0,
+            "Inclusions": 1.0
+        },
+        "latency": 1.331827800000001,
+        "prompt_tokens": 133,
+        "completion_tokens": 99,
+        "total_tokens": 232
+    },
+    {
+        "input": "As an engineer, I need to authorise a family member to access the Threshold_Heart_Rate for the patient between 2024-09-01 and 2024-09-30.",
+        "ground_truth": {
+            "Data_Type": "Heart_Rate",
+            "Request_Type": "Data_Access",
+            "Details": "Threshold_Heart_Rate",
+            "Inclusions": {
+                "Date_From": "2024-09-01",
+                "Date_Till": "2024-09-30"
+            },
+            "Exclusions": {
+                "Date_From": "2024-08-01",
+                "Date_Till": "2024-08-10"
+            }
+        },
+        "predicted_entities": {
+            "Data_Type": "Threshold_Heart_Rate",
+            "Request_Type": "Authorise",
+            "Inclusions": {
+                "Date_From": "2024-09-01",
+                "Date_Till": "2024-09-30"
+            }
+        },
+        "precision": {
+            "Exclusions": 0.0,
+            "Details": 0.0,
+            "Data_Type": 0.5384615384615384,
+            "Request_Type": 0.4444444444444444,
+            "Inclusions": 1.0
+        },
+        "recall": {
+            "Exclusions": 0.0,
+            "Details": 0.0,
+            "Data_Type": 1.0,
+            "Request_Type": 0.5,
+            "Inclusions": 1.0
+        },
+        "f1_score": {
+            "Exclusions": 0.0,
+            "Details": 0.0,
+            "Data_Type": 0.7000000000000001,
+            "Request_Type": 0.47058823529411764,
+            "Inclusions": 1.0
+        },
+        "span_accuracy": {
+            "Exclusions": 0.0,
+            "Details": 0.0,
+            "Data_Type": 0.0,
+            "Request_Type": 0.0,
+            "Inclusions": 1.0
+        },
+        "latency": 1.088401000000001,
+        "prompt_tokens": 124,
+        "completion_tokens": 73,
+        "total_tokens": 197
+    },
+    {
+        "input": "Please provide the Max for the patient's Steps data collected between 2024-01-01 and 2024-02-01, excluding data from 2024-08-01 to 2024-08-10.",
+        "ground_truth": {
+            "Data_Type": "Steps",
+            "Request_Type": "Data_Access",
+            "Details": "Max",
+            "Inclusions": {
+                "Date_From": "2024-01-01",
+                "Date_Till": "2024-02-01"
+            },
+            "Exclusions": {
+                "Date_From": "2024-08-01",
+                "Date_Till": "2024-08-10"
+            }
+        },
+        "predicted_entities": {
+            "Data_Type": "Steps",
+            "Request_Type": "Data_Access",
+            "Details": "Max",
+            "Inclusions": {
+                "Date_From": "2024-01-01",
+                "Date_Till": "2024-02-01"
+            },
+            "Exclusions": {
+                "Date_From": "2024-08-01",
+                "Date_Till": "2024-08-10"
+            }
+        },
+        "precision": {
+            "Request_Type": 1.0,
+            "Exclusions": 1.0,
+            "Details": 1.0,
+            "Data_Type": 1.0,
+            "Inclusions": 1.0
+        },
+        "recall": {
+            "Request_Type": 1.0,
+            "Exclusions": 1.0,
+            "Details": 1.0,
+            "Data_Type": 1.0,
+            "Inclusions": 1.0
+        },
+        "f1_score": {
+            "Request_Type": 1.0,
+            "Exclusions": 1.0,
+            "Details": 1.0,
+            "Data_Type": 1.0,
+            "Inclusions": 1.0
+        },
+        "span_accuracy": {
+            "Request_Type": 1.0,
+            "Exclusions": 1.0,
+            "Details": 1.0,
+            "Data_Type": 1.0,
+            "Inclusions": 1.0
+        },
+        "latency": 1.2820897000000002,
+        "prompt_tokens": 131,
+        "completion_tokens": 97,
+        "total_tokens": 228
+    },
+    {
+        "input": "As a doctor, I need to authorise a nurse to access the Min for the patient's Heart_Rate data between 2024-03-05 and 2024-04-15.",
+        "ground_truth": {
+            "Data_Type": "Heart_Rate",
+            "Request_Type": "Data_Access",
+            "Details": "Min",
+            "Inclusions": {
+                "Date_From": "2024-03-05",
+                "Date_Till": "2024-04-15"
+            },
+            "Exclusions": {
+                "Date_From": "2024-08-01",
+                "Date_Till": "2024-08-10"
+            }
+        },
+        "predicted_entities": {
+            "Data_Type": "Heart_Rate",
+            "Request_Type": "Authorise",
+            "Details": "Min",
+            "Inclusions": {
+                "Date_From": "2024-03-05",
+                "Date_Till": "2024-04-15"
+            }
+        },
+        "precision": {
+            "Request_Type": 0.4444444444444444,
+            "Exclusions": 0.0,
+            "Details": 1.0,
+            "Data_Type": 1.0,
+            "Inclusions": 1.0
+        },
+        "recall": {
+            "Request_Type": 0.5,
+            "Exclusions": 0.0,
+            "Details": 1.0,
+            "Data_Type": 1.0,
+            "Inclusions": 1.0
+        },
+        "f1_score": {
+            "Request_Type": 0.47058823529411764,
+            "Exclusions": 0.0,
+            "Details": 1.0,
+            "Data_Type": 1.0,
+            "Inclusions": 1.0
+        },
+        "span_accuracy": {
+            "Request_Type": 0.0,
+            "Exclusions": 0.0,
+            "Details": 1.0,
+            "Data_Type": 1.0,
+            "Inclusions": 1.0
+        },
+        "latency": 1.1291589000000002,
+        "prompt_tokens": 124,
+        "completion_tokens": 71,
+        "total_tokens": 195
+    },
+    {
+        "input": "As a carer, I want to access the Average Steps of the patient between 2024-05-10 and 2024-06-10, excluding yesterday.",
+        "ground_truth": {
+            "Data_Type": "Steps",
+            "Request_Type": "Data_Access",
+            "Details": "Average",
+            "Inclusions": {
+                "Date_From": "2024-05-10",
+                "Date_Till": "2024-06-10"
+            },
+            "Exclusions": {
+                "Date_From": "2024-08-01",
+                "Date_Till": "2024-08-10"
+            }
+        },
+        "predicted_entities": {
+            "Data_Type": "Steps",
+            "Request_Type": "Data_Access",
+            "Details": "Average",
+            "Inclusions": {
+                "Date_From": "2024-05-10",
+                "Date_Till": "2024-06-10"
+            },
+            "Exclusions": {
+                "Date_From": "2024-09-10",
+                "Date_Till": "2024-09-10"
+            }
+        },
+        "precision": {
+            "Request_Type": 1.0,
+            "Exclusions": 1.0,
+            "Details": 1.0,
+            "Data_Type": 1.0,
+            "Inclusions": 1.0
+        },
+        "recall": {
+            "Request_Type": 1.0,
+            "Exclusions": 1.0,
+            "Details": 1.0,
+            "Data_Type": 1.0,
+            "Inclusions": 1.0
+        },
+        "f1_score": {
+            "Request_Type": 1.0,
+            "Exclusions": 1.0,
+            "Details": 1.0,
+            "Data_Type": 1.0,
+            "Inclusions": 1.0
+        },
+        "span_accuracy": {
+            "Request_Type": 1.0,
+            "Exclusions": 0.0,
+            "Details": 1.0,
+            "Data_Type": 1.0,
+            "Inclusions": 1.0
+        },
+        "latency": 1.2076555000000013,
+        "prompt_tokens": 119,
+        "completion_tokens": 97,
+        "total_tokens": 216
+    },
+    {
+        "input": "Please provide the total Sum of the patient's Heart_Rate data between 2024-07-20 and 2024-08-25, excluding data from 2024-08-01 to 2024-08-10.",
+        "ground_truth": {
+            "Data_Type": "Heart_Rate",
+            "Request_Type": "Data_Access",
+            "Details": "Sum",
+            "Inclusions": {
+                "Date_From": "2024-07-20",
+                "Date_Till": "2024-08-25"
+            },
+            "Exclusions": {
+                "Date_From": "2024-08-01",
+                "Date_Till": "2024-08-10"
+            }
+        },
+        "predicted_entities": {
+            "Data_Type": "Heart_Rate",
+            "Request_Type": "Data_Access",
+            "Details": "Sum",
+            "Inclusions": {
+                "Date_From": "2024-07-20",
+                "Date_Till": "2024-08-25"
+            },
+            "Exclusions": {
+                "Date_From": "2024-08-01",
+                "Date_Till": "2024-08-10"
+            }
+        },
+        "precision": {
+            "Request_Type": 1.0,
+            "Exclusions": 1.0,
+            "Details": 1.0,
+            "Data_Type": 1.0,
+            "Inclusions": 1.0
+        },
+        "recall": {
+            "Request_Type": 1.0,
+            "Exclusions": 1.0,
+            "Details": 1.0,
+            "Data_Type": 1.0,
+            "Inclusions": 1.0
+        },
+        "f1_score": {
+            "Request_Type": 1.0,
+            "Exclusions": 1.0,
+            "Details": 1.0,
+            "Data_Type": 1.0,
+            "Inclusions": 1.0
+        },
+        "span_accuracy": {
+            "Request_Type": 1.0,
+            "Exclusions": 1.0,
+            "Details": 1.0,
+            "Data_Type": 1.0,
+            "Inclusions": 1.0
+        },
+        "latency": 1.2441999999999993,
+        "prompt_tokens": 133,
+        "completion_tokens": 99,
+        "total_tokens": 232
+    },
+    {
+        "input": "As an engineer, I need to authorise a family member to access the Threshold_Heart_Rate for the patient between 2024-09-01 and 2024-09-30.",
+        "ground_truth": {
+            "Data_Type": "Heart_Rate",
+            "Request_Type": "Data_Access",
+            "Details": "Threshold_Heart_Rate",
+            "Inclusions": {
+                "Date_From": "2024-09-01",
+                "Date_Till": "2024-09-30"
+            },
+            "Exclusions": {
+                "Date_From": "2024-08-01",
+                "Date_Till": "2024-08-10"
+            }
+        },
+        "predicted_entities": {
+            "Data_Type": "Threshold_Heart_Rate",
+            "Request_Type": "Authorise",
+            "Inclusions": {
+                "Date_From": "2024-09-01",
+                "Date_Till": "2024-09-30"
+            }
+        },
+        "precision": {
+            "Exclusions": 0.0,
+            "Details": 0.0,
+            "Data_Type": 0.5384615384615384,
+            "Request_Type": 0.4444444444444444,
+            "Inclusions": 1.0
+        },
+        "recall": {
+            "Exclusions": 0.0,
+            "Details": 0.0,
+            "Data_Type": 1.0,
+            "Request_Type": 0.5,
+            "Inclusions": 1.0
+        },
+        "f1_score": {
+            "Exclusions": 0.0,
+            "Details": 0.0,
+            "Data_Type": 0.7000000000000001,
+            "Request_Type": 0.47058823529411764,
+            "Inclusions": 1.0
+        },
+        "span_accuracy": {
+            "Exclusions": 0.0,
+            "Details": 0.0,
+            "Data_Type": 0.0,
+            "Request_Type": 0.0,
+            "Inclusions": 1.0
+        },
+        "latency": 1.0700775,
+        "prompt_tokens": 124,
+        "completion_tokens": 73,
+        "total_tokens": 197
+    },
+    {
+        "input": "Please provide the Max for the patient's Steps data collected between 2024-01-01 and 2024-02-01, excluding data from 2024-08-01 to 2024-08-10.",
+        "ground_truth": {
+            "Data_Type": "Steps",
+            "Request_Type": "Data_Access",
+            "Details": "Max",
+            "Inclusions": {
+                "Date_From": "2024-01-01",
+                "Date_Till": "2024-02-01"
+            },
+            "Exclusions": {
+                "Date_From": "2024-08-01",
+                "Date_Till": "2024-08-10"
+            }
+        },
+        "predicted_entities": {
+            "Data_Type": "Steps",
+            "Request_Type": "Data_Access",
+            "Details": "Max",
+            "Inclusions": {
+                "Date_From": "2024-01-01",
+                "Date_Till": "2024-02-01"
+            },
+            "Exclusions": {
+                "Date_From": "2024-08-01",
+                "Date_Till": "2024-08-10"
+            }
+        },
+        "precision": {
+            "Request_Type": 1.0,
+            "Exclusions": 1.0,
+            "Details": 1.0,
+            "Data_Type": 1.0,
+            "Inclusions": 1.0
+        },
+        "recall": {
+            "Request_Type": 1.0,
+            "Exclusions": 1.0,
+            "Details": 1.0,
+            "Data_Type": 1.0,
+            "Inclusions": 1.0
+        },
+        "f1_score": {
+            "Request_Type": 1.0,
+            "Exclusions": 1.0,
+            "Details": 1.0,
+            "Data_Type": 1.0,
+            "Inclusions": 1.0
+        },
+        "span_accuracy": {
+            "Request_Type": 1.0,
+            "Exclusions": 1.0,
+            "Details": 1.0,
+            "Data_Type": 1.0,
+            "Inclusions": 1.0
+        },
+        "latency": 1.5995377000000026,
+        "prompt_tokens": 131,
+        "completion_tokens": 97,
+        "total_tokens": 228
+    },
+    {
+        "input": "As a doctor, I need to authorise a nurse to access the Min for the patient's Heart_Rate data between 2024-03-05 and 2024-04-15.",
+        "ground_truth": {
+            "Data_Type": "Heart_Rate",
+            "Request_Type": "Data_Access",
+            "Details": "Min",
+            "Inclusions": {
+                "Date_From": "2024-03-05",
+                "Date_Till": "2024-04-15"
+            },
+            "Exclusions": {
+                "Date_From": "2024-08-01",
+                "Date_Till": "2024-08-10"
+            }
+        },
+        "predicted_entities": {
+            "Data_Type": "Heart_Rate",
+            "Request_Type": "Authorise",
+            "Details": "Min",
+            "Inclusions": {
+                "Date_From": "2024-03-05",
+                "Date_Till": "2024-04-15"
+            }
+        },
+        "precision": {
+            "Request_Type": 0.4444444444444444,
+            "Exclusions": 0.0,
+            "Details": 1.0,
+            "Data_Type": 1.0,
+            "Inclusions": 1.0
+        },
+        "recall": {
+            "Request_Type": 0.5,
+            "Exclusions": 0.0,
+            "Details": 1.0,
+            "Data_Type": 1.0,
+            "Inclusions": 1.0
+        },
+        "f1_score": {
+            "Request_Type": 0.47058823529411764,
+            "Exclusions": 0.0,
+            "Details": 1.0,
+            "Data_Type": 1.0,
+            "Inclusions": 1.0
+        },
+        "span_accuracy": {
+            "Request_Type": 0.0,
+            "Exclusions": 0.0,
+            "Details": 1.0,
+            "Data_Type": 1.0,
+            "Inclusions": 1.0
+        },
+        "latency": 1.0957462000000007,
+        "prompt_tokens": 124,
+        "completion_tokens": 71,
+        "total_tokens": 195
+    },
+    {
+        "input": "As a carer, I want to access the Average Steps of the patient between 2024-05-10 and 2024-06-10, excluding yesterday.",
+        "ground_truth": {
+            "Data_Type": "Steps",
+            "Request_Type": "Data_Access",
+            "Details": "Average",
+            "Inclusions": {
+                "Date_From": "2024-05-10",
+                "Date_Till": "2024-06-10"
+            },
+            "Exclusions": {
+                "Date_From": "2024-08-01",
+                "Date_Till": "2024-08-10"
+            }
+        },
+        "predicted_entities": {
+            "Data_Type": "Steps",
+            "Request_Type": "Data_Access",
+            "Details": "Average",
+            "Inclusions": {
+                "Date_From": "2024-05-10",
+                "Date_Till": "2024-06-10"
+            },
+            "Exclusions": {
+                "Date_From": "2024-09-10",
+                "Date_Till": "2024-09-10"
+            }
+        },
+        "precision": {
+            "Request_Type": 1.0,
+            "Exclusions": 1.0,
+            "Details": 1.0,
+            "Data_Type": 1.0,
+            "Inclusions": 1.0
+        },
+        "recall": {
+            "Request_Type": 1.0,
+            "Exclusions": 1.0,
+            "Details": 1.0,
+            "Data_Type": 1.0,
+            "Inclusions": 1.0
+        },
+        "f1_score": {
+            "Request_Type": 1.0,
+            "Exclusions": 1.0,
+            "Details": 1.0,
+            "Data_Type": 1.0,
+            "Inclusions": 1.0
+        },
+        "span_accuracy": {
+            "Request_Type": 1.0,
+            "Exclusions": 0.0,
+            "Details": 1.0,
+            "Data_Type": 1.0,
+            "Inclusions": 1.0
+        },
+        "latency": 1.3428524999999993,
+        "prompt_tokens": 119,
+        "completion_tokens": 97,
+        "total_tokens": 216
+    },
+    {
+        "input": "Please provide the total Sum of the patient's Heart_Rate data between 2024-07-20 and 2024-08-25, excluding data from 2024-08-01 to 2024-08-10.",
+        "ground_truth": {
+            "Data_Type": "Heart_Rate",
+            "Request_Type": "Data_Access",
+            "Details": "Sum",
+            "Inclusions": {
+                "Date_From": "2024-07-20",
+                "Date_Till": "2024-08-25"
+            },
+            "Exclusions": {
+                "Date_From": "2024-08-01",
+                "Date_Till": "2024-08-10"
+            }
+        },
+        "predicted_entities": {
+            "Data_Type": "Heart_Rate",
+            "Request_Type": "Data_Access",
+            "Details": "Sum",
+            "Inclusions": {
+                "Date_From": "2024-07-20",
+                "Date_Till": "2024-08-25"
+            },
+            "Exclusions": {
+                "Date_From": "2024-08-01",
+                "Date_Till": "2024-08-10"
+            }
+        },
+        "precision": {
+            "Request_Type": 1.0,
+            "Exclusions": 1.0,
+            "Details": 1.0,
+            "Data_Type": 1.0,
+            "Inclusions": 1.0
+        },
+        "recall": {
+            "Request_Type": 1.0,
+            "Exclusions": 1.0,
+            "Details": 1.0,
+            "Data_Type": 1.0,
+            "Inclusions": 1.0
+        },
+        "f1_score": {
+            "Request_Type": 1.0,
+            "Exclusions": 1.0,
+            "Details": 1.0,
+            "Data_Type": 1.0,
+            "Inclusions": 1.0
+        },
+        "span_accuracy": {
+            "Request_Type": 1.0,
+            "Exclusions": 1.0,
+            "Details": 1.0,
+            "Data_Type": 1.0,
+            "Inclusions": 1.0
+        },
+        "latency": 1.3914517999999987,
+        "prompt_tokens": 133,
+        "completion_tokens": 99,
+        "total_tokens": 232
+    },
+    {
+        "input": "As an engineer, I need to authorise a family member to access the Threshold_Heart_Rate for the patient between 2024-09-01 and 2024-09-30.",
+        "ground_truth": {
+            "Data_Type": "Heart_Rate",
+            "Request_Type": "Data_Access",
+            "Details": "Threshold_Heart_Rate",
+            "Inclusions": {
+                "Date_From": "2024-09-01",
+                "Date_Till": "2024-09-30"
+            },
+            "Exclusions": {
+                "Date_From": "2024-08-01",
+                "Date_Till": "2024-08-10"
+            }
+        },
+        "predicted_entities": {
+            "Data_Type": "Threshold_Heart_Rate",
+            "Request_Type": "Authorise",
+            "Inclusions": {
+                "Date_From": "2024-09-01",
+                "Date_Till": "2024-09-30"
+            }
+        },
+        "precision": {
+            "Exclusions": 0.0,
+            "Details": 0.0,
+            "Data_Type": 0.5384615384615384,
+            "Request_Type": 0.4444444444444444,
+            "Inclusions": 1.0
+        },
+        "recall": {
+            "Exclusions": 0.0,
+            "Details": 0.0,
+            "Data_Type": 1.0,
+            "Request_Type": 0.5,
+            "Inclusions": 1.0
+        },
+        "f1_score": {
+            "Exclusions": 0.0,
+            "Details": 0.0,
+            "Data_Type": 0.7000000000000001,
+            "Request_Type": 0.47058823529411764,
+            "Inclusions": 1.0
+        },
+        "span_accuracy": {
+            "Exclusions": 0.0,
+            "Details": 0.0,
+            "Data_Type": 0.0,
+            "Request_Type": 0.0,
+            "Inclusions": 1.0
+        },
+        "latency": 0.9449205999999997,
+        "prompt_tokens": 124,
+        "completion_tokens": 73,
+        "total_tokens": 197
+    },
+    {
+        "input": "Please provide the Max for the patient's Steps data collected between 2024-01-01 and 2024-02-01, excluding data from 2024-08-01 to 2024-08-10.",
+        "ground_truth": {
+            "Data_Type": "Steps",
+            "Request_Type": "Data_Access",
+            "Details": "Max",
+            "Inclusions": {
+                "Date_From": "2024-01-01",
+                "Date_Till": "2024-02-01"
+            },
+            "Exclusions": {
+                "Date_From": "2024-08-01",
+                "Date_Till": "2024-08-10"
+            }
+        },
+        "predicted_entities": {
+            "Data_Type": "Steps",
+            "Request_Type": "Data_Access",
+            "Details": "Max",
+            "Inclusions": {
+                "Date_From": "2024-01-01",
+                "Date_Till": "2024-02-01"
+            },
+            "Exclusions": {
+                "Date_From": "2024-08-01",
+                "Date_Till": "2024-08-10"
+            }
+        },
+        "precision": {
+            "Request_Type": 1.0,
+            "Exclusions": 1.0,
+            "Details": 1.0,
+            "Data_Type": 1.0,
+            "Inclusions": 1.0
+        },
+        "recall": {
+            "Request_Type": 1.0,
+            "Exclusions": 1.0,
+            "Details": 1.0,
+            "Data_Type": 1.0,
+            "Inclusions": 1.0
+        },
+        "f1_score": {
+            "Request_Type": 1.0,
+            "Exclusions": 1.0,
+            "Details": 1.0,
+            "Data_Type": 1.0,
+            "Inclusions": 1.0
+        },
+        "span_accuracy": {
+            "Request_Type": 1.0,
+            "Exclusions": 1.0,
+            "Details": 1.0,
+            "Data_Type": 1.0,
+            "Inclusions": 1.0
+        },
+        "latency": 1.4048783,
+        "prompt_tokens": 131,
+        "completion_tokens": 97,
+        "total_tokens": 228
+    },
+    {
+        "input": "As a doctor, I need to authorise a nurse to access the Min for the patient's Heart_Rate data between 2024-03-05 and 2024-04-15.",
+        "ground_truth": {
+            "Data_Type": "Heart_Rate",
+            "Request_Type": "Data_Access",
+            "Details": "Min",
+            "Inclusions": {
+                "Date_From": "2024-03-05",
+                "Date_Till": "2024-04-15"
+            },
+            "Exclusions": {
+                "Date_From": "2024-08-01",
+                "Date_Till": "2024-08-10"
+            }
+        },
+        "predicted_entities": {
+            "Data_Type": "Heart_Rate",
+            "Request_Type": "Authorise",
+            "Details": "Min",
+            "Inclusions": {
+                "Date_From": "2024-03-05",
+                "Date_Till": "2024-04-15"
+            }
+        },
+        "precision": {
+            "Request_Type": 0.4444444444444444,
+            "Exclusions": 0.0,
+            "Details": 1.0,
+            "Data_Type": 1.0,
+            "Inclusions": 1.0
+        },
+        "recall": {
+            "Request_Type": 0.5,
+            "Exclusions": 0.0,
+            "Details": 1.0,
+            "Data_Type": 1.0,
+            "Inclusions": 1.0
+        },
+        "f1_score": {
+            "Request_Type": 0.47058823529411764,
+            "Exclusions": 0.0,
+            "Details": 1.0,
+            "Data_Type": 1.0,
+            "Inclusions": 1.0
+        },
+        "span_accuracy": {
+            "Request_Type": 0.0,
+            "Exclusions": 0.0,
+            "Details": 1.0,
+            "Data_Type": 1.0,
+            "Inclusions": 1.0
+        },
+        "latency": 1.0296057999999988,
+        "prompt_tokens": 124,
+        "completion_tokens": 71,
+        "total_tokens": 195
+    },
+    {
+        "input": "As a carer, I want to access the Average Steps of the patient between 2024-05-10 and 2024-06-10, excluding yesterday.",
+        "ground_truth": {
+            "Data_Type": "Steps",
+            "Request_Type": "Data_Access",
+            "Details": "Average",
+            "Inclusions": {
+                "Date_From": "2024-05-10",
+                "Date_Till": "2024-06-10"
+            },
+            "Exclusions": {
+                "Date_From": "2024-08-01",
+                "Date_Till": "2024-08-10"
+            }
+        },
+        "predicted_entities": {
+            "Data_Type": "Steps",
+            "Request_Type": "Data_Access",
+            "Details": "Average",
+            "Inclusions": {
+                "Date_From": "2024-05-10",
+                "Date_Till": "2024-06-10"
+            },
+            "Exclusions": {
+                "Date_From": "2024-09-10",
+                "Date_Till": "2024-09-10"
+            }
+        },
+        "precision": {
+            "Request_Type": 1.0,
+            "Exclusions": 1.0,
+            "Details": 1.0,
+            "Data_Type": 1.0,
+            "Inclusions": 1.0
+        },
+        "recall": {
+            "Request_Type": 1.0,
+            "Exclusions": 1.0,
+            "Details": 1.0,
+            "Data_Type": 1.0,
+            "Inclusions": 1.0
+        },
+        "f1_score": {
+            "Request_Type": 1.0,
+            "Exclusions": 1.0,
+            "Details": 1.0,
+            "Data_Type": 1.0,
+            "Inclusions": 1.0
+        },
+        "span_accuracy": {
+            "Request_Type": 1.0,
+            "Exclusions": 0.0,
+            "Details": 1.0,
+            "Data_Type": 1.0,
+            "Inclusions": 1.0
+        },
+        "latency": 1.434346699999999,
+        "prompt_tokens": 119,
+        "completion_tokens": 97,
+        "total_tokens": 216
+    },
+    {
+        "input": "Please provide the total Sum of the patient's Heart_Rate data between 2024-07-20 and 2024-08-25, excluding data from 2024-08-01 to 2024-08-10.",
+        "ground_truth": {
+            "Data_Type": "Heart_Rate",
+            "Request_Type": "Data_Access",
+            "Details": "Sum",
+            "Inclusions": {
+                "Date_From": "2024-07-20",
+                "Date_Till": "2024-08-25"
+            },
+            "Exclusions": {
+                "Date_From": "2024-08-01",
+                "Date_Till": "2024-08-10"
+            }
+        },
+        "predicted_entities": {
+            "Data_Type": "Heart_Rate",
+            "Request_Type": "Data_Access",
+            "Details": "Sum",
+            "Inclusions": {
+                "Date_From": "2024-07-20",
+                "Date_Till": "2024-08-25"
+            },
+            "Exclusions": {
+                "Date_From": "2024-08-01",
+                "Date_Till": "2024-08-10"
+            }
+        },
+        "precision": {
+            "Request_Type": 1.0,
+            "Exclusions": 1.0,
+            "Details": 1.0,
+            "Data_Type": 1.0,
+            "Inclusions": 1.0
+        },
+        "recall": {
+            "Request_Type": 1.0,
+            "Exclusions": 1.0,
+            "Details": 1.0,
+            "Data_Type": 1.0,
+            "Inclusions": 1.0
+        },
+        "f1_score": {
+            "Request_Type": 1.0,
+            "Exclusions": 1.0,
+            "Details": 1.0,
+            "Data_Type": 1.0,
+            "Inclusions": 1.0
+        },
+        "span_accuracy": {
+            "Request_Type": 1.0,
+            "Exclusions": 1.0,
+            "Details": 1.0,
+            "Data_Type": 1.0,
+            "Inclusions": 1.0
+        },
+        "latency": 1.2897198000000003,
+        "prompt_tokens": 133,
+        "completion_tokens": 99,
+        "total_tokens": 232
+    },
+    {
+        "input": "As an engineer, I need to authorise a family member to access the Threshold_Heart_Rate for the patient between 2024-09-01 and 2024-09-30.",
+        "ground_truth": {
+            "Data_Type": "Heart_Rate",
+            "Request_Type": "Data_Access",
+            "Details": "Threshold_Heart_Rate",
+            "Inclusions": {
+                "Date_From": "2024-09-01",
+                "Date_Till": "2024-09-30"
+            },
+            "Exclusions": {
+                "Date_From": "2024-08-01",
+                "Date_Till": "2024-08-10"
+            }
+        },
+        "predicted_entities": {
+            "Data_Type": "Heart_Rate",
+            "Request_Type": "Authorise",
+            "Details": "Threshold",
+            "Inclusions": {
+                "Date_From": "2024-09-01",
+                "Date_Till": "2024-09-30"
+            }
+        },
+        "precision": {
+            "Request_Type": 0.4444444444444444,
+            "Exclusions": 0.0,
+            "Details": 1.0,
+            "Data_Type": 1.0,
+            "Inclusions": 1.0
+        },
+        "recall": {
+            "Request_Type": 0.5,
+            "Exclusions": 0.0,
+            "Details": 0.6153846153846154,
+            "Data_Type": 1.0,
+            "Inclusions": 1.0
+        },
+        "f1_score": {
+            "Request_Type": 0.47058823529411764,
+            "Exclusions": 0.0,
+            "Details": 0.761904761904762,
+            "Data_Type": 1.0,
+            "Inclusions": 1.0
+        },
+        "span_accuracy": {
+            "Request_Type": 0.0,
+            "Exclusions": 0.0,
+            "Details": 0.0,
+            "Data_Type": 1.0,
+            "Inclusions": 1.0
+        },
+        "latency": 1.001600400000001,
+        "prompt_tokens": 124,
+        "completion_tokens": 71,
+        "total_tokens": 195
+    },
+    {
+        "input": "Please provide the Max for the patient's Steps data collected between 2024-01-01 and 2024-02-01, excluding data from 2024-08-01 to 2024-08-10.",
+        "ground_truth": {
+            "Data_Type": "Steps",
+            "Request_Type": "Data_Access",
+            "Details": "Max",
+            "Inclusions": {
+                "Date_From": "2024-01-01",
+                "Date_Till": "2024-02-01"
+            },
+            "Exclusions": {
+                "Date_From": "2024-08-01",
+                "Date_Till": "2024-08-10"
+            }
+        },
+        "predicted_entities": {
+            "Data_Type": "Steps",
+            "Request_Type": "Data_Access",
+            "Details": "Max",
+            "Inclusions": {
+                "Date_From": "2024-01-01",
+                "Date_Till": "2024-02-01"
+            },
+            "Exclusions": {
+                "Date_From": "2024-08-01",
+                "Date_Till": "2024-08-10"
+            }
+        },
+        "precision": {
+            "Request_Type": 1.0,
+            "Exclusions": 1.0,
+            "Details": 1.0,
+            "Data_Type": 1.0,
+            "Inclusions": 1.0
+        },
+        "recall": {
+            "Request_Type": 1.0,
+            "Exclusions": 1.0,
+            "Details": 1.0,
+            "Data_Type": 1.0,
+            "Inclusions": 1.0
+        },
+        "f1_score": {
+            "Request_Type": 1.0,
+            "Exclusions": 1.0,
+            "Details": 1.0,
+            "Data_Type": 1.0,
+            "Inclusions": 1.0
+        },
+        "span_accuracy": {
+            "Request_Type": 1.0,
+            "Exclusions": 1.0,
+            "Details": 1.0,
+            "Data_Type": 1.0,
+            "Inclusions": 1.0
+        },
+        "latency": 3.8750207000000003,
+        "prompt_tokens": 131,
+        "completion_tokens": 97,
+        "total_tokens": 228
+    },
+    {
+        "input": "As a doctor, I need to authorise a nurse to access the Min for the patient's Heart_Rate data between 2024-03-05 and 2024-04-15.",
+        "ground_truth": {
+            "Data_Type": "Heart_Rate",
+            "Request_Type": "Data_Access",
+            "Details": "Min",
+            "Inclusions": {
+                "Date_From": "2024-03-05",
+                "Date_Till": "2024-04-15"
+            },
+            "Exclusions": {
+                "Date_From": "2024-08-01",
+                "Date_Till": "2024-08-10"
+            }
+        },
+        "predicted_entities": {
+            "Data_Type": "Heart_Rate",
+            "Request_Type": "Authorise",
+            "Details": "Min",
+            "Inclusions": {
+                "Date_From": "2024-03-05",
+                "Date_Till": "2024-04-15"
+            }
+        },
+        "precision": {
+            "Request_Type": 0.4444444444444444,
+            "Exclusions": 0.0,
+            "Details": 1.0,
+            "Data_Type": 1.0,
+            "Inclusions": 1.0
+        },
+        "recall": {
+            "Request_Type": 0.5,
+            "Exclusions": 0.0,
+            "Details": 1.0,
+            "Data_Type": 1.0,
+            "Inclusions": 1.0
+        },
+        "f1_score": {
+            "Request_Type": 0.47058823529411764,
+            "Exclusions": 0.0,
+            "Details": 1.0,
+            "Data_Type": 1.0,
+            "Inclusions": 1.0
+        },
+        "span_accuracy": {
+            "Request_Type": 0.0,
+            "Exclusions": 0.0,
+            "Details": 1.0,
+            "Data_Type": 1.0,
+            "Inclusions": 1.0
+        },
+        "latency": 1.004461499999998,
+        "prompt_tokens": 124,
+        "completion_tokens": 71,
+        "total_tokens": 195
+    },
+    {
+        "input": "As a carer, I want to access the Average Steps of the patient between 2024-05-10 and 2024-06-10, excluding yesterday.",
+        "ground_truth": {
+            "Data_Type": "Steps",
+            "Request_Type": "Data_Access",
+            "Details": "Average",
+            "Inclusions": {
+                "Date_From": "2024-05-10",
+                "Date_Till": "2024-06-10"
+            },
+            "Exclusions": {
+                "Date_From": "2024-08-01",
+                "Date_Till": "2024-08-10"
+            }
+        },
+        "predicted_entities": {
+            "Data_Type": "Steps",
+            "Request_Type": "Data_Access",
+            "Details": "Average",
+            "Inclusions": {
+                "Date_From": "2024-05-10",
+                "Date_Till": "2024-06-10"
+            },
+            "Exclusions": {
+                "Date_From": "2024-09-10",
+                "Date_Till": "2024-09-10"
+            }
+        },
+        "precision": {
+            "Request_Type": 1.0,
+            "Exclusions": 1.0,
+            "Details": 1.0,
+            "Data_Type": 1.0,
+            "Inclusions": 1.0
+        },
+        "recall": {
+            "Request_Type": 1.0,
+            "Exclusions": 1.0,
+            "Details": 1.0,
+            "Data_Type": 1.0,
+            "Inclusions": 1.0
+        },
+        "f1_score": {
+            "Request_Type": 1.0,
+            "Exclusions": 1.0,
+            "Details": 1.0,
+            "Data_Type": 1.0,
+            "Inclusions": 1.0
+        },
+        "span_accuracy": {
+            "Request_Type": 1.0,
+            "Exclusions": 0.0,
+            "Details": 1.0,
+            "Data_Type": 1.0,
+            "Inclusions": 1.0
+        },
+        "latency": 1.2790555999999995,
+        "prompt_tokens": 119,
+        "completion_tokens": 97,
+        "total_tokens": 216
+    },
+    {
+        "input": "Please provide the total Sum of the patient's Heart_Rate data between 2024-07-20 and 2024-08-25, excluding data from 2024-08-01 to 2024-08-10.",
+        "ground_truth": {
+            "Data_Type": "Heart_Rate",
+            "Request_Type": "Data_Access",
+            "Details": "Sum",
+            "Inclusions": {
+                "Date_From": "2024-07-20",
+                "Date_Till": "2024-08-25"
+            },
+            "Exclusions": {
+                "Date_From": "2024-08-01",
+                "Date_Till": "2024-08-10"
+            }
+        },
+        "predicted_entities": {
+            "Data_Type": "Heart_Rate",
+            "Request_Type": "Data_Access",
+            "Details": "Sum",
+            "Inclusions": {
+                "Date_From": "2024-07-20",
+                "Date_Till": "2024-08-25"
+            },
+            "Exclusions": {
+                "Date_From": "2024-08-01",
+                "Date_Till": "2024-08-10"
+            }
+        },
+        "precision": {
+            "Request_Type": 1.0,
+            "Exclusions": 1.0,
+            "Details": 1.0,
+            "Data_Type": 1.0,
+            "Inclusions": 1.0
+        },
+        "recall": {
+            "Request_Type": 1.0,
+            "Exclusions": 1.0,
+            "Details": 1.0,
+            "Data_Type": 1.0,
+            "Inclusions": 1.0
+        },
+        "f1_score": {
+            "Request_Type": 1.0,
+            "Exclusions": 1.0,
+            "Details": 1.0,
+            "Data_Type": 1.0,
+            "Inclusions": 1.0
+        },
+        "span_accuracy": {
+            "Request_Type": 1.0,
+            "Exclusions": 1.0,
+            "Details": 1.0,
+            "Data_Type": 1.0,
+            "Inclusions": 1.0
+        },
+        "latency": 1.3605264999999989,
+        "prompt_tokens": 133,
+        "completion_tokens": 99,
+        "total_tokens": 232
+    },
+    {
+        "input": "As an engineer, I need to authorise a family member to access the Threshold_Heart_Rate for the patient between 2024-09-01 and 2024-09-30.",
+        "ground_truth": {
+            "Data_Type": "Heart_Rate",
+            "Request_Type": "Data_Access",
+            "Details": "Threshold_Heart_Rate",
+            "Inclusions": {
+                "Date_From": "2024-09-01",
+                "Date_Till": "2024-09-30"
+            },
+            "Exclusions": {
+                "Date_From": "2024-08-01",
+                "Date_Till": "2024-08-10"
+            }
+        },
+        "predicted_entities": {
+            "Data_Type": "Threshold_Heart_Rate",
+            "Request_Type": "Authorise",
+            "Inclusions": {
+                "Date_From": "2024-09-01",
+                "Date_Till": "2024-09-30"
+            }
+        },
+        "precision": {
+            "Exclusions": 0.0,
+            "Details": 0.0,
+            "Data_Type": 0.5384615384615384,
+            "Request_Type": 0.4444444444444444,
+            "Inclusions": 1.0
+        },
+        "recall": {
+            "Exclusions": 0.0,
+            "Details": 0.0,
+            "Data_Type": 1.0,
+            "Request_Type": 0.5,
+            "Inclusions": 1.0
+        },
+        "f1_score": {
+            "Exclusions": 0.0,
+            "Details": 0.0,
+            "Data_Type": 0.7000000000000001,
+            "Request_Type": 0.47058823529411764,
+            "Inclusions": 1.0
+        },
+        "span_accuracy": {
+            "Exclusions": 0.0,
+            "Details": 0.0,
+            "Data_Type": 0.0,
+            "Request_Type": 0.0,
+            "Inclusions": 1.0
+        },
+        "latency": 1.2801653000000002,
+        "prompt_tokens": 124,
+        "completion_tokens": 73,
+        "total_tokens": 197
+    },
+    {
+        "input": "Please provide the Max for the patient's Steps data collected between 2024-01-01 and 2024-02-01, excluding data from 2024-08-01 to 2024-08-10.",
+        "ground_truth": {
+            "Data_Type": "Steps",
+            "Request_Type": "Data_Access",
+            "Details": "Max",
+            "Inclusions": {
+                "Date_From": "2024-01-01",
+                "Date_Till": "2024-02-01"
+            },
+            "Exclusions": {
+                "Date_From": "2024-08-01",
+                "Date_Till": "2024-08-10"
+            }
+        },
+        "predicted_entities": {
+            "Data_Type": "Steps",
+            "Request_Type": "Data_Access",
+            "Details": "Max",
+            "Inclusions": {
+                "Date_From": "2024-01-01",
+                "Date_Till": "2024-02-01"
+            },
+            "Exclusions": {
+                "Date_From": "2024-08-01",
+                "Date_Till": "2024-08-10"
+            }
+        },
+        "precision": {
+            "Request_Type": 1.0,
+            "Exclusions": 1.0,
+            "Details": 1.0,
+            "Data_Type": 1.0,
+            "Inclusions": 1.0
+        },
+        "recall": {
+            "Request_Type": 1.0,
+            "Exclusions": 1.0,
+            "Details": 1.0,
+            "Data_Type": 1.0,
+            "Inclusions": 1.0
+        },
+        "f1_score": {
+            "Request_Type": 1.0,
+            "Exclusions": 1.0,
+            "Details": 1.0,
+            "Data_Type": 1.0,
+            "Inclusions": 1.0
+        },
+        "span_accuracy": {
+            "Request_Type": 1.0,
+            "Exclusions": 1.0,
+            "Details": 1.0,
+            "Data_Type": 1.0,
+            "Inclusions": 1.0
+        },
+        "latency": 1.3098644000000021,
+        "prompt_tokens": 131,
+        "completion_tokens": 97,
+        "total_tokens": 228
+    },
+    {
+        "input": "As a doctor, I need to authorise a nurse to access the Min for the patient's Heart_Rate data between 2024-03-05 and 2024-04-15.",
+        "ground_truth": {
+            "Data_Type": "Heart_Rate",
+            "Request_Type": "Data_Access",
+            "Details": "Min",
+            "Inclusions": {
+                "Date_From": "2024-03-05",
+                "Date_Till": "2024-04-15"
+            },
+            "Exclusions": {
+                "Date_From": "2024-08-01",
+                "Date_Till": "2024-08-10"
+            }
+        },
+        "predicted_entities": {
+            "Data_Type": "Heart_Rate",
+            "Request_Type": "Authorise",
+            "Details": "Min",
+            "Inclusions": {
+                "Date_From": "2024-03-05",
+                "Date_Till": "2024-04-15"
+            }
+        },
+        "precision": {
+            "Request_Type": 0.4444444444444444,
+            "Exclusions": 0.0,
+            "Details": 1.0,
+            "Data_Type": 1.0,
+            "Inclusions": 1.0
+        },
+        "recall": {
+            "Request_Type": 0.5,
+            "Exclusions": 0.0,
+            "Details": 1.0,
+            "Data_Type": 1.0,
+            "Inclusions": 1.0
+        },
+        "f1_score": {
+            "Request_Type": 0.47058823529411764,
+            "Exclusions": 0.0,
+            "Details": 1.0,
+            "Data_Type": 1.0,
+            "Inclusions": 1.0
+        },
+        "span_accuracy": {
+            "Request_Type": 0.0,
+            "Exclusions": 0.0,
+            "Details": 1.0,
+            "Data_Type": 1.0,
+            "Inclusions": 1.0
+        },
+        "latency": 1.1314896000000019,
+        "prompt_tokens": 124,
+        "completion_tokens": 71,
+        "total_tokens": 195
+    },
+    {
+        "input": "As a carer, I want to access the Average Steps of the patient between 2024-05-10 and 2024-06-10, excluding yesterday.",
+        "ground_truth": {
+            "Data_Type": "Steps",
+            "Request_Type": "Data_Access",
+            "Details": "Average",
+            "Inclusions": {
+                "Date_From": "2024-05-10",
+                "Date_Till": "2024-06-10"
+            },
+            "Exclusions": {
+                "Date_From": "2024-08-01",
+                "Date_Till": "2024-08-10"
+            }
+        },
+        "predicted_entities": {
+            "Data_Type": "Steps",
+            "Request_Type": "Data_Access",
+            "Details": "Average",
+            "Inclusions": {
+                "Date_From": "2024-05-10",
+                "Date_Till": "2024-06-10"
+            },
+            "Exclusions": {
+                "Date_From": "2024-09-10",
+                "Date_Till": "2024-09-10"
+            }
+        },
+        "precision": {
+            "Request_Type": 1.0,
+            "Exclusions": 1.0,
+            "Details": 1.0,
+            "Data_Type": 1.0,
+            "Inclusions": 1.0
+        },
+        "recall": {
+            "Request_Type": 1.0,
+            "Exclusions": 1.0,
+            "Details": 1.0,
+            "Data_Type": 1.0,
+            "Inclusions": 1.0
+        },
+        "f1_score": {
+            "Request_Type": 1.0,
+            "Exclusions": 1.0,
+            "Details": 1.0,
+            "Data_Type": 1.0,
+            "Inclusions": 1.0
+        },
+        "span_accuracy": {
+            "Request_Type": 1.0,
+            "Exclusions": 0.0,
+            "Details": 1.0,
+            "Data_Type": 1.0,
+            "Inclusions": 1.0
+        },
+        "latency": 1.3724604000000014,
+        "prompt_tokens": 119,
+        "completion_tokens": 97,
+        "total_tokens": 216
+    },
+    {
+        "input": "Please provide the total Sum of the patient's Heart_Rate data between 2024-07-20 and 2024-08-25, excluding data from 2024-08-01 to 2024-08-10.",
+        "ground_truth": {
+            "Data_Type": "Heart_Rate",
+            "Request_Type": "Data_Access",
+            "Details": "Sum",
+            "Inclusions": {
+                "Date_From": "2024-07-20",
+                "Date_Till": "2024-08-25"
+            },
+            "Exclusions": {
+                "Date_From": "2024-08-01",
+                "Date_Till": "2024-08-10"
+            }
+        },
+        "predicted_entities": {
+            "Data_Type": "Heart_Rate",
+            "Request_Type": "Data_Access",
+            "Details": "Sum",
+            "Inclusions": {
+                "Date_From": "2024-07-20",
+                "Date_Till": "2024-08-25"
+            },
+            "Exclusions": {
+                "Date_From": "2024-08-01",
+                "Date_Till": "2024-08-10"
+            }
+        },
+        "precision": {
+            "Request_Type": 1.0,
+            "Exclusions": 1.0,
+            "Details": 1.0,
+            "Data_Type": 1.0,
+            "Inclusions": 1.0
+        },
+        "recall": {
+            "Request_Type": 1.0,
+            "Exclusions": 1.0,
+            "Details": 1.0,
+            "Data_Type": 1.0,
+            "Inclusions": 1.0
+        },
+        "f1_score": {
+            "Request_Type": 1.0,
+            "Exclusions": 1.0,
+            "Details": 1.0,
+            "Data_Type": 1.0,
+            "Inclusions": 1.0
+        },
+        "span_accuracy": {
+            "Request_Type": 1.0,
+            "Exclusions": 1.0,
+            "Details": 1.0,
+            "Data_Type": 1.0,
+            "Inclusions": 1.0
+        },
+        "latency": 1.2668403999999995,
+        "prompt_tokens": 133,
+        "completion_tokens": 99,
+        "total_tokens": 232
+    },
+    {
+        "input": "As an engineer, I need to authorise a family member to access the threshold heart rate for the patient between 2024-09-01 and 2024-09-30.",
+        "ground_truth": {
+            "Data_Type": "Heart_Rate",
+            "Request_Type": "Data_Access",
+            "Details": "Threshold_Heart_Rate",
+            "Inclusions": {
+                "Date_From": "2024-09-01",
+                "Date_Till": "2024-09-30"
+            },
+            "Exclusions": {
+                "Date_From": "2024-08-01",
+                "Date_Till": "2024-08-10"
+            }
+        },
+        "predicted_entities": {
+            "Data_Type": "Heart_Rate",
+            "Request_Type": "Authorise",
+            "Details": "Threshold",
+            "Inclusions": {
+                "Date_From": "2024-09-01",
+                "Date_Till": "2024-09-30"
+            }
+        },
+        "precision": {
+            "Request_Type": 0.4444444444444444,
+            "Exclusions": 0.0,
+            "Details": 1.0,
+            "Data_Type": 1.0,
+            "Inclusions": 1.0
+        },
+        "recall": {
+            "Request_Type": 0.5,
+            "Exclusions": 0.0,
+            "Details": 0.6153846153846154,
+            "Data_Type": 1.0,
+            "Inclusions": 1.0
+        },
+        "f1_score": {
+            "Request_Type": 0.47058823529411764,
+            "Exclusions": 0.0,
+            "Details": 0.761904761904762,
+            "Data_Type": 1.0,
+            "Inclusions": 1.0
+        },
+        "span_accuracy": {
+            "Request_Type": 0.0,
+            "Exclusions": 0.0,
+            "Details": 0.0,
+            "Data_Type": 1.0,
+            "Inclusions": 1.0
+        },
+        "latency": 1.0137318999999962,
+        "prompt_tokens": 122,
+        "completion_tokens": 71,
+        "total_tokens": 193
+    },
+    {
+        "input": "Please provide the Max for the patient's Steps data collected between 2024-01-01 and 2024-02-01, excluding data from 2024-08-01 to 2024-08-10.",
+        "ground_truth": {
+            "Data_Type": "Steps",
+            "Request_Type": "Data_Access",
+            "Details": "Max",
+            "Inclusions": {
+                "Date_From": "2024-01-01",
+                "Date_Till": "2024-02-01"
+            },
+            "Exclusions": {
+                "Date_From": "2024-08-01",
+                "Date_Till": "2024-08-10"
+            }
+        },
+        "predicted_entities": {
+            "Data_Type": "Steps",
+            "Request_Type": "Data_Access",
+            "Details": "Max",
+            "Inclusions": {
+                "Date_From": "2024-01-01",
+                "Date_Till": "2024-02-01"
+            },
+            "Exclusions": {
+                "Date_From": "2024-08-01",
+                "Date_Till": "2024-08-10"
+            }
+        },
+        "precision": {
+            "Request_Type": 1.0,
+            "Exclusions": 1.0,
+            "Details": 1.0,
+            "Data_Type": 1.0,
+            "Inclusions": 1.0
+        },
+        "recall": {
+            "Request_Type": 1.0,
+            "Exclusions": 1.0,
+            "Details": 1.0,
+            "Data_Type": 1.0,
+            "Inclusions": 1.0
+        },
+        "f1_score": {
+            "Request_Type": 1.0,
+            "Exclusions": 1.0,
+            "Details": 1.0,
+            "Data_Type": 1.0,
+            "Inclusions": 1.0
+        },
+        "span_accuracy": {
+            "Request_Type": 1.0,
+            "Exclusions": 1.0,
+            "Details": 1.0,
+            "Data_Type": 1.0,
+            "Inclusions": 1.0
+        },
+        "latency": 1.3997692000000015,
+        "prompt_tokens": 131,
+        "completion_tokens": 97,
+        "total_tokens": 228
+    },
+    {
+        "input": "As a doctor, I need to authorise a nurse to access the Min for the patient's Heart_Rate data between 2024-03-05 and 2024-04-15.",
+        "ground_truth": {
+            "Data_Type": "Heart_Rate",
+            "Request_Type": "Data_Access",
+            "Details": "Min",
+            "Inclusions": {
+                "Date_From": "2024-03-05",
+                "Date_Till": "2024-04-15"
+            },
+            "Exclusions": {
+                "Date_From": "2024-08-01",
+                "Date_Till": "2024-08-10"
+            }
+        },
+        "predicted_entities": {
+            "Data_Type": "Heart_Rate",
+            "Request_Type": "Authorise",
+            "Details": "Min",
+            "Inclusions": {
+                "Date_From": "2024-03-05",
+                "Date_Till": "2024-04-15"
+            }
+        },
+        "precision": {
+            "Request_Type": 0.4444444444444444,
+            "Exclusions": 0.0,
+            "Details": 1.0,
+            "Data_Type": 1.0,
+            "Inclusions": 1.0
+        },
+        "recall": {
+            "Request_Type": 0.5,
+            "Exclusions": 0.0,
+            "Details": 1.0,
+            "Data_Type": 1.0,
+            "Inclusions": 1.0
+        },
+        "f1_score": {
+            "Request_Type": 0.47058823529411764,
+            "Exclusions": 0.0,
+            "Details": 1.0,
+            "Data_Type": 1.0,
+            "Inclusions": 1.0
+        },
+        "span_accuracy": {
+            "Request_Type": 0.0,
+            "Exclusions": 0.0,
+            "Details": 1.0,
+            "Data_Type": 1.0,
+            "Inclusions": 1.0
+        },
+        "latency": 1.0564863999999972,
+        "prompt_tokens": 124,
+        "completion_tokens": 71,
+        "total_tokens": 195
+    },
+    {
+        "input": "As a carer, I want to access the Average Steps of the patient between 2024-05-10 and 2024-06-10, excluding yesterday.",
+        "ground_truth": {
+            "Data_Type": "Steps",
+            "Request_Type": "Data_Access",
+            "Details": "Average",
+            "Inclusions": {
+                "Date_From": "2024-05-10",
+                "Date_Till": "2024-06-10"
+            },
+            "Exclusions": {
+                "Date_From": "2024-08-01",
+                "Date_Till": "2024-08-10"
+            }
+        },
+        "predicted_entities": {
+            "Data_Type": "Steps",
+            "Request_Type": "Data_Access",
+            "Details": "Average",
+            "Inclusions": {
+                "Date_From": "2024-05-10",
+                "Date_Till": "2024-06-10"
+            },
+            "Exclusions": {
+                "Date_From": "2024-09-10",
+                "Date_Till": "2024-09-10"
+            }
+        },
+        "precision": {
+            "Request_Type": 1.0,
+            "Exclusions": 1.0,
+            "Details": 1.0,
+            "Data_Type": 1.0,
+            "Inclusions": 1.0
+        },
+        "recall": {
+            "Request_Type": 1.0,
+            "Exclusions": 1.0,
+            "Details": 1.0,
+            "Data_Type": 1.0,
+            "Inclusions": 1.0
+        },
+        "f1_score": {
+            "Request_Type": 1.0,
+            "Exclusions": 1.0,
+            "Details": 1.0,
+            "Data_Type": 1.0,
+            "Inclusions": 1.0
+        },
+        "span_accuracy": {
+            "Request_Type": 1.0,
+            "Exclusions": 0.0,
+            "Details": 1.0,
+            "Data_Type": 1.0,
+            "Inclusions": 1.0
+        },
+        "latency": 1.4411571999999992,
+        "prompt_tokens": 119,
+        "completion_tokens": 97,
+        "total_tokens": 216
+    },
+    {
+        "input": "Please provide the total Sum of the patient's Heart_Rate data between 2024-07-20 and 2024-08-25, excluding data from 2024-08-01 to 2024-08-10.",
+        "ground_truth": {
+            "Data_Type": "Heart_Rate",
+            "Request_Type": "Data_Access",
+            "Details": "Sum",
+            "Inclusions": {
+                "Date_From": "2024-07-20",
+                "Date_Till": "2024-08-25"
+            },
+            "Exclusions": {
+                "Date_From": "2024-08-01",
+                "Date_Till": "2024-08-10"
+            }
+        },
+        "predicted_entities": {
+            "Data_Type": "Heart_Rate",
+            "Request_Type": "Data_Access",
+            "Details": "Sum",
+            "Inclusions": {
+                "Date_From": "2024-07-20",
+                "Date_Till": "2024-08-25"
+            },
+            "Exclusions": {
+                "Date_From": "2024-08-01",
+                "Date_Till": "2024-08-10"
+            }
+        },
+        "precision": {
+            "Request_Type": 1.0,
+            "Exclusions": 1.0,
+            "Details": 1.0,
+            "Data_Type": 1.0,
+            "Inclusions": 1.0
+        },
+        "recall": {
+            "Request_Type": 1.0,
+            "Exclusions": 1.0,
+            "Details": 1.0,
+            "Data_Type": 1.0,
+            "Inclusions": 1.0
+        },
+        "f1_score": {
+            "Request_Type": 1.0,
+            "Exclusions": 1.0,
+            "Details": 1.0,
+            "Data_Type": 1.0,
+            "Inclusions": 1.0
+        },
+        "span_accuracy": {
+            "Request_Type": 1.0,
+            "Exclusions": 1.0,
+            "Details": 1.0,
+            "Data_Type": 1.0,
+            "Inclusions": 1.0
+        },
+        "latency": 1.289357900000006,
+        "prompt_tokens": 133,
+        "completion_tokens": 99,
+        "total_tokens": 232
+    },
+    {
+        "input": "As an engineer, I need to authorise a family member to access the sum for the patient between 2024-09-01 and 2024-09-30.",
+        "ground_truth": {
+            "Data_Type": "Heart_Rate",
+            "Request_Type": "Data_Access",
+            "Details": "Sum",
+            "Inclusions": {
+                "Date_From": "2024-09-01",
+                "Date_Till": "2024-09-30"
+            },
+            "Exclusions": {
+                "Date_From": "2024-08-01",
+                "Date_Till": "2024-08-10"
+            }
+        },
+        "predicted_entities": {
+            "Data_Type": "Sum",
+            "Request_Type": "Authorise",
+            "Inclusions": {
+                "Date_From": "2024-09-01",
+                "Date_Till": "2024-09-30"
+            }
+        },
+        "precision": {
+            "Exclusions": 0.0,
+            "Details": 0.0,
+            "Data_Type": 0.0,
+            "Request_Type": 0.4444444444444444,
+            "Inclusions": 1.0
+        },
+        "recall": {
+            "Exclusions": 0.0,
+            "Details": 0.0,
+            "Data_Type": 0.0,
+            "Request_Type": 0.5,
+            "Inclusions": 1.0
+        },
+        "f1_score": {
+            "Exclusions": 0.0,
+            "Details": 0.0,
+            "Data_Type": 0.0,
+            "Request_Type": 0.47058823529411764,
+            "Inclusions": 1.0
+        },
+        "span_accuracy": {
+            "Exclusions": 0.0,
+            "Details": 0.0,
+            "Data_Type": 0.0,
+            "Request_Type": 0.0,
+            "Inclusions": 1.0
+        },
+        "latency": 1.1350200999999984,
+        "prompt_tokens": 120,
+        "completion_tokens": 77,
+        "total_tokens": 197
+    },
+    {
+        "input": "Please provide the Max for the patient's Steps data collected between 2024-01-01 and 2024-02-01, excluding data from 2024-08-01 to 2024-08-10.",
+        "ground_truth": {
+            "Data_Type": "Steps",
+            "Request_Type": "Data_Access",
+            "Details": "Max",
+            "Inclusions": {
+                "Date_From": "2024-01-01",
+                "Date_Till": "2024-02-01"
+            },
+            "Exclusions": {
+                "Date_From": "2024-08-01",
+                "Date_Till": "2024-08-10"
+            }
+        },
+        "predicted_entities": {
+            "Data_Type": "Steps",
+            "Request_Type": "Data_Access",
+            "Details": "Max",
+            "Inclusions": {
+                "Date_From": "2024-01-01",
+                "Date_Till": "2024-02-01"
+            },
+            "Exclusions": {
+                "Date_From": "2024-08-01",
+                "Date_Till": "2024-08-10"
+            }
+        },
+        "precision": {
+            "Request_Type": 1.0,
+            "Exclusions": 1.0,
+            "Details": 1.0,
+            "Data_Type": 1.0,
+            "Inclusions": 1.0
+        },
+        "recall": {
+            "Request_Type": 1.0,
+            "Exclusions": 1.0,
+            "Details": 1.0,
+            "Data_Type": 1.0,
+            "Inclusions": 1.0
+        },
+        "f1_score": {
+            "Request_Type": 1.0,
+            "Exclusions": 1.0,
+            "Details": 1.0,
+            "Data_Type": 1.0,
+            "Inclusions": 1.0
+        },
+        "span_accuracy": {
+            "Request_Type": 1.0,
+            "Exclusions": 1.0,
+            "Details": 1.0,
+            "Data_Type": 1.0,
+            "Inclusions": 1.0
+        },
+        "latency": 1.2903759000000008,
+        "prompt_tokens": 131,
+        "completion_tokens": 97,
+        "total_tokens": 228
+    },
+    {
+        "input": "As a doctor, I need to authorise a nurse to access the Min for the patient's Heart_Rate data between 2024-03-05 and 2024-04-15.",
+        "ground_truth": {
+            "Data_Type": "Heart_Rate",
+            "Request_Type": "Data_Access",
+            "Details": "Min",
+            "Inclusions": {
+                "Date_From": "2024-03-05",
+                "Date_Till": "2024-04-15"
+            },
+            "Exclusions": {
+                "Date_From": "2024-08-01",
+                "Date_Till": "2024-08-10"
+            }
+        },
+        "predicted_entities": {
+            "Data_Type": "Heart_Rate",
+            "Request_Type": "Authorise",
+            "Details": "Min",
+            "Inclusions": {
+                "Date_From": "2024-03-05",
+                "Date_Till": "2024-04-15"
+            }
+        },
+        "precision": {
+            "Request_Type": 0.4444444444444444,
+            "Exclusions": 0.0,
+            "Details": 1.0,
+            "Data_Type": 1.0,
+            "Inclusions": 1.0
+        },
+        "recall": {
+            "Request_Type": 0.5,
+            "Exclusions": 0.0,
+            "Details": 1.0,
+            "Data_Type": 1.0,
+            "Inclusions": 1.0
+        },
+        "f1_score": {
+            "Request_Type": 0.47058823529411764,
+            "Exclusions": 0.0,
+            "Details": 1.0,
+            "Data_Type": 1.0,
+            "Inclusions": 1.0
+        },
+        "span_accuracy": {
+            "Request_Type": 0.0,
+            "Exclusions": 0.0,
+            "Details": 1.0,
+            "Data_Type": 1.0,
+            "Inclusions": 1.0
+        },
+        "latency": 1.054124200000004,
+        "prompt_tokens": 124,
+        "completion_tokens": 71,
+        "total_tokens": 195
+    },
+    {
+        "input": "As a carer, I want to access the Average Steps of the patient between 2024-05-10 and 2024-06-10, excluding yesterday.",
+        "ground_truth": {
+            "Data_Type": "Steps",
+            "Request_Type": "Data_Access",
+            "Details": "Average",
+            "Inclusions": {
+                "Date_From": "2024-05-10",
+                "Date_Till": "2024-06-10"
+            },
+            "Exclusions": {
+                "Date_From": "2024-08-01",
+                "Date_Till": "2024-08-10"
+            }
+        },
+        "predicted_entities": {
+            "Data_Type": "Steps",
+            "Request_Type": "Data_Access",
+            "Details": "Average",
+            "Inclusions": {
+                "Date_From": "2024-05-10",
+                "Date_Till": "2024-06-10"
+            },
+            "Exclusions": {
+                "Date_From": "2024-09-10",
+                "Date_Till": "2024-09-10"
+            }
+        },
+        "precision": {
+            "Request_Type": 1.0,
+            "Exclusions": 1.0,
+            "Details": 1.0,
+            "Data_Type": 1.0,
+            "Inclusions": 1.0
+        },
+        "recall": {
+            "Request_Type": 1.0,
+            "Exclusions": 1.0,
+            "Details": 1.0,
+            "Data_Type": 1.0,
+            "Inclusions": 1.0
+        },
+        "f1_score": {
+            "Request_Type": 1.0,
+            "Exclusions": 1.0,
+            "Details": 1.0,
+            "Data_Type": 1.0,
+            "Inclusions": 1.0
+        },
+        "span_accuracy": {
+            "Request_Type": 1.0,
+            "Exclusions": 0.0,
+            "Details": 1.0,
+            "Data_Type": 1.0,
+            "Inclusions": 1.0
+        },
+        "latency": 1.2466187000000062,
+        "prompt_tokens": 119,
+        "completion_tokens": 97,
+        "total_tokens": 216
+    },
+    {
+        "input": "Please provide the total Sum of the patient's Heart_Rate data between 2024-07-20 and 2024-08-25, excluding data from 2024-08-01 to 2024-08-10.",
+        "ground_truth": {
+            "Data_Type": "Heart_Rate",
+            "Request_Type": "Data_Access",
+            "Details": "Sum",
+            "Inclusions": {
+                "Date_From": "2024-07-20",
+                "Date_Till": "2024-08-25"
+            },
+            "Exclusions": {
+                "Date_From": "2024-08-01",
+                "Date_Till": "2024-08-10"
+            }
+        },
+        "predicted_entities": {
+            "Data_Type": "Heart_Rate",
+            "Request_Type": "Data_Access",
+            "Details": "Sum",
+            "Inclusions": {
+                "Date_From": "2024-07-20",
+                "Date_Till": "2024-08-25"
+            },
+            "Exclusions": {
+                "Date_From": "2024-08-01",
+                "Date_Till": "2024-08-10"
+            }
+        },
+        "precision": {
+            "Request_Type": 1.0,
+            "Exclusions": 1.0,
+            "Details": 1.0,
+            "Data_Type": 1.0,
+            "Inclusions": 1.0
+        },
+        "recall": {
+            "Request_Type": 1.0,
+            "Exclusions": 1.0,
+            "Details": 1.0,
+            "Data_Type": 1.0,
+            "Inclusions": 1.0
+        },
+        "f1_score": {
+            "Request_Type": 1.0,
+            "Exclusions": 1.0,
+            "Details": 1.0,
+            "Data_Type": 1.0,
+            "Inclusions": 1.0
+        },
+        "span_accuracy": {
+            "Request_Type": 1.0,
+            "Exclusions": 1.0,
+            "Details": 1.0,
+            "Data_Type": 1.0,
+            "Inclusions": 1.0
+        },
+        "latency": 1.2942417999999947,
+        "prompt_tokens": 133,
+        "completion_tokens": 99,
+        "total_tokens": 232
+    },
+    {
+        "input": "As an engineer, I need to authorise a family member to access the Threshold_Heart_Rate for the patient between 2024-09-01 and 2024-09-30.",
+        "ground_truth": {
+            "Data_Type": "Heart_Rate",
+            "Request_Type": "Data_Access",
+            "Details": "Threshold_Heart_Rate",
+            "Inclusions": {
+                "Date_From": "2024-09-01",
+                "Date_Till": "2024-09-30"
+            },
+            "Exclusions": {
+                "Date_From": "2024-08-01",
+                "Date_Till": "2024-08-10"
+            }
+        },
+        "predicted_entities": {
+            "Data_Type": "Heart_Rate",
+            "Request_Type": "Authorise",
+            "Details": "Threshold",
+            "Inclusions": {
+                "Date_From": "2024-09-01",
+                "Date_Till": "2024-09-30"
+            }
+        },
+        "precision": {
+            "Request_Type": 0.4444444444444444,
+            "Exclusions": 0.0,
+            "Details": 1.0,
+            "Data_Type": 1.0,
+            "Inclusions": 1.0
+        },
+        "recall": {
+            "Request_Type": 0.5,
+            "Exclusions": 0.0,
+            "Details": 0.6153846153846154,
+            "Data_Type": 1.0,
+            "Inclusions": 1.0
+        },
+        "f1_score": {
+            "Request_Type": 0.47058823529411764,
+            "Exclusions": 0.0,
+            "Details": 0.761904761904762,
+            "Data_Type": 1.0,
+            "Inclusions": 1.0
+        },
+        "span_accuracy": {
+            "Request_Type": 0.0,
+            "Exclusions": 0.0,
+            "Details": 0.0,
+            "Data_Type": 1.0,
+            "Inclusions": 1.0
+        },
+        "latency": 0.9855652000000035,
+        "prompt_tokens": 124,
+        "completion_tokens": 71,
+        "total_tokens": 195
+    },
+    {
+        "input": "Please provide the Max for the patient's Steps data collected between 2024-01-01 and 2024-02-01, excluding data from 2024-08-01 to 2024-08-10.",
+        "ground_truth": {
+            "Data_Type": "Steps",
+            "Request_Type": "Data_Access",
+            "Details": "Max",
+            "Inclusions": {
+                "Date_From": "2024-01-01",
+                "Date_Till": "2024-02-01"
+            },
+            "Exclusions": {
+                "Date_From": "2024-08-01",
+                "Date_Till": "2024-08-10"
+            }
+        },
+        "predicted_entities": {
+            "Data_Type": "Steps",
+            "Request_Type": "Data_Access",
+            "Details": "Max",
+            "Inclusions": {
+                "Date_From": "2024-01-01",
+                "Date_Till": "2024-02-01"
+            },
+            "Exclusions": {
+                "Date_From": "2024-08-01",
+                "Date_Till": "2024-08-10"
+            }
+        },
+        "precision": {
+            "Request_Type": 1.0,
+            "Exclusions": 1.0,
+            "Details": 1.0,
+            "Data_Type": 1.0,
+            "Inclusions": 1.0
+        },
+        "recall": {
+            "Request_Type": 1.0,
+            "Exclusions": 1.0,
+            "Details": 1.0,
+            "Data_Type": 1.0,
+            "Inclusions": 1.0
+        },
+        "f1_score": {
+            "Request_Type": 1.0,
+            "Exclusions": 1.0,
+            "Details": 1.0,
+            "Data_Type": 1.0,
+            "Inclusions": 1.0
+        },
+        "span_accuracy": {
+            "Request_Type": 1.0,
+            "Exclusions": 1.0,
+            "Details": 1.0,
+            "Data_Type": 1.0,
+            "Inclusions": 1.0
+        },
+        "latency": 1.265486800000005,
+        "prompt_tokens": 131,
+        "completion_tokens": 97,
+        "total_tokens": 228
+    },
+    {
+        "input": "As a doctor, I need to authorise a nurse to access the Min for the patient's Heart_Rate data between 2024-03-05 and 2024-04-15.",
+        "ground_truth": {
+            "Data_Type": "Heart_Rate",
+            "Request_Type": "Data_Access",
+            "Details": "Min",
+            "Inclusions": {
+                "Date_From": "2024-03-05",
+                "Date_Till": "2024-04-15"
+            },
+            "Exclusions": {
+                "Date_From": "2024-08-01",
+                "Date_Till": "2024-08-10"
+            }
+        },
+        "predicted_entities": {
+            "Data_Type": "Heart_Rate",
+            "Request_Type": "Authorise",
+            "Details": "Min",
+            "Inclusions": {
+                "Date_From": "2024-03-05",
+                "Date_Till": "2024-04-15"
+            }
+        },
+        "precision": {
+            "Request_Type": 0.4444444444444444,
+            "Exclusions": 0.0,
+            "Details": 1.0,
+            "Data_Type": 1.0,
+            "Inclusions": 1.0
+        },
+        "recall": {
+            "Request_Type": 0.5,
+            "Exclusions": 0.0,
+            "Details": 1.0,
+            "Data_Type": 1.0,
+            "Inclusions": 1.0
+        },
+        "f1_score": {
+            "Request_Type": 0.47058823529411764,
+            "Exclusions": 0.0,
+            "Details": 1.0,
+            "Data_Type": 1.0,
+            "Inclusions": 1.0
+        },
+        "span_accuracy": {
+            "Request_Type": 0.0,
+            "Exclusions": 0.0,
+            "Details": 1.0,
+            "Data_Type": 1.0,
+            "Inclusions": 1.0
+        },
+        "latency": 1.2982074000000097,
+        "prompt_tokens": 124,
+        "completion_tokens": 71,
+        "total_tokens": 195
+    },
+    {
+        "input": "As a carer, I want to access the Average Steps of the patient between 2024-05-10 and 2024-06-10, excluding yesterday.",
+        "ground_truth": {
+            "Data_Type": "Steps",
+            "Request_Type": "Data_Access",
+            "Details": "Average",
+            "Inclusions": {
+                "Date_From": "2024-05-10",
+                "Date_Till": "2024-06-10"
+            },
+            "Exclusions": {
+                "Date_From": "2024-08-01",
+                "Date_Till": "2024-08-10"
+            }
+        },
+        "predicted_entities": {
+            "Data_Type": "Steps",
+            "Request_Type": "Data_Access",
+            "Details": "Average",
+            "Inclusions": {
+                "Date_From": "2024-05-10",
+                "Date_Till": "2024-06-10"
+            },
+            "Exclusions": {
+                "Date_From": "2024-09-10",
+                "Date_Till": "2024-09-10"
+            }
+        },
+        "precision": {
+            "Request_Type": 1.0,
+            "Exclusions": 1.0,
+            "Details": 1.0,
+            "Data_Type": 1.0,
+            "Inclusions": 1.0
+        },
+        "recall": {
+            "Request_Type": 1.0,
+            "Exclusions": 1.0,
+            "Details": 1.0,
+            "Data_Type": 1.0,
+            "Inclusions": 1.0
+        },
+        "f1_score": {
+            "Request_Type": 1.0,
+            "Exclusions": 1.0,
+            "Details": 1.0,
+            "Data_Type": 1.0,
+            "Inclusions": 1.0
+        },
+        "span_accuracy": {
+            "Request_Type": 1.0,
+            "Exclusions": 0.0,
+            "Details": 1.0,
+            "Data_Type": 1.0,
+            "Inclusions": 1.0
+        },
+        "latency": 1.3498887000000082,
+        "prompt_tokens": 119,
+        "completion_tokens": 97,
+        "total_tokens": 216
+    },
+    {
+        "input": "Please provide the total Sum of the patient's Heart_Rate data between 2024-07-20 and 2024-08-25, excluding data from 2024-08-01 to 2024-08-10.",
+        "ground_truth": {
+            "Data_Type": "Heart_Rate",
+            "Request_Type": "Data_Access",
+            "Details": "Sum",
+            "Inclusions": {
+                "Date_From": "2024-07-20",
+                "Date_Till": "2024-08-25"
+            },
+            "Exclusions": {
+                "Date_From": "2024-08-01",
+                "Date_Till": "2024-08-10"
+            }
+        },
+        "predicted_entities": {
+            "Data_Type": "Heart_Rate",
+            "Request_Type": "Data_Access",
+            "Details": "Sum",
+            "Inclusions": {
+                "Date_From": "2024-07-20",
+                "Date_Till": "2024-08-25"
+            },
+            "Exclusions": {
+                "Date_From": "2024-08-01",
+                "Date_Till": "2024-08-10"
+            }
+        },
+        "precision": {
+            "Request_Type": 1.0,
+            "Exclusions": 1.0,
+            "Details": 1.0,
+            "Data_Type": 1.0,
+            "Inclusions": 1.0
+        },
+        "recall": {
+            "Request_Type": 1.0,
+            "Exclusions": 1.0,
+            "Details": 1.0,
+            "Data_Type": 1.0,
+            "Inclusions": 1.0
+        },
+        "f1_score": {
+            "Request_Type": 1.0,
+            "Exclusions": 1.0,
+            "Details": 1.0,
+            "Data_Type": 1.0,
+            "Inclusions": 1.0
+        },
+        "span_accuracy": {
+            "Request_Type": 1.0,
+            "Exclusions": 1.0,
+            "Details": 1.0,
+            "Data_Type": 1.0,
+            "Inclusions": 1.0
+        },
+        "latency": 1.3738577999999961,
+        "prompt_tokens": 133,
+        "completion_tokens": 99,
+        "total_tokens": 232
+    },
+    {
+        "input": "As an engineer, I need to authorise a family member to access the sum for the patient between 2024-09-01 and 2024-09-30.",
+        "ground_truth": {
+            "Data_Type": "Heart_Rate",
+            "Request_Type": "Data_Access",
+            "Details": "Sum",
+            "Inclusions": {
+                "Date_From": "2024-09-01",
+                "Date_Till": "2024-09-30"
+            },
+            "Exclusions": {
+                "Date_From": "2024-08-01",
+                "Date_Till": "2024-08-10"
+            }
+        },
+        "predicted_entities": {
+            "Data_Type": "Sum",
+            "Request_Type": "Authorise"
+        },
+        "precision": {
+            "Exclusions": 0.0,
+            "Details": 0.0,
+            "Data_Type": 0.0,
+            "Request_Type": 0.4444444444444444,
+            "Inclusions": 0.0
+        },
+        "recall": {
+            "Exclusions": 0.0,
+            "Details": 0.0,
+            "Data_Type": 0.0,
+            "Request_Type": 0.5,
+            "Inclusions": 0.0
+        },
+        "f1_score": {
+            "Exclusions": 0.0,
+            "Details": 0.0,
+            "Data_Type": 0.0,
+            "Request_Type": 0.47058823529411764,
+            "Inclusions": 0.0
+        },
+        "span_accuracy": {
+            "Exclusions": 0.0,
+            "Details": 0.0,
+            "Data_Type": 0.0,
+            "Request_Type": 0.0,
+            "Inclusions": 0.0
+        },
+        "latency": 0.7799937000000057,
+        "prompt_tokens": 120,
+        "completion_tokens": 49,
+        "total_tokens": 169
+    }
+]

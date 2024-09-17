@@ -1,0 +1,1552 @@
+[
+    {
+        "input": "Please provide access to the patient's Steps data.",
+        "ground_truth": {
+            "Data_Type": "Steps",
+            "Request_Type": "Data_Access"
+        },
+        "predicted_entities": {
+            "Data_Type": "Steps",
+            "Request_Type": "Data_Access"
+        },
+        "precision": {
+            "Request_Type": 1.0,
+            "Data_Type": 1.0
+        },
+        "recall": {
+            "Request_Type": 1.0,
+            "Data_Type": 1.0
+        },
+        "f1_score": {
+            "Request_Type": 1.0,
+            "Data_Type": 1.0
+        },
+        "span_accuracy": {
+            "Request_Type": 1.0,
+            "Data_Type": 1.0
+        },
+        "latency": 1.3683571,
+        "prompt_tokens": 92,
+        "completion_tokens": 43,
+        "total_tokens": 135
+    },
+    {
+        "input": "Please provide access to the patient's System_Information data.",
+        "ground_truth": {
+            "Data_Type": "System_Information",
+            "Request_Type": "Data_Access"
+        },
+        "predicted_entities": {
+            "Data_Type": "System_Information",
+            "Request_Type": "Access"
+        },
+        "precision": {
+            "Request_Type": 1.0,
+            "Data_Type": 1.0
+        },
+        "recall": {
+            "Request_Type": 0.5,
+            "Data_Type": 1.0
+        },
+        "f1_score": {
+            "Request_Type": 0.6666666666666666,
+            "Data_Type": 1.0
+        },
+        "span_accuracy": {
+            "Request_Type": 0.0,
+            "Data_Type": 1.0
+        },
+        "latency": 1.4677122999999996,
+        "prompt_tokens": 94,
+        "completion_tokens": 43,
+        "total_tokens": 137
+    },
+    {
+        "input": "Can you give me the patient's System_Information information?",
+        "ground_truth": {
+            "Data_Type": "System_Information",
+            "Request_Type": "Data_Access"
+        },
+        "predicted_entities": {
+            "Data_Type": "System_Information",
+            "Request_Type": "Guideline"
+        },
+        "precision": {
+            "Request_Type": 0.14285714285714285,
+            "Data_Type": 1.0
+        },
+        "recall": {
+            "Request_Type": 0.125,
+            "Data_Type": 1.0
+        },
+        "f1_score": {
+            "Request_Type": 0.13333333333333333,
+            "Data_Type": 1.0
+        },
+        "span_accuracy": {
+            "Request_Type": 0.0,
+            "Data_Type": 1.0
+        },
+        "latency": 1.4307955999999997,
+        "prompt_tokens": 94,
+        "completion_tokens": 44,
+        "total_tokens": 138
+    },
+    {
+        "input": "I need the patient's Steps data for review.",
+        "ground_truth": {
+            "Data_Type": "Steps",
+            "Request_Type": "Data_Access"
+        },
+        "predicted_entities": {
+            "Data_Type": "Steps",
+            "Request_Type": "Data_Access"
+        },
+        "precision": {
+            "Request_Type": 1.0,
+            "Data_Type": 1.0
+        },
+        "recall": {
+            "Request_Type": 1.0,
+            "Data_Type": 1.0
+        },
+        "f1_score": {
+            "Request_Type": 1.0,
+            "Data_Type": 1.0
+        },
+        "span_accuracy": {
+            "Request_Type": 1.0,
+            "Data_Type": 1.0
+        },
+        "latency": 1.2772352999999992,
+        "prompt_tokens": 92,
+        "completion_tokens": 43,
+        "total_tokens": 135
+    },
+    {
+        "input": "I need the patient's System_Information data for review.",
+        "ground_truth": {
+            "Data_Type": "System_Information",
+            "Request_Type": "Data_Access"
+        },
+        "predicted_entities": {
+            "Data_Type": "System_Information",
+            "Request_Type": "Data_Access"
+        },
+        "precision": {
+            "Request_Type": 1.0,
+            "Data_Type": 1.0
+        },
+        "recall": {
+            "Request_Type": 1.0,
+            "Data_Type": 1.0
+        },
+        "f1_score": {
+            "Request_Type": 1.0,
+            "Data_Type": 1.0
+        },
+        "span_accuracy": {
+            "Request_Type": 1.0,
+            "Data_Type": 1.0
+        },
+        "latency": 1.403662999999999,
+        "prompt_tokens": 94,
+        "completion_tokens": 45,
+        "total_tokens": 139
+    },
+    {
+        "input": "I need to access the Heart_Rate data of the patient.",
+        "ground_truth": {
+            "Data_Type": "Heart_Rate",
+            "Request_Type": "Data_Access"
+        },
+        "predicted_entities": {
+            "Data_Type": "Heart_Rate",
+            "Request_Type": "Data_Access"
+        },
+        "precision": {
+            "Request_Type": 1.0,
+            "Data_Type": 1.0
+        },
+        "recall": {
+            "Request_Type": 1.0,
+            "Data_Type": 1.0
+        },
+        "f1_score": {
+            "Request_Type": 1.0,
+            "Data_Type": 1.0
+        },
+        "span_accuracy": {
+            "Request_Type": 1.0,
+            "Data_Type": 1.0
+        },
+        "latency": 1.6166020000000003,
+        "prompt_tokens": 96,
+        "completion_tokens": 45,
+        "total_tokens": 141
+    },
+    {
+        "input": "I want to see the System_Information data for the patient.",
+        "ground_truth": {
+            "Data_Type": "System_Information",
+            "Request_Type": "Data_Access"
+        },
+        "predicted_entities": {
+            "Data_Type": "System_Information",
+            "Request_Type": "Data_Access"
+        },
+        "precision": {
+            "Request_Type": 1.0,
+            "Data_Type": 1.0
+        },
+        "recall": {
+            "Request_Type": 1.0,
+            "Data_Type": 1.0
+        },
+        "f1_score": {
+            "Request_Type": 1.0,
+            "Data_Type": 1.0
+        },
+        "span_accuracy": {
+            "Request_Type": 1.0,
+            "Data_Type": 1.0
+        },
+        "latency": 1.5766881999999995,
+        "prompt_tokens": 96,
+        "completion_tokens": 45,
+        "total_tokens": 141
+    },
+    {
+        "input": "Please provide access to the patient's Heart_Rate data.",
+        "ground_truth": {
+            "Data_Type": "Heart_Rate",
+            "Request_Type": "Data_Access"
+        },
+        "predicted_entities": {
+            "Data_Type": "Heart_Rate",
+            "Request_Type": "Data_Access"
+        },
+        "precision": {
+            "Request_Type": 1.0,
+            "Data_Type": 1.0
+        },
+        "recall": {
+            "Request_Type": 1.0,
+            "Data_Type": 1.0
+        },
+        "f1_score": {
+            "Request_Type": 1.0,
+            "Data_Type": 1.0
+        },
+        "span_accuracy": {
+            "Request_Type": 1.0,
+            "Data_Type": 1.0
+        },
+        "latency": 1.2863308999999994,
+        "prompt_tokens": 94,
+        "completion_tokens": 45,
+        "total_tokens": 139
+    },
+    {
+        "input": "Can you give me the patient's Steps information?",
+        "ground_truth": {
+            "Data_Type": "Steps",
+            "Request_Type": "Data_Access"
+        },
+        "predicted_entities": {
+            "Data_Type": "Steps",
+            "Request_Type": "Data_Access"
+        },
+        "precision": {
+            "Request_Type": 1.0,
+            "Data_Type": 1.0
+        },
+        "recall": {
+            "Request_Type": 1.0,
+            "Data_Type": 1.0
+        },
+        "f1_score": {
+            "Request_Type": 1.0,
+            "Data_Type": 1.0
+        },
+        "span_accuracy": {
+            "Request_Type": 1.0,
+            "Data_Type": 1.0
+        },
+        "latency": 1.4237995000000012,
+        "prompt_tokens": 92,
+        "completion_tokens": 43,
+        "total_tokens": 135
+    },
+    {
+        "input": "Can you give me the patient's System_Information information?",
+        "ground_truth": {
+            "Data_Type": "System_Information",
+            "Request_Type": "Data_Access"
+        },
+        "predicted_entities": {
+            "Data_Type": "System_Information",
+            "Request_Type": "Data_Access"
+        },
+        "precision": {
+            "Request_Type": 1.0,
+            "Data_Type": 1.0
+        },
+        "recall": {
+            "Request_Type": 1.0,
+            "Data_Type": 1.0
+        },
+        "f1_score": {
+            "Request_Type": 1.0,
+            "Data_Type": 1.0
+        },
+        "span_accuracy": {
+            "Request_Type": 1.0,
+            "Data_Type": 1.0
+        },
+        "latency": 1.5776211,
+        "prompt_tokens": 94,
+        "completion_tokens": 45,
+        "total_tokens": 139
+    },
+    {
+        "input": "Can you give me the patient's System_Information information?",
+        "ground_truth": {
+            "Data_Type": "System_Information",
+            "Request_Type": "Data_Access"
+        },
+        "predicted_entities": {
+            "Data_Type": "System_Information",
+            "Request_Type": "Data_Access"
+        },
+        "precision": {
+            "Request_Type": 1.0,
+            "Data_Type": 1.0
+        },
+        "recall": {
+            "Request_Type": 1.0,
+            "Data_Type": 1.0
+        },
+        "f1_score": {
+            "Request_Type": 1.0,
+            "Data_Type": 1.0
+        },
+        "span_accuracy": {
+            "Request_Type": 1.0,
+            "Data_Type": 1.0
+        },
+        "latency": 1.7640041999999987,
+        "prompt_tokens": 94,
+        "completion_tokens": 45,
+        "total_tokens": 139
+    },
+    {
+        "input": "Please provide access to the patient's System_Information data.",
+        "ground_truth": {
+            "Data_Type": "System_Information",
+            "Request_Type": "Data_Access"
+        },
+        "predicted_entities": {
+            "Data_Type": "System_Information",
+            "Request_Type": "Access"
+        },
+        "precision": {
+            "Request_Type": 1.0,
+            "Data_Type": 1.0
+        },
+        "recall": {
+            "Request_Type": 0.5,
+            "Data_Type": 1.0
+        },
+        "f1_score": {
+            "Request_Type": 0.6666666666666666,
+            "Data_Type": 1.0
+        },
+        "span_accuracy": {
+            "Request_Type": 0.0,
+            "Data_Type": 1.0
+        },
+        "latency": 1.1239924000000023,
+        "prompt_tokens": 94,
+        "completion_tokens": 43,
+        "total_tokens": 137
+    },
+    {
+        "input": "I need to access the Steps data of the patient.",
+        "ground_truth": {
+            "Data_Type": "Steps",
+            "Request_Type": "Data_Access"
+        },
+        "predicted_entities": {
+            "Data_Type": "Steps",
+            "Request_Type": "Data_Access"
+        },
+        "precision": {
+            "Request_Type": 1.0,
+            "Data_Type": 1.0
+        },
+        "recall": {
+            "Request_Type": 1.0,
+            "Data_Type": 1.0
+        },
+        "f1_score": {
+            "Request_Type": 1.0,
+            "Data_Type": 1.0
+        },
+        "span_accuracy": {
+            "Request_Type": 1.0,
+            "Data_Type": 1.0
+        },
+        "latency": 1.1704835999999972,
+        "prompt_tokens": 94,
+        "completion_tokens": 43,
+        "total_tokens": 137
+    },
+    {
+        "input": "I need the patient's Heart_Rate data for review.",
+        "ground_truth": {
+            "Data_Type": "Heart_Rate",
+            "Request_Type": "Data_Access"
+        },
+        "predicted_entities": {
+            "Data_Type": "Heart_Rate",
+            "Request_Type": "Data_Access"
+        },
+        "precision": {
+            "Request_Type": 1.0,
+            "Data_Type": 1.0
+        },
+        "recall": {
+            "Request_Type": 1.0,
+            "Data_Type": 1.0
+        },
+        "f1_score": {
+            "Request_Type": 1.0,
+            "Data_Type": 1.0
+        },
+        "span_accuracy": {
+            "Request_Type": 1.0,
+            "Data_Type": 1.0
+        },
+        "latency": 1.3190322000000023,
+        "prompt_tokens": 94,
+        "completion_tokens": 45,
+        "total_tokens": 139
+    },
+    {
+        "input": "Please provide access to the patient's System_Information data.",
+        "ground_truth": {
+            "Data_Type": "System_Information",
+            "Request_Type": "Data_Access"
+        },
+        "predicted_entities": {
+            "Data_Type": "System_Information",
+            "Request_Type": "Data_Access"
+        },
+        "precision": {
+            "Request_Type": 1.0,
+            "Data_Type": 1.0
+        },
+        "recall": {
+            "Request_Type": 1.0,
+            "Data_Type": 1.0
+        },
+        "f1_score": {
+            "Request_Type": 1.0,
+            "Data_Type": 1.0
+        },
+        "span_accuracy": {
+            "Request_Type": 1.0,
+            "Data_Type": 1.0
+        },
+        "latency": 1.2743778,
+        "prompt_tokens": 94,
+        "completion_tokens": 45,
+        "total_tokens": 139
+    },
+    {
+        "input": "Please provide access to the patient's Heart_Rate data.",
+        "ground_truth": {
+            "Data_Type": "Heart_Rate",
+            "Request_Type": "Data_Access"
+        },
+        "predicted_entities": {
+            "Data_Type": "Heart_Rate",
+            "Request_Type": "Data_Access"
+        },
+        "precision": {
+            "Request_Type": 1.0,
+            "Data_Type": 1.0
+        },
+        "recall": {
+            "Request_Type": 1.0,
+            "Data_Type": 1.0
+        },
+        "f1_score": {
+            "Request_Type": 1.0,
+            "Data_Type": 1.0
+        },
+        "span_accuracy": {
+            "Request_Type": 1.0,
+            "Data_Type": 1.0
+        },
+        "latency": 1.0374367999999983,
+        "prompt_tokens": 94,
+        "completion_tokens": 45,
+        "total_tokens": 139
+    },
+    {
+        "input": "I need to access the Heart_Rate data of the patient.",
+        "ground_truth": {
+            "Data_Type": "Heart_Rate",
+            "Request_Type": "Data_Access"
+        },
+        "predicted_entities": {
+            "Data_Type": "Heart_Rate",
+            "Request_Type": "Data_Access"
+        },
+        "precision": {
+            "Request_Type": 1.0,
+            "Data_Type": 1.0
+        },
+        "recall": {
+            "Request_Type": 1.0,
+            "Data_Type": 1.0
+        },
+        "f1_score": {
+            "Request_Type": 1.0,
+            "Data_Type": 1.0
+        },
+        "span_accuracy": {
+            "Request_Type": 1.0,
+            "Data_Type": 1.0
+        },
+        "latency": 1.078234700000003,
+        "prompt_tokens": 96,
+        "completion_tokens": 45,
+        "total_tokens": 141
+    },
+    {
+        "input": "I need the patient's Heart_Rate data for review.",
+        "ground_truth": {
+            "Data_Type": "Heart_Rate",
+            "Request_Type": "Data_Access"
+        },
+        "predicted_entities": {
+            "Data_Type": "Heart_Rate",
+            "Request_Type": "Data_Access"
+        },
+        "precision": {
+            "Request_Type": 1.0,
+            "Data_Type": 1.0
+        },
+        "recall": {
+            "Request_Type": 1.0,
+            "Data_Type": 1.0
+        },
+        "f1_score": {
+            "Request_Type": 1.0,
+            "Data_Type": 1.0
+        },
+        "span_accuracy": {
+            "Request_Type": 1.0,
+            "Data_Type": 1.0
+        },
+        "latency": 1.1002691999999996,
+        "prompt_tokens": 94,
+        "completion_tokens": 45,
+        "total_tokens": 139
+    },
+    {
+        "input": "I need the patient's Heart_Rate data for review.",
+        "ground_truth": {
+            "Data_Type": "Heart_Rate",
+            "Request_Type": "Data_Access"
+        },
+        "predicted_entities": {
+            "Data_Type": "Heart_Rate",
+            "Request_Type": "Data_Access"
+        },
+        "precision": {
+            "Request_Type": 1.0,
+            "Data_Type": 1.0
+        },
+        "recall": {
+            "Request_Type": 1.0,
+            "Data_Type": 1.0
+        },
+        "f1_score": {
+            "Request_Type": 1.0,
+            "Data_Type": 1.0
+        },
+        "span_accuracy": {
+            "Request_Type": 1.0,
+            "Data_Type": 1.0
+        },
+        "latency": 1.2294550000000015,
+        "prompt_tokens": 94,
+        "completion_tokens": 45,
+        "total_tokens": 139
+    },
+    {
+        "input": "I want to see the Steps data for the patient.",
+        "ground_truth": {
+            "Data_Type": "Steps",
+            "Request_Type": "Data_Access"
+        },
+        "predicted_entities": {
+            "Data_Type": "Steps",
+            "Request_Type": "Data_Access"
+        },
+        "precision": {
+            "Request_Type": 1.0,
+            "Data_Type": 1.0
+        },
+        "recall": {
+            "Request_Type": 1.0,
+            "Data_Type": 1.0
+        },
+        "f1_score": {
+            "Request_Type": 1.0,
+            "Data_Type": 1.0
+        },
+        "span_accuracy": {
+            "Request_Type": 1.0,
+            "Data_Type": 1.0
+        },
+        "latency": 1.2070597999999997,
+        "prompt_tokens": 94,
+        "completion_tokens": 43,
+        "total_tokens": 137
+    },
+    {
+        "input": "Please provide access to the patient's Heart_Rate data.",
+        "ground_truth": {
+            "Data_Type": "Heart_Rate",
+            "Request_Type": "Data_Access"
+        },
+        "predicted_entities": {
+            "Data_Type": "Heart_Rate",
+            "Request_Type": "Data_Access"
+        },
+        "precision": {
+            "Request_Type": 1.0,
+            "Data_Type": 1.0
+        },
+        "recall": {
+            "Request_Type": 1.0,
+            "Data_Type": 1.0
+        },
+        "f1_score": {
+            "Request_Type": 1.0,
+            "Data_Type": 1.0
+        },
+        "span_accuracy": {
+            "Request_Type": 1.0,
+            "Data_Type": 1.0
+        },
+        "latency": 1.1591290999999977,
+        "prompt_tokens": 94,
+        "completion_tokens": 45,
+        "total_tokens": 139
+    },
+    {
+        "input": "Please provide access to the patient's Steps data.",
+        "ground_truth": {
+            "Data_Type": "Steps",
+            "Request_Type": "Data_Access"
+        },
+        "predicted_entities": {
+            "Data_Type": "Steps",
+            "Request_Type": "Data_Access"
+        },
+        "precision": {
+            "Request_Type": 1.0,
+            "Data_Type": 1.0
+        },
+        "recall": {
+            "Request_Type": 1.0,
+            "Data_Type": 1.0
+        },
+        "f1_score": {
+            "Request_Type": 1.0,
+            "Data_Type": 1.0
+        },
+        "span_accuracy": {
+            "Request_Type": 1.0,
+            "Data_Type": 1.0
+        },
+        "latency": 1.1889050999999995,
+        "prompt_tokens": 92,
+        "completion_tokens": 43,
+        "total_tokens": 135
+    },
+    {
+        "input": "I need the patient's Heart_Rate data for review.",
+        "ground_truth": {
+            "Data_Type": "Heart_Rate",
+            "Request_Type": "Data_Access"
+        },
+        "predicted_entities": {
+            "Data_Type": "Heart_Rate",
+            "Request_Type": "Data_Access"
+        },
+        "precision": {
+            "Request_Type": 1.0,
+            "Data_Type": 1.0
+        },
+        "recall": {
+            "Request_Type": 1.0,
+            "Data_Type": 1.0
+        },
+        "f1_score": {
+            "Request_Type": 1.0,
+            "Data_Type": 1.0
+        },
+        "span_accuracy": {
+            "Request_Type": 1.0,
+            "Data_Type": 1.0
+        },
+        "latency": 1.195084699999999,
+        "prompt_tokens": 94,
+        "completion_tokens": 45,
+        "total_tokens": 139
+    },
+    {
+        "input": "I want to see the Heart_Rate data for the patient.",
+        "ground_truth": {
+            "Data_Type": "Heart_Rate",
+            "Request_Type": "Data_Access"
+        },
+        "predicted_entities": {
+            "Data_Type": "Heart_Rate",
+            "Request_Type": "Data_Access"
+        },
+        "precision": {
+            "Request_Type": 1.0,
+            "Data_Type": 1.0
+        },
+        "recall": {
+            "Request_Type": 1.0,
+            "Data_Type": 1.0
+        },
+        "f1_score": {
+            "Request_Type": 1.0,
+            "Data_Type": 1.0
+        },
+        "span_accuracy": {
+            "Request_Type": 1.0,
+            "Data_Type": 1.0
+        },
+        "latency": 1.4551626000000013,
+        "prompt_tokens": 96,
+        "completion_tokens": 45,
+        "total_tokens": 141
+    },
+    {
+        "input": "Please provide access to the patient's Heart_Rate data.",
+        "ground_truth": {
+            "Data_Type": "Heart_Rate",
+            "Request_Type": "Data_Access"
+        },
+        "predicted_entities": {
+            "Data_Type": "Heart_Rate",
+            "Request_Type": "Data_Access"
+        },
+        "precision": {
+            "Request_Type": 1.0,
+            "Data_Type": 1.0
+        },
+        "recall": {
+            "Request_Type": 1.0,
+            "Data_Type": 1.0
+        },
+        "f1_score": {
+            "Request_Type": 1.0,
+            "Data_Type": 1.0
+        },
+        "span_accuracy": {
+            "Request_Type": 1.0,
+            "Data_Type": 1.0
+        },
+        "latency": 1.2317471999999938,
+        "prompt_tokens": 94,
+        "completion_tokens": 45,
+        "total_tokens": 139
+    },
+    {
+        "input": "I need to access the Steps data of the patient.",
+        "ground_truth": {
+            "Data_Type": "Steps",
+            "Request_Type": "Data_Access"
+        },
+        "predicted_entities": {
+            "Data_Type": "Steps",
+            "Request_Type": "Data_Access"
+        },
+        "precision": {
+            "Request_Type": 1.0,
+            "Data_Type": 1.0
+        },
+        "recall": {
+            "Request_Type": 1.0,
+            "Data_Type": 1.0
+        },
+        "f1_score": {
+            "Request_Type": 1.0,
+            "Data_Type": 1.0
+        },
+        "span_accuracy": {
+            "Request_Type": 1.0,
+            "Data_Type": 1.0
+        },
+        "latency": 1.3479413999999963,
+        "prompt_tokens": 94,
+        "completion_tokens": 43,
+        "total_tokens": 137
+    },
+    {
+        "input": "I need the patient's Heart_Rate data for review.",
+        "ground_truth": {
+            "Data_Type": "Heart_Rate",
+            "Request_Type": "Data_Access"
+        },
+        "predicted_entities": {
+            "Data_Type": "Heart_Rate",
+            "Request_Type": "Data_Access"
+        },
+        "precision": {
+            "Request_Type": 1.0,
+            "Data_Type": 1.0
+        },
+        "recall": {
+            "Request_Type": 1.0,
+            "Data_Type": 1.0
+        },
+        "f1_score": {
+            "Request_Type": 1.0,
+            "Data_Type": 1.0
+        },
+        "span_accuracy": {
+            "Request_Type": 1.0,
+            "Data_Type": 1.0
+        },
+        "latency": 1.223235299999999,
+        "prompt_tokens": 94,
+        "completion_tokens": 45,
+        "total_tokens": 139
+    },
+    {
+        "input": "Can you give me the patient's Heart_Rate information?",
+        "ground_truth": {
+            "Data_Type": "Heart_Rate",
+            "Request_Type": "Data_Access"
+        },
+        "predicted_entities": {
+            "Data_Type": "Heart_Rate",
+            "Request_Type": "Data_Access"
+        },
+        "precision": {
+            "Request_Type": 1.0,
+            "Data_Type": 1.0
+        },
+        "recall": {
+            "Request_Type": 1.0,
+            "Data_Type": 1.0
+        },
+        "f1_score": {
+            "Request_Type": 1.0,
+            "Data_Type": 1.0
+        },
+        "span_accuracy": {
+            "Request_Type": 1.0,
+            "Data_Type": 1.0
+        },
+        "latency": 1.7253329999999991,
+        "prompt_tokens": 94,
+        "completion_tokens": 45,
+        "total_tokens": 139
+    },
+    {
+        "input": "I want to see the Steps data for the patient.",
+        "ground_truth": {
+            "Data_Type": "Steps",
+            "Request_Type": "Data_Access"
+        },
+        "predicted_entities": {
+            "Data_Type": "Steps",
+            "Request_Type": "Data_Access"
+        },
+        "precision": {
+            "Request_Type": 1.0,
+            "Data_Type": 1.0
+        },
+        "recall": {
+            "Request_Type": 1.0,
+            "Data_Type": 1.0
+        },
+        "f1_score": {
+            "Request_Type": 1.0,
+            "Data_Type": 1.0
+        },
+        "span_accuracy": {
+            "Request_Type": 1.0,
+            "Data_Type": 1.0
+        },
+        "latency": 1.323477600000004,
+        "prompt_tokens": 94,
+        "completion_tokens": 43,
+        "total_tokens": 137
+    },
+    {
+        "input": "I want to see the Steps data for the patient.",
+        "ground_truth": {
+            "Data_Type": "Steps",
+            "Request_Type": "Data_Access"
+        },
+        "predicted_entities": {
+            "Data_Type": "Steps",
+            "Request_Type": "Data_Access"
+        },
+        "precision": {
+            "Request_Type": 1.0,
+            "Data_Type": 1.0
+        },
+        "recall": {
+            "Request_Type": 1.0,
+            "Data_Type": 1.0
+        },
+        "f1_score": {
+            "Request_Type": 1.0,
+            "Data_Type": 1.0
+        },
+        "span_accuracy": {
+            "Request_Type": 1.0,
+            "Data_Type": 1.0
+        },
+        "latency": 1.1509106999999972,
+        "prompt_tokens": 94,
+        "completion_tokens": 43,
+        "total_tokens": 137
+    },
+    {
+        "input": "I need the patient's Steps data for review.",
+        "ground_truth": {
+            "Data_Type": "Steps",
+            "Request_Type": "Data_Access"
+        },
+        "predicted_entities": {
+            "Data_Type": "Steps",
+            "Request_Type": "Data_Access"
+        },
+        "precision": {
+            "Request_Type": 1.0,
+            "Data_Type": 1.0
+        },
+        "recall": {
+            "Request_Type": 1.0,
+            "Data_Type": 1.0
+        },
+        "f1_score": {
+            "Request_Type": 1.0,
+            "Data_Type": 1.0
+        },
+        "span_accuracy": {
+            "Request_Type": 1.0,
+            "Data_Type": 1.0
+        },
+        "latency": 1.0628888999999972,
+        "prompt_tokens": 92,
+        "completion_tokens": 43,
+        "total_tokens": 135
+    },
+    {
+        "input": "Can you give me the patient's Steps information?",
+        "ground_truth": {
+            "Data_Type": "Steps",
+            "Request_Type": "Data_Access"
+        },
+        "predicted_entities": {
+            "Data_Type": "Steps",
+            "Request_Type": "Data_Access"
+        },
+        "precision": {
+            "Request_Type": 1.0,
+            "Data_Type": 1.0
+        },
+        "recall": {
+            "Request_Type": 1.0,
+            "Data_Type": 1.0
+        },
+        "f1_score": {
+            "Request_Type": 1.0,
+            "Data_Type": 1.0
+        },
+        "span_accuracy": {
+            "Request_Type": 1.0,
+            "Data_Type": 1.0
+        },
+        "latency": 1.079804700000004,
+        "prompt_tokens": 92,
+        "completion_tokens": 43,
+        "total_tokens": 135
+    },
+    {
+        "input": "I want to see the System_Information data for the patient.",
+        "ground_truth": {
+            "Data_Type": "System_Information",
+            "Request_Type": "Data_Access"
+        },
+        "predicted_entities": {
+            "Data_Type": "System_Information",
+            "Request_Type": "Data_Access"
+        },
+        "precision": {
+            "Request_Type": 1.0,
+            "Data_Type": 1.0
+        },
+        "recall": {
+            "Request_Type": 1.0,
+            "Data_Type": 1.0
+        },
+        "f1_score": {
+            "Request_Type": 1.0,
+            "Data_Type": 1.0
+        },
+        "span_accuracy": {
+            "Request_Type": 1.0,
+            "Data_Type": 1.0
+        },
+        "latency": 1.324273600000005,
+        "prompt_tokens": 96,
+        "completion_tokens": 45,
+        "total_tokens": 141
+    },
+    {
+        "input": "I need to access the Heart_Rate data of the patient.",
+        "ground_truth": {
+            "Data_Type": "Heart_Rate",
+            "Request_Type": "Data_Access"
+        },
+        "predicted_entities": {
+            "Data_Type": "Heart_Rate",
+            "Request_Type": "Data_Access"
+        },
+        "precision": {
+            "Request_Type": 1.0,
+            "Data_Type": 1.0
+        },
+        "recall": {
+            "Request_Type": 1.0,
+            "Data_Type": 1.0
+        },
+        "f1_score": {
+            "Request_Type": 1.0,
+            "Data_Type": 1.0
+        },
+        "span_accuracy": {
+            "Request_Type": 1.0,
+            "Data_Type": 1.0
+        },
+        "latency": 1.6179673999999977,
+        "prompt_tokens": 96,
+        "completion_tokens": 45,
+        "total_tokens": 141
+    },
+    {
+        "input": "Can you give me the patient's System_Information information?",
+        "ground_truth": {
+            "Data_Type": "System_Information",
+            "Request_Type": "Data_Access"
+        },
+        "predicted_entities": {
+            "Data_Type": "System_Information",
+            "Request_Type": "Guidance"
+        },
+        "precision": {
+            "Request_Type": 0.375,
+            "Data_Type": 1.0
+        },
+        "recall": {
+            "Request_Type": 0.375,
+            "Data_Type": 1.0
+        },
+        "f1_score": {
+            "Request_Type": 0.375,
+            "Data_Type": 1.0
+        },
+        "span_accuracy": {
+            "Request_Type": 0.0,
+            "Data_Type": 1.0
+        },
+        "latency": 1.2336620999999965,
+        "prompt_tokens": 94,
+        "completion_tokens": 44,
+        "total_tokens": 138
+    },
+    {
+        "input": "Can you give me the patient's Heart_Rate information?",
+        "ground_truth": {
+            "Data_Type": "Heart_Rate",
+            "Request_Type": "Data_Access"
+        },
+        "predicted_entities": {
+            "Data_Type": "Heart_Rate",
+            "Request_Type": "Data_Access"
+        },
+        "precision": {
+            "Request_Type": 1.0,
+            "Data_Type": 1.0
+        },
+        "recall": {
+            "Request_Type": 1.0,
+            "Data_Type": 1.0
+        },
+        "f1_score": {
+            "Request_Type": 1.0,
+            "Data_Type": 1.0
+        },
+        "span_accuracy": {
+            "Request_Type": 1.0,
+            "Data_Type": 1.0
+        },
+        "latency": 1.3758268999999999,
+        "prompt_tokens": 94,
+        "completion_tokens": 45,
+        "total_tokens": 139
+    },
+    {
+        "input": "Can you give me the patient's Heart_Rate information?",
+        "ground_truth": {
+            "Data_Type": "Heart_Rate",
+            "Request_Type": "Data_Access"
+        },
+        "predicted_entities": {
+            "Data_Type": "Heart_Rate",
+            "Request_Type": "Data_Access"
+        },
+        "precision": {
+            "Request_Type": 1.0,
+            "Data_Type": 1.0
+        },
+        "recall": {
+            "Request_Type": 1.0,
+            "Data_Type": 1.0
+        },
+        "f1_score": {
+            "Request_Type": 1.0,
+            "Data_Type": 1.0
+        },
+        "span_accuracy": {
+            "Request_Type": 1.0,
+            "Data_Type": 1.0
+        },
+        "latency": 1.0873087000000012,
+        "prompt_tokens": 94,
+        "completion_tokens": 45,
+        "total_tokens": 139
+    },
+    {
+        "input": "I want to see the Steps data for the patient.",
+        "ground_truth": {
+            "Data_Type": "Steps",
+            "Request_Type": "Data_Access"
+        },
+        "predicted_entities": {
+            "Data_Type": "Steps",
+            "Request_Type": "Data_Access"
+        },
+        "precision": {
+            "Request_Type": 1.0,
+            "Data_Type": 1.0
+        },
+        "recall": {
+            "Request_Type": 1.0,
+            "Data_Type": 1.0
+        },
+        "f1_score": {
+            "Request_Type": 1.0,
+            "Data_Type": 1.0
+        },
+        "span_accuracy": {
+            "Request_Type": 1.0,
+            "Data_Type": 1.0
+        },
+        "latency": 3.752170300000003,
+        "prompt_tokens": 94,
+        "completion_tokens": 43,
+        "total_tokens": 137
+    },
+    {
+        "input": "I need the patient's System_Information data for review.",
+        "ground_truth": {
+            "Data_Type": "System_Information",
+            "Request_Type": "Data_Access"
+        },
+        "predicted_entities": {
+            "Data_Type": "System_Information",
+            "Request_Type": "Data_Access"
+        },
+        "precision": {
+            "Request_Type": 1.0,
+            "Data_Type": 1.0
+        },
+        "recall": {
+            "Request_Type": 1.0,
+            "Data_Type": 1.0
+        },
+        "f1_score": {
+            "Request_Type": 1.0,
+            "Data_Type": 1.0
+        },
+        "span_accuracy": {
+            "Request_Type": 1.0,
+            "Data_Type": 1.0
+        },
+        "latency": 1.196470099999999,
+        "prompt_tokens": 94,
+        "completion_tokens": 45,
+        "total_tokens": 139
+    },
+    {
+        "input": "I want to see the System_Information data for the patient.",
+        "ground_truth": {
+            "Data_Type": "System_Information",
+            "Request_Type": "Data_Access"
+        },
+        "predicted_entities": {
+            "Data_Type": "System_Information",
+            "Request_Type": "Data_Access"
+        },
+        "precision": {
+            "Request_Type": 1.0,
+            "Data_Type": 1.0
+        },
+        "recall": {
+            "Request_Type": 1.0,
+            "Data_Type": 1.0
+        },
+        "f1_score": {
+            "Request_Type": 1.0,
+            "Data_Type": 1.0
+        },
+        "span_accuracy": {
+            "Request_Type": 1.0,
+            "Data_Type": 1.0
+        },
+        "latency": 1.4805773000000002,
+        "prompt_tokens": 96,
+        "completion_tokens": 45,
+        "total_tokens": 141
+    },
+    {
+        "input": "I need to access the Steps data of the patient.",
+        "ground_truth": {
+            "Data_Type": "Steps",
+            "Request_Type": "Data_Access"
+        },
+        "predicted_entities": {
+            "Data_Type": "Steps",
+            "Request_Type": "Data_Access"
+        },
+        "precision": {
+            "Request_Type": 1.0,
+            "Data_Type": 1.0
+        },
+        "recall": {
+            "Request_Type": 1.0,
+            "Data_Type": 1.0
+        },
+        "f1_score": {
+            "Request_Type": 1.0,
+            "Data_Type": 1.0
+        },
+        "span_accuracy": {
+            "Request_Type": 1.0,
+            "Data_Type": 1.0
+        },
+        "latency": 1.471528499999998,
+        "prompt_tokens": 94,
+        "completion_tokens": 43,
+        "total_tokens": 137
+    },
+    {
+        "input": "I need to access the Heart_Rate data of the patient.",
+        "ground_truth": {
+            "Data_Type": "Heart_Rate",
+            "Request_Type": "Data_Access"
+        },
+        "predicted_entities": {
+            "Data_Type": "Heart_Rate",
+            "Request_Type": "Data_Access"
+        },
+        "precision": {
+            "Request_Type": 1.0,
+            "Data_Type": 1.0
+        },
+        "recall": {
+            "Request_Type": 1.0,
+            "Data_Type": 1.0
+        },
+        "f1_score": {
+            "Request_Type": 1.0,
+            "Data_Type": 1.0
+        },
+        "span_accuracy": {
+            "Request_Type": 1.0,
+            "Data_Type": 1.0
+        },
+        "latency": 1.0320999999999998,
+        "prompt_tokens": 96,
+        "completion_tokens": 45,
+        "total_tokens": 141
+    },
+    {
+        "input": "I need to access the Steps data of the patient.",
+        "ground_truth": {
+            "Data_Type": "Steps",
+            "Request_Type": "Data_Access"
+        },
+        "predicted_entities": {
+            "Data_Type": "Steps",
+            "Request_Type": "Data_Access"
+        },
+        "precision": {
+            "Request_Type": 1.0,
+            "Data_Type": 1.0
+        },
+        "recall": {
+            "Request_Type": 1.0,
+            "Data_Type": 1.0
+        },
+        "f1_score": {
+            "Request_Type": 1.0,
+            "Data_Type": 1.0
+        },
+        "span_accuracy": {
+            "Request_Type": 1.0,
+            "Data_Type": 1.0
+        },
+        "latency": 1.0862781000000012,
+        "prompt_tokens": 94,
+        "completion_tokens": 43,
+        "total_tokens": 137
+    },
+    {
+        "input": "I want to see the System_Information data for the patient.",
+        "ground_truth": {
+            "Data_Type": "System_Information",
+            "Request_Type": "Data_Access"
+        },
+        "predicted_entities": {
+            "Data_Type": "System_Information",
+            "Request_Type": "Data_Access"
+        },
+        "precision": {
+            "Request_Type": 1.0,
+            "Data_Type": 1.0
+        },
+        "recall": {
+            "Request_Type": 1.0,
+            "Data_Type": 1.0
+        },
+        "f1_score": {
+            "Request_Type": 1.0,
+            "Data_Type": 1.0
+        },
+        "span_accuracy": {
+            "Request_Type": 1.0,
+            "Data_Type": 1.0
+        },
+        "latency": 1.2850746000000015,
+        "prompt_tokens": 96,
+        "completion_tokens": 45,
+        "total_tokens": 141
+    },
+    {
+        "input": "Please provide access to the patient's Steps data.",
+        "ground_truth": {
+            "Data_Type": "Steps",
+            "Request_Type": "Data_Access"
+        },
+        "predicted_entities": {
+            "Data_Type": "Steps",
+            "Request_Type": "Data_Access"
+        },
+        "precision": {
+            "Request_Type": 1.0,
+            "Data_Type": 1.0
+        },
+        "recall": {
+            "Request_Type": 1.0,
+            "Data_Type": 1.0
+        },
+        "f1_score": {
+            "Request_Type": 1.0,
+            "Data_Type": 1.0
+        },
+        "span_accuracy": {
+            "Request_Type": 1.0,
+            "Data_Type": 1.0
+        },
+        "latency": 1.5180547000000004,
+        "prompt_tokens": 92,
+        "completion_tokens": 43,
+        "total_tokens": 135
+    },
+    {
+        "input": "Can you give me the patient's Heart_Rate information?",
+        "ground_truth": {
+            "Data_Type": "Heart_Rate",
+            "Request_Type": "Data_Access"
+        },
+        "predicted_entities": {
+            "Data_Type": "Heart_Rate",
+            "Request_Type": "Data_Access"
+        },
+        "precision": {
+            "Request_Type": 1.0,
+            "Data_Type": 1.0
+        },
+        "recall": {
+            "Request_Type": 1.0,
+            "Data_Type": 1.0
+        },
+        "f1_score": {
+            "Request_Type": 1.0,
+            "Data_Type": 1.0
+        },
+        "span_accuracy": {
+            "Request_Type": 1.0,
+            "Data_Type": 1.0
+        },
+        "latency": 1.490780700000009,
+        "prompt_tokens": 94,
+        "completion_tokens": 45,
+        "total_tokens": 139
+    },
+    {
+        "input": "Can you give me the patient's System_Information information?",
+        "ground_truth": {
+            "Data_Type": "System_Information",
+            "Request_Type": "Data_Access"
+        },
+        "predicted_entities": {
+            "Data_Type": "System_Information",
+            "Request_Type": "Data_Access"
+        },
+        "precision": {
+            "Request_Type": 1.0,
+            "Data_Type": 1.0
+        },
+        "recall": {
+            "Request_Type": 1.0,
+            "Data_Type": 1.0
+        },
+        "f1_score": {
+            "Request_Type": 1.0,
+            "Data_Type": 1.0
+        },
+        "span_accuracy": {
+            "Request_Type": 1.0,
+            "Data_Type": 1.0
+        },
+        "latency": 1.254846299999997,
+        "prompt_tokens": 94,
+        "completion_tokens": 45,
+        "total_tokens": 139
+    },
+    {
+        "input": "I need the patient's Steps data for review.",
+        "ground_truth": {
+            "Data_Type": "Steps",
+            "Request_Type": "Data_Access"
+        },
+        "predicted_entities": {
+            "Data_Type": "Steps",
+            "Request_Type": "Data_Access"
+        },
+        "precision": {
+            "Request_Type": 1.0,
+            "Data_Type": 1.0
+        },
+        "recall": {
+            "Request_Type": 1.0,
+            "Data_Type": 1.0
+        },
+        "f1_score": {
+            "Request_Type": 1.0,
+            "Data_Type": 1.0
+        },
+        "span_accuracy": {
+            "Request_Type": 1.0,
+            "Data_Type": 1.0
+        },
+        "latency": 1.4678380999999945,
+        "prompt_tokens": 92,
+        "completion_tokens": 43,
+        "total_tokens": 135
+    },
+    {
+        "input": "I need to access the Steps data of the patient.",
+        "ground_truth": {
+            "Data_Type": "Steps",
+            "Request_Type": "Data_Access"
+        },
+        "predicted_entities": {
+            "Data_Type": "Steps",
+            "Request_Type": "Data_Access"
+        },
+        "precision": {
+            "Request_Type": 1.0,
+            "Data_Type": 1.0
+        },
+        "recall": {
+            "Request_Type": 1.0,
+            "Data_Type": 1.0
+        },
+        "f1_score": {
+            "Request_Type": 1.0,
+            "Data_Type": 1.0
+        },
+        "span_accuracy": {
+            "Request_Type": 1.0,
+            "Data_Type": 1.0
+        },
+        "latency": 1.0853084000000024,
+        "prompt_tokens": 94,
+        "completion_tokens": 43,
+        "total_tokens": 137
+    },
+    {
+        "input": "Please provide access to the patient's Steps data.",
+        "ground_truth": {
+            "Data_Type": "Steps",
+            "Request_Type": "Data_Access"
+        },
+        "predicted_entities": {
+            "Data_Type": "Steps",
+            "Request_Type": "Data_Access"
+        },
+        "precision": {
+            "Request_Type": 1.0,
+            "Data_Type": 1.0
+        },
+        "recall": {
+            "Request_Type": 1.0,
+            "Data_Type": 1.0
+        },
+        "f1_score": {
+            "Request_Type": 1.0,
+            "Data_Type": 1.0
+        },
+        "span_accuracy": {
+            "Request_Type": 1.0,
+            "Data_Type": 1.0
+        },
+        "latency": 1.0059389000000039,
+        "prompt_tokens": 92,
+        "completion_tokens": 43,
+        "total_tokens": 135
+    }
+]

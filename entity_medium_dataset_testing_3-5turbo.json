@@ -1,0 +1,2123 @@
+[
+    {
+        "input": "The nurse needs to modify the Steps_Goals for the patient.",
+        "ground_truth": {
+            "Data_Type": "Steps",
+            "Request_Type": "Guideline_Update"
+        },
+        "predicted_entities": {
+            "Data_Type": "Steps_Goals",
+            "Request_Type": "Guideline_Update"
+        },
+        "precision": {
+            "Data_Type": 0.5,
+            "Request_Type": 1.0
+        },
+        "recall": {
+            "Data_Type": 1.0,
+            "Request_Type": 1.0
+        },
+        "f1_score": {
+            "Data_Type": 0.6666666666666666,
+            "Request_Type": 1.0
+        },
+        "span_accuracy": {
+            "Data_Type": 0.0,
+            "Request_Type": 1.0
+        },
+        "latency": 0.8271519999999999,
+        "prompt_tokens": 98,
+        "completion_tokens": 46,
+        "total_tokens": 144
+    },
+    {
+        "input": "Please update the Threshold_Heart_Rate for the patient to 105 as requested by a nurse.",
+        "ground_truth": {
+            "Data_Type": "Heart_Rate",
+            "Request_Type": "Guideline_Update",
+            "Details": {
+                "Threshold_Heart_Rate": "105"
+            }
+        },
+        "predicted_entities": {
+            "Data_Type": "Heart_Rate",
+            "Request_Type": "Guideline_Update",
+            "Details": {
+                "Threshold_Heart_Rate": "105"
+            },
+            "Inclusions": {
+                "Requested_By": "Nurse"
+            }
+        },
+        "precision": {
+            "Details": 1.0,
+            "Request_Type": 1.0,
+            "Inclusions": 0.0,
+            "Data_Type": 1.0
+        },
+        "recall": {
+            "Details": 1.0,
+            "Request_Type": 1.0,
+            "Inclusions": 0.0,
+            "Data_Type": 1.0
+        },
+        "f1_score": {
+            "Details": 1.0,
+            "Request_Type": 1.0,
+            "Inclusions": 0.0,
+            "Data_Type": 1.0
+        },
+        "span_accuracy": {
+            "Details": 1.0,
+            "Request_Type": 1.0,
+            "Inclusions": 0.0,
+            "Data_Type": 1.0
+        },
+        "latency": 0.9938503000000001,
+        "prompt_tokens": 104,
+        "completion_tokens": 65,
+        "total_tokens": 169
+    },
+    {
+        "input": "The doctor needs to modify the Steps_Goals for the patient.",
+        "ground_truth": {
+            "Data_Type": "Steps",
+            "Request_Type": "Guideline_Update",
+            "Details": {
+                "Steps_Goals": "6721"
+            }
+        },
+        "predicted_entities": {
+            "Data_Type": "Steps_Goals",
+            "Request_Type": "Guideline_Update"
+        },
+        "precision": {
+            "Details": 0.0,
+            "Request_Type": 1.0,
+            "Data_Type": 0.5
+        },
+        "recall": {
+            "Details": 0.0,
+            "Request_Type": 1.0,
+            "Data_Type": 1.0
+        },
+        "f1_score": {
+            "Details": 0.0,
+            "Request_Type": 1.0,
+            "Data_Type": 0.6666666666666666
+        },
+        "span_accuracy": {
+            "Details": 0.0,
+            "Request_Type": 1.0,
+            "Data_Type": 0.0
+        },
+        "latency": 0.8105332000000001,
+        "prompt_tokens": 98,
+        "completion_tokens": 46,
+        "total_tokens": 144
+    },
+    {
+        "input": "As a doctor, I want to update the Threshold_Heart_Rate for the patient to 101.",
+        "ground_truth": {
+            "Data_Type": "Heart_Rate",
+            "Request_Type": "Guideline_Update",
+            "Details": {
+                "Threshold_Heart_Rate": "101"
+            }
+        },
+        "predicted_entities": {
+            "Data_Type": "Heart_Rate",
+            "Request_Type": "Guideline_Update",
+            "Details": {
+                "Threshold_Heart_Rate": "101"
+            }
+        },
+        "precision": {
+            "Details": 1.0,
+            "Request_Type": 1.0,
+            "Data_Type": 1.0
+        },
+        "recall": {
+            "Details": 1.0,
+            "Request_Type": 1.0,
+            "Data_Type": 1.0
+        },
+        "f1_score": {
+            "Details": 1.0,
+            "Request_Type": 1.0,
+            "Data_Type": 1.0
+        },
+        "span_accuracy": {
+            "Details": 1.0,
+            "Request_Type": 1.0,
+            "Data_Type": 1.0
+        },
+        "latency": 2.2259908,
+        "prompt_tokens": 105,
+        "completion_tokens": 56,
+        "total_tokens": 161
+    },
+    {
+        "input": "I need to set a new Threshold_Heart_Rate for the patient's Heart_Rate data as a carer.",
+        "ground_truth": {
+            "Data_Type": "Heart_Rate",
+            "Request_Type": "Guideline_Update",
+            "Details": {
+                "Threshold_Heart_Rate": "90"
+            }
+        },
+        "predicted_entities": {
+            "Data_Type": "Heart_Rate",
+            "Request_Type": "Guideline_Update"
+        },
+        "precision": {
+            "Details": 0.0,
+            "Request_Type": 1.0,
+            "Data_Type": 1.0
+        },
+        "recall": {
+            "Details": 0.0,
+            "Request_Type": 1.0,
+            "Data_Type": 1.0
+        },
+        "f1_score": {
+            "Details": 0.0,
+            "Request_Type": 1.0,
+            "Data_Type": 1.0
+        },
+        "span_accuracy": {
+            "Details": 0.0,
+            "Request_Type": 1.0,
+            "Data_Type": 1.0
+        },
+        "latency": 1.0066755,
+        "prompt_tokens": 108,
+        "completion_tokens": 55,
+        "total_tokens": 163
+    },
+    {
+        "input": "As a nurse, I want to update the Steps_Goals for the patient to 14585.",
+        "ground_truth": {
+            "Data_Type": "Steps",
+            "Request_Type": "Guideline_Update",
+            "Details": {
+                "Steps_Goals": "14585"
+            }
+        },
+        "predicted_entities": {
+            "Data_Type": "Steps",
+            "Request_Type": "Data_Update",
+            "Details": "Guidance",
+            "Inclusions": {
+                "Steps_Goals": "14585"
+            }
+        },
+        "precision": {
+            "Details": 0.0,
+            "Request_Type": 0.875,
+            "Inclusions": 0.0,
+            "Data_Type": 1.0
+        },
+        "recall": {
+            "Details": 0.0,
+            "Request_Type": 0.5833333333333334,
+            "Inclusions": 0.0,
+            "Data_Type": 1.0
+        },
+        "f1_score": {
+            "Details": 0.0,
+            "Request_Type": 0.7000000000000001,
+            "Inclusions": 0.0,
+            "Data_Type": 1.0
+        },
+        "span_accuracy": {
+            "Details": 0.0,
+            "Request_Type": 0.0,
+            "Inclusions": 0.0,
+            "Data_Type": 1.0
+        },
+        "latency": 0.9101866000000003,
+        "prompt_tokens": 105,
+        "completion_tokens": 62,
+        "total_tokens": 167
+    },
+    {
+        "input": "Please update the Threshold_Heart_Rate for the patient to 76 as requested by a doctor.",
+        "ground_truth": {
+            "Data_Type": "Heart_Rate",
+            "Request_Type": "Guideline_Update",
+            "Details": {
+                "Threshold_Heart_Rate": "76"
+            }
+        },
+        "predicted_entities": {
+            "Data_Type": "Threshold_Heart_Rate",
+            "Request_Type": "Guideline_Update"
+        },
+        "precision": {
+            "Details": 0.0,
+            "Request_Type": 1.0,
+            "Data_Type": 0.5384615384615384
+        },
+        "recall": {
+            "Details": 0.0,
+            "Request_Type": 1.0,
+            "Data_Type": 1.0
+        },
+        "f1_score": {
+            "Details": 0.0,
+            "Request_Type": 1.0,
+            "Data_Type": 0.7000000000000001
+        },
+        "span_accuracy": {
+            "Details": 0.0,
+            "Request_Type": 1.0,
+            "Data_Type": 0.0
+        },
+        "latency": 1.0083330000000004,
+        "prompt_tokens": 104,
+        "completion_tokens": 55,
+        "total_tokens": 159
+    },
+    {
+        "input": "The nurse needs to modify the Steps_Goals for the patient.",
+        "ground_truth": {
+            "Data_Type": "Steps",
+            "Request_Type": "Guideline_Update",
+            "Details": {
+                "Steps_Goals": "6345"
+            }
+        },
+        "predicted_entities": {
+            "Data_Type": "Steps_Goals",
+            "Request_Type": "Guideline_Update"
+        },
+        "precision": {
+            "Details": 0.0,
+            "Request_Type": 1.0,
+            "Data_Type": 0.5
+        },
+        "recall": {
+            "Details": 0.0,
+            "Request_Type": 1.0,
+            "Data_Type": 1.0
+        },
+        "f1_score": {
+            "Details": 0.0,
+            "Request_Type": 1.0,
+            "Data_Type": 0.6666666666666666
+        },
+        "span_accuracy": {
+            "Details": 0.0,
+            "Request_Type": 1.0,
+            "Data_Type": 0.0
+        },
+        "latency": 0.7402301999999992,
+        "prompt_tokens": 98,
+        "completion_tokens": 46,
+        "total_tokens": 144
+    },
+    {
+        "input": "As a doctor, I want to update the Threshold_Heart_Rate for the patient to 88.",
+        "ground_truth": {
+            "Data_Type": "Heart_Rate",
+            "Request_Type": "Guideline_Update",
+            "Details": {
+                "Threshold_Heart_Rate": "88"
+            }
+        },
+        "predicted_entities": {
+            "Data_Type": "Heart_Rate",
+            "Request_Type": "Guideline_Update",
+            "Details": {
+                "Threshold_Heart_Rate": "88"
+            }
+        },
+        "precision": {
+            "Details": 1.0,
+            "Request_Type": 1.0,
+            "Data_Type": 1.0
+        },
+        "recall": {
+            "Details": 1.0,
+            "Request_Type": 1.0,
+            "Data_Type": 1.0
+        },
+        "f1_score": {
+            "Details": 1.0,
+            "Request_Type": 1.0,
+            "Data_Type": 1.0
+        },
+        "span_accuracy": {
+            "Details": 1.0,
+            "Request_Type": 1.0,
+            "Data_Type": 1.0
+        },
+        "latency": 0.9471197999999994,
+        "prompt_tokens": 105,
+        "completion_tokens": 56,
+        "total_tokens": 161
+    },
+    {
+        "input": "Please update the Steps_Goals for the patient to 11067 as requested by a carer.",
+        "ground_truth": {
+            "Data_Type": "Steps",
+            "Request_Type": "Guideline_Update",
+            "Details": {
+                "Steps_Goals": "11067"
+            }
+        },
+        "predicted_entities": {
+            "Data_Type": "Steps_Goals",
+            "Request_Type": "Data_Update",
+            "Inclusions": {
+                "Patient_ID": "11067"
+            }
+        },
+        "precision": {
+            "Details": 0.0,
+            "Request_Type": 0.875,
+            "Inclusions": 0.0,
+            "Data_Type": 0.5
+        },
+        "recall": {
+            "Details": 0.0,
+            "Request_Type": 0.5833333333333334,
+            "Inclusions": 0.0,
+            "Data_Type": 1.0
+        },
+        "f1_score": {
+            "Details": 0.0,
+            "Request_Type": 0.7000000000000001,
+            "Inclusions": 0.0,
+            "Data_Type": 0.6666666666666666
+        },
+        "span_accuracy": {
+            "Details": 0.0,
+            "Request_Type": 0.0,
+            "Inclusions": 0.0,
+            "Data_Type": 0.0
+        },
+        "latency": 0.7752136000000007,
+        "prompt_tokens": 105,
+        "completion_tokens": 54,
+        "total_tokens": 159
+    },
+    {
+        "input": "As a carer, I want to update the Steps_Goals for the patient to 12497.",
+        "ground_truth": {
+            "Data_Type": "Steps",
+            "Request_Type": "Guideline_Update",
+            "Details": {
+                "Steps_Goals": "12497"
+            }
+        },
+        "predicted_entities": {
+            "Data_Type": "Steps",
+            "Request_Type": "Guideline_Update",
+            "Inclusions": {
+                "Steps_Goals": "12497"
+            }
+        },
+        "precision": {
+            "Details": 0.0,
+            "Request_Type": 1.0,
+            "Inclusions": 0.0,
+            "Data_Type": 1.0
+        },
+        "recall": {
+            "Details": 0.0,
+            "Request_Type": 1.0,
+            "Inclusions": 0.0,
+            "Data_Type": 1.0
+        },
+        "f1_score": {
+            "Details": 0.0,
+            "Request_Type": 1.0,
+            "Inclusions": 0.0,
+            "Data_Type": 1.0
+        },
+        "span_accuracy": {
+            "Details": 0.0,
+            "Request_Type": 1.0,
+            "Inclusions": 0.0,
+            "Data_Type": 1.0
+        },
+        "latency": 0.9404128000000007,
+        "prompt_tokens": 106,
+        "completion_tokens": 62,
+        "total_tokens": 168
+    },
+    {
+        "input": "Please update the Steps_Goals for the patient to 11110 as requested by a carer.",
+        "ground_truth": {
+            "Data_Type": "Steps",
+            "Request_Type": "Guideline_Update",
+            "Details": {
+                "Steps_Goals": "11110"
+            }
+        },
+        "predicted_entities": {
+            "Data_Type": "Steps_Goals",
+            "Request_Type": "Guideline_Update",
+            "Details": {
+                "Patient_ID": "11110"
+            }
+        },
+        "precision": {
+            "Details": 0.0,
+            "Request_Type": 1.0,
+            "Data_Type": 0.5
+        },
+        "recall": {
+            "Details": 0.0,
+            "Request_Type": 1.0,
+            "Data_Type": 1.0
+        },
+        "f1_score": {
+            "Details": 0.0,
+            "Request_Type": 1.0,
+            "Data_Type": 0.6666666666666666
+        },
+        "span_accuracy": {
+            "Details": 0.0,
+            "Request_Type": 1.0,
+            "Data_Type": 0.0
+        },
+        "latency": 0.8011034000000006,
+        "prompt_tokens": 105,
+        "completion_tokens": 55,
+        "total_tokens": 160
+    },
+    {
+        "input": "Please update the Steps_Goals for the patient to 5747 as requested by a nurse.",
+        "ground_truth": {
+            "Data_Type": "Steps",
+            "Request_Type": "Guideline_Update",
+            "Details": {
+                "Steps_Goals": "5747"
+            }
+        },
+        "predicted_entities": {
+            "Data_Type": "Steps_Goals",
+            "Request_Type": "Guideline_Update",
+            "Details": {
+                "Steps_Goals_ID": "5747"
+            }
+        },
+        "precision": {
+            "Details": 0.0,
+            "Request_Type": 1.0,
+            "Data_Type": 0.5
+        },
+        "recall": {
+            "Details": 0.0,
+            "Request_Type": 1.0,
+            "Data_Type": 1.0
+        },
+        "f1_score": {
+            "Details": 0.0,
+            "Request_Type": 1.0,
+            "Data_Type": 0.6666666666666666
+        },
+        "span_accuracy": {
+            "Details": 0.0,
+            "Request_Type": 1.0,
+            "Data_Type": 0.0
+        },
+        "latency": 0.8915033000000001,
+        "prompt_tokens": 104,
+        "completion_tokens": 58,
+        "total_tokens": 162
+    },
+    {
+        "input": "Please update the Threshold_Heart_Rate for the patient to 117 as requested by a doctor.",
+        "ground_truth": {
+            "Data_Type": "Steps",
+            "Request_Type": "Guideline_Update",
+            "Details": {
+                "Threshold_Heart_Rate": "117"
+            }
+        },
+        "predicted_entities": {
+            "Data_Type": "Threshold_Heart_Rate",
+            "Request_Type": "Guideline_Update"
+        },
+        "precision": {
+            "Details": 0.0,
+            "Request_Type": 1.0,
+            "Data_Type": 0.23076923076923078
+        },
+        "recall": {
+            "Details": 0.0,
+            "Request_Type": 1.0,
+            "Data_Type": 0.6
+        },
+        "f1_score": {
+            "Details": 0.0,
+            "Request_Type": 1.0,
+            "Data_Type": 0.33333333333333337
+        },
+        "span_accuracy": {
+            "Details": 0.0,
+            "Request_Type": 1.0,
+            "Data_Type": 0.0
+        },
+        "latency": 1.9613666999999992,
+        "prompt_tokens": 104,
+        "completion_tokens": 63,
+        "total_tokens": 167
+    },
+    {
+        "input": "Please update the Steps_Goals for the patient to 6688 as requested by a nurse.",
+        "ground_truth": {
+            "Data_Type": "Steps",
+            "Request_Type": "Guideline_Update",
+            "Details": {
+                "Steps_Goals": "6688"
+            }
+        },
+        "predicted_entities": {
+            "Data_Type": "Steps_Goals",
+            "Request_Type": "Guideline_Update",
+            "Details": {
+                "Patient_ID": "6688"
+            }
+        },
+        "precision": {
+            "Details": 0.0,
+            "Request_Type": 1.0,
+            "Data_Type": 0.5
+        },
+        "recall": {
+            "Details": 0.0,
+            "Request_Type": 1.0,
+            "Data_Type": 1.0
+        },
+        "f1_score": {
+            "Details": 0.0,
+            "Request_Type": 1.0,
+            "Data_Type": 0.6666666666666666
+        },
+        "span_accuracy": {
+            "Details": 0.0,
+            "Request_Type": 1.0,
+            "Data_Type": 0.0
+        },
+        "latency": 0.9399408999999999,
+        "prompt_tokens": 104,
+        "completion_tokens": 55,
+        "total_tokens": 159
+    },
+    {
+        "input": "The carer needs to modify the Steps_Goals for the patient.",
+        "ground_truth": {
+            "Data_Type": "Steps",
+            "Request_Type": "Guideline_Update",
+            "Details": {
+                "Steps_Goals": "9972"
+            }
+        },
+        "predicted_entities": {
+            "Data_Type": "Steps_Goals",
+            "Request_Type": "Guideline_Update"
+        },
+        "precision": {
+            "Details": 0.0,
+            "Request_Type": 1.0,
+            "Data_Type": 0.5
+        },
+        "recall": {
+            "Details": 0.0,
+            "Request_Type": 1.0,
+            "Data_Type": 1.0
+        },
+        "f1_score": {
+            "Details": 0.0,
+            "Request_Type": 1.0,
+            "Data_Type": 0.6666666666666666
+        },
+        "span_accuracy": {
+            "Details": 0.0,
+            "Request_Type": 1.0,
+            "Data_Type": 0.0
+        },
+        "latency": 0.8871585999999994,
+        "prompt_tokens": 99,
+        "completion_tokens": 60,
+        "total_tokens": 159
+    },
+    {
+        "input": "The nurse needs to modify the Threshold_Heart_Rate for the patient.",
+        "ground_truth": {
+            "Data_Type": "Heart_Rate",
+            "Request_Type": "Guideline_Update",
+            "Details": {
+                "Threshold_Heart_Rate": "119"
+            }
+        },
+        "predicted_entities": {
+            "Data_Type": "Heart_Rate",
+            "Request_Type": "Guideline_Update",
+            "Inclusions": {
+                "User_Type": "Nurse"
+            }
+        },
+        "precision": {
+            "Details": 0.0,
+            "Request_Type": 1.0,
+            "Inclusions": 0.0,
+            "Data_Type": 1.0
+        },
+        "recall": {
+            "Details": 0.0,
+            "Request_Type": 1.0,
+            "Inclusions": 0.0,
+            "Data_Type": 1.0
+        },
+        "f1_score": {
+            "Details": 0.0,
+            "Request_Type": 1.0,
+            "Inclusions": 0.0,
+            "Data_Type": 1.0
+        },
+        "span_accuracy": {
+            "Details": 0.0,
+            "Request_Type": 1.0,
+            "Inclusions": 0.0,
+            "Data_Type": 1.0
+        },
+        "latency": 1.0685717999999973,
+        "prompt_tokens": 99,
+        "completion_tokens": 54,
+        "total_tokens": 153
+    },
+    {
+        "input": "The nurse needs to modify the Threshold_Heart_Rate for the patient.",
+        "ground_truth": {
+            "Data_Type": "Heart_Rate",
+            "Request_Type": "Guideline_Update",
+            "Details": {
+                "Threshold_Heart_Rate": "96"
+            }
+        },
+        "predicted_entities": {
+            "Data_Type": "Heart_Rate",
+            "Request_Type": "Guideline_Update",
+            "Inclusions": {
+                "User_Type": "Nurse"
+            }
+        },
+        "precision": {
+            "Details": 0.0,
+            "Request_Type": 1.0,
+            "Inclusions": 0.0,
+            "Data_Type": 1.0
+        },
+        "recall": {
+            "Details": 0.0,
+            "Request_Type": 1.0,
+            "Inclusions": 0.0,
+            "Data_Type": 1.0
+        },
+        "f1_score": {
+            "Details": 0.0,
+            "Request_Type": 1.0,
+            "Inclusions": 0.0,
+            "Data_Type": 1.0
+        },
+        "span_accuracy": {
+            "Details": 0.0,
+            "Request_Type": 1.0,
+            "Inclusions": 0.0,
+            "Data_Type": 1.0
+        },
+        "latency": 0.9275917000000007,
+        "prompt_tokens": 99,
+        "completion_tokens": 54,
+        "total_tokens": 153
+    },
+    {
+        "input": "Please update the Threshold_Heart_Rate for the patient to 111 as requested by a doctor.",
+        "ground_truth": {
+            "Data_Type": "Heart_Rate",
+            "Request_Type": "Guideline_Update",
+            "Details": {
+                "Threshold_Heart_Rate": "111"
+            }
+        },
+        "predicted_entities": {
+            "Data_Type": "Heart_Rate",
+            "Request_Type": "Guideline_Update",
+            "Details": {
+                "Threshold_Heart_Rate": "111"
+            }
+        },
+        "precision": {
+            "Details": 1.0,
+            "Request_Type": 1.0,
+            "Data_Type": 1.0
+        },
+        "recall": {
+            "Details": 1.0,
+            "Request_Type": 1.0,
+            "Data_Type": 1.0
+        },
+        "f1_score": {
+            "Details": 1.0,
+            "Request_Type": 1.0,
+            "Data_Type": 1.0
+        },
+        "span_accuracy": {
+            "Details": 1.0,
+            "Request_Type": 1.0,
+            "Data_Type": 1.0
+        },
+        "latency": 0.9832036000000031,
+        "prompt_tokens": 104,
+        "completion_tokens": 56,
+        "total_tokens": 160
+    },
+    {
+        "input": "I need to set a new Steps_Goals for the patient's Heart_Rate data as a carer.",
+        "ground_truth": {
+            "Data_Type": "Heart_Rate",
+            "Request_Type": "Guideline_Update",
+            "Details": {
+                "Steps_Goals": "8826"
+            }
+        },
+        "predicted_entities": {
+            "Data_Type": "Heart_Rate",
+            "Request_Type": "Guideline_Update",
+            "Details": "Steps_Goals",
+            "Inclusions": {
+                "Role": "carer"
+            }
+        },
+        "precision": {
+            "Details": 0.0,
+            "Request_Type": 1.0,
+            "Inclusions": 0.0,
+            "Data_Type": 1.0
+        },
+        "recall": {
+            "Details": 0.0,
+            "Request_Type": 1.0,
+            "Inclusions": 0.0,
+            "Data_Type": 1.0
+        },
+        "f1_score": {
+            "Details": 0.0,
+            "Request_Type": 1.0,
+            "Inclusions": 0.0,
+            "Data_Type": 1.0
+        },
+        "span_accuracy": {
+            "Details": 0.0,
+            "Request_Type": 1.0,
+            "Inclusions": 0.0,
+            "Data_Type": 1.0
+        },
+        "latency": 1.0860753999999986,
+        "prompt_tokens": 107,
+        "completion_tokens": 56,
+        "total_tokens": 163
+    },
+    {
+        "input": "Please update the Threshold_Heart_Rate for the patient to 60 as requested by a doctor.",
+        "ground_truth": {
+            "Data_Type": "Heart_Rate",
+            "Request_Type": "Guideline_Update",
+            "Details": {
+                "Threshold_Heart_Rate": "60"
+            }
+        },
+        "predicted_entities": {
+            "Data_Type": "Threshold_Heart_Rate",
+            "Request_Type": "Guideline_Update"
+        },
+        "precision": {
+            "Details": 0.0,
+            "Request_Type": 1.0,
+            "Data_Type": 0.5384615384615384
+        },
+        "recall": {
+            "Details": 0.0,
+            "Request_Type": 1.0,
+            "Data_Type": 1.0
+        },
+        "f1_score": {
+            "Details": 0.0,
+            "Request_Type": 1.0,
+            "Data_Type": 0.7000000000000001
+        },
+        "span_accuracy": {
+            "Details": 0.0,
+            "Request_Type": 1.0,
+            "Data_Type": 0.0
+        },
+        "latency": 0.8952832000000015,
+        "prompt_tokens": 104,
+        "completion_tokens": 55,
+        "total_tokens": 159
+    },
+    {
+        "input": "I need to set a new step goals for the patient's Steps data as a doctor.",
+        "ground_truth": {
+            "Data_Type": "Steps",
+            "Request_Type": "Guideline_Update",
+            "Details": {
+                "Step_Goals": "93"
+            }
+        },
+        "predicted_entities": {
+            "Data_Type": "Steps",
+            "Request_Type": "Guideline_Update",
+            "Inclusions": {
+                "User_Type": "Patient"
+            }
+        },
+        "precision": {
+            "Details": 0.0,
+            "Request_Type": 1.0,
+            "Inclusions": 0.0,
+            "Data_Type": 1.0
+        },
+        "recall": {
+            "Details": 0.0,
+            "Request_Type": 1.0,
+            "Inclusions": 0.0,
+            "Data_Type": 1.0
+        },
+        "f1_score": {
+            "Details": 0.0,
+            "Request_Type": 1.0,
+            "Inclusions": 0.0,
+            "Data_Type": 1.0
+        },
+        "span_accuracy": {
+            "Details": 0.0,
+            "Request_Type": 1.0,
+            "Inclusions": 0.0,
+            "Data_Type": 1.0
+        },
+        "latency": 0.8952866999999998,
+        "prompt_tokens": 102,
+        "completion_tokens": 51,
+        "total_tokens": 153
+    },
+    {
+        "input": "I need to set a new Steps_Goals for the patient's Steps data as a carer.",
+        "ground_truth": {
+            "Data_Type": "Steps",
+            "Request_Type": "Guideline_Update",
+            "Details": {
+                "Steps_Goals": "13551"
+            }
+        },
+        "predicted_entities": {
+            "Data_Type": "Steps",
+            "Request_Type": "Guideline_Update",
+            "Inclusions": {
+                "User_Role": "carer"
+            }
+        },
+        "precision": {
+            "Details": 0.0,
+            "Request_Type": 1.0,
+            "Inclusions": 0.0,
+            "Data_Type": 1.0
+        },
+        "recall": {
+            "Details": 0.0,
+            "Request_Type": 1.0,
+            "Inclusions": 0.0,
+            "Data_Type": 1.0
+        },
+        "f1_score": {
+            "Details": 0.0,
+            "Request_Type": 1.0,
+            "Inclusions": 0.0,
+            "Data_Type": 1.0
+        },
+        "span_accuracy": {
+            "Details": 0.0,
+            "Request_Type": 1.0,
+            "Inclusions": 0.0,
+            "Data_Type": 1.0
+        },
+        "latency": 0.874796700000001,
+        "prompt_tokens": 105,
+        "completion_tokens": 53,
+        "total_tokens": 158
+    },
+    {
+        "input": "The carer needs to modify the Threshold_Heart_Rate for the patient.",
+        "ground_truth": {
+            "Data_Type": "Heart_Rate",
+            "Request_Type": "Guideline_Update",
+            "Details": {
+                "Threshold_Heart_Rate": "63"
+            }
+        },
+        "predicted_entities": {
+            "Data_Type": "Heart_Rate",
+            "Request_Type": "Guideline_Update"
+        },
+        "precision": {
+            "Details": 0.0,
+            "Request_Type": 1.0,
+            "Data_Type": 1.0
+        },
+        "recall": {
+            "Details": 0.0,
+            "Request_Type": 1.0,
+            "Data_Type": 1.0
+        },
+        "f1_score": {
+            "Details": 0.0,
+            "Request_Type": 1.0,
+            "Data_Type": 1.0
+        },
+        "span_accuracy": {
+            "Details": 0.0,
+            "Request_Type": 1.0,
+            "Data_Type": 1.0
+        },
+        "latency": 0.913120199999998,
+        "prompt_tokens": 100,
+        "completion_tokens": 53,
+        "total_tokens": 153
+    },
+    {
+        "input": "I need to set a new heart rate threshold for the patient's Heart_Rate data as a carer.",
+        "ground_truth": {
+            "Data_Type": "Heart_Rate",
+            "Request_Type": "Guideline_Update",
+            "Details": {
+                "Threshold_Heart_Rate": "12970"
+            }
+        },
+        "predicted_entities": {
+            "Data_Type": "Heart_Rate",
+            "Request_Type": "Guideline_Update",
+            "Inclusions": {
+                "Role": "carer"
+            }
+        },
+        "precision": {
+            "Details": 0.0,
+            "Request_Type": 1.0,
+            "Inclusions": 0.0,
+            "Data_Type": 1.0
+        },
+        "recall": {
+            "Details": 0.0,
+            "Request_Type": 1.0,
+            "Inclusions": 0.0,
+            "Data_Type": 1.0
+        },
+        "f1_score": {
+            "Details": 0.0,
+            "Request_Type": 1.0,
+            "Inclusions": 0.0,
+            "Data_Type": 1.0
+        },
+        "span_accuracy": {
+            "Details": 0.0,
+            "Request_Type": 1.0,
+            "Inclusions": 0.0,
+            "Data_Type": 1.0
+        },
+        "latency": 1.2334607999999996,
+        "prompt_tokens": 106,
+        "completion_tokens": 53,
+        "total_tokens": 159
+    },
+    {
+        "input": "I need to set a new Step_Goals for the patient's Steps data as a nurse to 105.",
+        "ground_truth": {
+            "Data_Type": "Steps",
+            "Request_Type": "Guideline_Update",
+            "Details": {
+                "Step_Goals": "105"
+            }
+        },
+        "predicted_entities": {
+            "Data_Type": "Steps",
+            "Request_Type": "Guideline_Update",
+            "Inclusions": {
+                "User_Type": "Nurse",
+                "Steps_Authentication": "Required"
+            },
+            "New_Steps_Goals": "105"
+        },
+        "precision": {
+            "New_Steps_Goals": 0.0,
+            "Details": 0.0,
+            "Request_Type": 1.0,
+            "Inclusions": 0.0,
+            "Data_Type": 1.0
+        },
+        "recall": {
+            "New_Steps_Goals": 0.0,
+            "Details": 0.0,
+            "Request_Type": 1.0,
+            "Inclusions": 0.0,
+            "Data_Type": 1.0
+        },
+        "f1_score": {
+            "New_Steps_Goals": 0.0,
+            "Details": 0.0,
+            "Request_Type": 1.0,
+            "Inclusions": 0.0,
+            "Data_Type": 1.0
+        },
+        "span_accuracy": {
+            "New_Steps_Goals": 0.0,
+            "Details": 0.0,
+            "Request_Type": 1.0,
+            "Inclusions": 0.0,
+            "Data_Type": 1.0
+        },
+        "latency": 0.9436241999999986,
+        "prompt_tokens": 107,
+        "completion_tokens": 74,
+        "total_tokens": 181
+    },
+    {
+        "input": "The doctor needs to modify the Threshold_Heart_Rate for the patient to 75.",
+        "ground_truth": {
+            "Data_Type": "Heart_Rate",
+            "Request_Type": "Guideline_Update",
+            "Details": {
+                "Threshold_Heart_Rate": "75"
+            }
+        },
+        "predicted_entities": {
+            "Data_Type": "Heart_Rate",
+            "Request_Type": "Guideline_Update",
+            "Details": {
+                "Threshold_Heart_Rate": "75"
+            }
+        },
+        "precision": {
+            "Details": 1.0,
+            "Request_Type": 1.0,
+            "Data_Type": 1.0
+        },
+        "recall": {
+            "Details": 1.0,
+            "Request_Type": 1.0,
+            "Data_Type": 1.0
+        },
+        "f1_score": {
+            "Details": 1.0,
+            "Request_Type": 1.0,
+            "Data_Type": 1.0
+        },
+        "span_accuracy": {
+            "Details": 1.0,
+            "Request_Type": 1.0,
+            "Data_Type": 1.0
+        },
+        "latency": 0.8314685999999973,
+        "prompt_tokens": 102,
+        "completion_tokens": 56,
+        "total_tokens": 158
+    },
+    {
+        "input": "As a doctor, I want to update the Steps_Goals for the patient to 12582.",
+        "ground_truth": {
+            "Data_Type": "Steps",
+            "Request_Type": "Guideline_Update",
+            "Details": {
+                "Steps_Goals": "12582"
+            }
+        },
+        "predicted_entities": {
+            "Data_Type": "Steps",
+            "Request_Type": "Guideline_Update",
+            "Inclusions": {
+                "Steps_Goals": "12582"
+            }
+        },
+        "precision": {
+            "Details": 0.0,
+            "Request_Type": 1.0,
+            "Inclusions": 0.0,
+            "Data_Type": 1.0
+        },
+        "recall": {
+            "Details": 0.0,
+            "Request_Type": 1.0,
+            "Inclusions": 0.0,
+            "Data_Type": 1.0
+        },
+        "f1_score": {
+            "Details": 0.0,
+            "Request_Type": 1.0,
+            "Inclusions": 0.0,
+            "Data_Type": 1.0
+        },
+        "span_accuracy": {
+            "Details": 0.0,
+            "Request_Type": 1.0,
+            "Inclusions": 0.0,
+            "Data_Type": 1.0
+        },
+        "latency": 0.9545694999999981,
+        "prompt_tokens": 105,
+        "completion_tokens": 62,
+        "total_tokens": 167
+    },
+    {
+        "input": "The carer needs to modify the Threshold_Heart_Rate for the patient.",
+        "ground_truth": {
+            "Data_Type": "Heart_Rate",
+            "Request_Type": "Guideline_Update",
+            "Details": {
+                "Threshold_Heart_Rate": "116"
+            }
+        },
+        "predicted_entities": {
+            "Data_Type": "Heart_Rate",
+            "Request_Type": "Guideline_Update"
+        },
+        "precision": {
+            "Details": 0.0,
+            "Request_Type": 1.0,
+            "Data_Type": 1.0
+        },
+        "recall": {
+            "Details": 0.0,
+            "Request_Type": 1.0,
+            "Data_Type": 1.0
+        },
+        "f1_score": {
+            "Details": 0.0,
+            "Request_Type": 1.0,
+            "Data_Type": 1.0
+        },
+        "span_accuracy": {
+            "Details": 0.0,
+            "Request_Type": 1.0,
+            "Data_Type": 1.0
+        },
+        "latency": 0.8884960999999976,
+        "prompt_tokens": 100,
+        "completion_tokens": 53,
+        "total_tokens": 153
+    },
+    {
+        "input": "I need to set a new Threshold_Heart_Rate for the patient's Heart_Rate data as a carer.",
+        "ground_truth": {
+            "Data_Type": "Heart_Rate",
+            "Request_Type": "Guideline_Update",
+            "Details": {
+                "Threshold_Heart_Rate": "105"
+            }
+        },
+        "predicted_entities": {
+            "Data_Type": "Heart_Rate",
+            "Request_Type": "Guideline_Update",
+            "Details": "Threshold_Heart_Rate",
+            "Inclusions": {
+                "Role": "carer"
+            }
+        },
+        "precision": {
+            "Details": 0.0,
+            "Request_Type": 1.0,
+            "Inclusions": 0.0,
+            "Data_Type": 1.0
+        },
+        "recall": {
+            "Details": 0.0,
+            "Request_Type": 1.0,
+            "Inclusions": 0.0,
+            "Data_Type": 1.0
+        },
+        "f1_score": {
+            "Details": 0.0,
+            "Request_Type": 1.0,
+            "Inclusions": 0.0,
+            "Data_Type": 1.0
+        },
+        "span_accuracy": {
+            "Details": 0.0,
+            "Request_Type": 1.0,
+            "Inclusions": 0.0,
+            "Data_Type": 1.0
+        },
+        "latency": 0.9994514999999993,
+        "prompt_tokens": 108,
+        "completion_tokens": 57,
+        "total_tokens": 165
+    },
+    {
+        "input": "The nurse needs to modify the Steps_Goals for the patient.",
+        "ground_truth": {
+            "Data_Type": "Steps",
+            "Request_Type": "Guideline_Update",
+            "Details": {
+                "Steps_Goals": "14664"
+            }
+        },
+        "predicted_entities": {
+            "Data_Type": "Steps_Goals",
+            "Request_Type": "Guideline_Update"
+        },
+        "precision": {
+            "Details": 0.0,
+            "Request_Type": 1.0,
+            "Data_Type": 0.5
+        },
+        "recall": {
+            "Details": 0.0,
+            "Request_Type": 1.0,
+            "Data_Type": 1.0
+        },
+        "f1_score": {
+            "Details": 0.0,
+            "Request_Type": 1.0,
+            "Data_Type": 0.6666666666666666
+        },
+        "span_accuracy": {
+            "Details": 0.0,
+            "Request_Type": 1.0,
+            "Data_Type": 0.0
+        },
+        "latency": 0.986232999999995,
+        "prompt_tokens": 98,
+        "completion_tokens": 46,
+        "total_tokens": 144
+    },
+    {
+        "input": "As a nurse, I want to update the Threshold_Heart_Rate for the patient to 88.",
+        "ground_truth": {
+            "Data_Type": "Heart_Rate",
+            "Request_Type": "Guideline_Update",
+            "Details": {
+                "Threshold_Heart_Rate": "88"
+            }
+        },
+        "predicted_entities": {
+            "Data_Type": "Threshold_Heart_Rate",
+            "Request_Type": "Guideline_Update"
+        },
+        "precision": {
+            "Details": 0.0,
+            "Request_Type": 1.0,
+            "Data_Type": 0.5384615384615384
+        },
+        "recall": {
+            "Details": 0.0,
+            "Request_Type": 1.0,
+            "Data_Type": 1.0
+        },
+        "f1_score": {
+            "Details": 0.0,
+            "Request_Type": 1.0,
+            "Data_Type": 0.7000000000000001
+        },
+        "span_accuracy": {
+            "Details": 0.0,
+            "Request_Type": 1.0,
+            "Data_Type": 0.0
+        },
+        "latency": 0.9042849000000004,
+        "prompt_tokens": 105,
+        "completion_tokens": 55,
+        "total_tokens": 160
+    },
+    {
+        "input": "I need to set a new Steps_Goals for the patient's steps data as a doctor.",
+        "ground_truth": {
+            "Data_Type": "Steps",
+            "Request_Type": "Guideline_Update",
+            "Details": {
+                "Steps_Goals": "6269"
+            }
+        },
+        "predicted_entities": {
+            "Data_Type": "Steps",
+            "Request_Type": "Guideline_Update",
+            "Inclusions": {
+                "User_Type": "Patient"
+            }
+        },
+        "precision": {
+            "Details": 0.0,
+            "Request_Type": 1.0,
+            "Inclusions": 0.0,
+            "Data_Type": 1.0
+        },
+        "recall": {
+            "Details": 0.0,
+            "Request_Type": 1.0,
+            "Inclusions": 0.0,
+            "Data_Type": 1.0
+        },
+        "f1_score": {
+            "Details": 0.0,
+            "Request_Type": 1.0,
+            "Inclusions": 0.0,
+            "Data_Type": 1.0
+        },
+        "span_accuracy": {
+            "Details": 0.0,
+            "Request_Type": 1.0,
+            "Inclusions": 0.0,
+            "Data_Type": 1.0
+        },
+        "latency": 0.9083116000000047,
+        "prompt_tokens": 104,
+        "completion_tokens": 51,
+        "total_tokens": 155
+    },
+    {
+        "input": "Please update the Threshold_Heart_Rate for the patient to 70 as requested by a carer.",
+        "ground_truth": {
+            "Data_Type": "Heart_Rate",
+            "Request_Type": "Guideline_Update",
+            "Details": {
+                "Threshold_Heart_Rate": "70"
+            }
+        },
+        "predicted_entities": {
+            "Data_Type": "Threshold_Heart_Rate",
+            "Request_Type": "Guideline_Update"
+        },
+        "precision": {
+            "Details": 0.0,
+            "Request_Type": 1.0,
+            "Data_Type": 0.5384615384615384
+        },
+        "recall": {
+            "Details": 0.0,
+            "Request_Type": 1.0,
+            "Data_Type": 1.0
+        },
+        "f1_score": {
+            "Details": 0.0,
+            "Request_Type": 1.0,
+            "Data_Type": 0.7000000000000001
+        },
+        "span_accuracy": {
+            "Details": 0.0,
+            "Request_Type": 1.0,
+            "Data_Type": 0.0
+        },
+        "latency": 0.9849551000000005,
+        "prompt_tokens": 105,
+        "completion_tokens": 55,
+        "total_tokens": 160
+    },
+    {
+        "input": "I need to set a new step goal for the patient's Steps data as a nurse.",
+        "ground_truth": {
+            "Data_Type": "Steps",
+            "Request_Type": "Guideline_Update",
+            "Details": {
+                "Step_Goals": "111"
+            }
+        },
+        "predicted_entities": {
+            "Data_Type": "Steps",
+            "Request_Type": "Guideline_Update",
+            "Inclusions": {
+                "Role": "Nurse"
+            }
+        },
+        "precision": {
+            "Details": 0.0,
+            "Request_Type": 1.0,
+            "Inclusions": 0.0,
+            "Data_Type": 1.0
+        },
+        "recall": {
+            "Details": 0.0,
+            "Request_Type": 1.0,
+            "Inclusions": 0.0,
+            "Data_Type": 1.0
+        },
+        "f1_score": {
+            "Details": 0.0,
+            "Request_Type": 1.0,
+            "Inclusions": 0.0,
+            "Data_Type": 1.0
+        },
+        "span_accuracy": {
+            "Details": 0.0,
+            "Request_Type": 1.0,
+            "Inclusions": 0.0,
+            "Data_Type": 1.0
+        },
+        "latency": 0.8494446999999994,
+        "prompt_tokens": 102,
+        "completion_tokens": 51,
+        "total_tokens": 153
+    },
+    {
+        "input": "I need to set a new Steps_Goals for the patient's steps data as a carer to 6033.",
+        "ground_truth": {
+            "Data_Type": "Steps",
+            "Request_Type": "Guideline_Update",
+            "Details": {
+                "Steps_Goals": "6033"
+            }
+        },
+        "predicted_entities": {
+            "Data_Type": "Steps",
+            "Request_Type": "Guideline_Update",
+            "Inclusions": {
+                "Role": "Carer"
+            },
+            "Steps_Goals": "6033"
+        },
+        "precision": {
+            "Steps_Goals": 0.0,
+            "Details": 0.0,
+            "Request_Type": 1.0,
+            "Inclusions": 0.0,
+            "Data_Type": 1.0
+        },
+        "recall": {
+            "Steps_Goals": 0.0,
+            "Details": 0.0,
+            "Request_Type": 1.0,
+            "Inclusions": 0.0,
+            "Data_Type": 1.0
+        },
+        "f1_score": {
+            "Steps_Goals": 0.0,
+            "Details": 0.0,
+            "Request_Type": 1.0,
+            "Inclusions": 0.0,
+            "Data_Type": 1.0
+        },
+        "span_accuracy": {
+            "Steps_Goals": 0.0,
+            "Details": 0.0,
+            "Request_Type": 1.0,
+            "Inclusions": 0.0,
+            "Data_Type": 1.0
+        },
+        "latency": 2.396154200000005,
+        "prompt_tokens": 109,
+        "completion_tokens": 62,
+        "total_tokens": 171
+    },
+    {
+        "input": "I need to set a new heart rate goals for the patient's Heart_Rate data as a doctor to 67.",
+        "ground_truth": {
+            "Data_Type": "Heart_Rate",
+            "Request_Type": "Guideline_Update",
+            "Details": {
+                "Threshold_Heart_Rate": "67"
+            }
+        },
+        "predicted_entities": {
+            "Data_Type": "Heart_Rate",
+            "Request_Type": "Guideline_Update",
+            "New_Heart_Rate_Goals": "67"
+        },
+        "precision": {
+            "Details": 0.0,
+            "Request_Type": 1.0,
+            "Data_Type": 1.0,
+            "New_Heart_Rate_Goals": 0.0
+        },
+        "recall": {
+            "Details": 0.0,
+            "Request_Type": 1.0,
+            "Data_Type": 1.0,
+            "New_Heart_Rate_Goals": 0.0
+        },
+        "f1_score": {
+            "Details": 0.0,
+            "Request_Type": 1.0,
+            "Data_Type": 1.0,
+            "New_Heart_Rate_Goals": 0.0
+        },
+        "span_accuracy": {
+            "Details": 0.0,
+            "Request_Type": 1.0,
+            "Data_Type": 1.0,
+            "New_Heart_Rate_Goals": 0.0
+        },
+        "latency": 0.9847755000000049,
+        "prompt_tokens": 108,
+        "completion_tokens": 67,
+        "total_tokens": 175
+    },
+    {
+        "input": "I need to set a new Steps_Goals for the patient's steps data as a doctor to 10000.",
+        "ground_truth": {
+            "Data_Type": "Steps",
+            "Request_Type": "Guideline_Update",
+            "Details": {
+                "Steps_Goals": "10000"
+            }
+        },
+        "predicted_entities": {
+            "Data_Type": "Steps",
+            "Request_Type": "Guideline_Update",
+            "Details": "Steps_Goals"
+        },
+        "precision": {
+            "Details": 0.0,
+            "Request_Type": 1.0,
+            "Data_Type": 1.0
+        },
+        "recall": {
+            "Details": 0.0,
+            "Request_Type": 1.0,
+            "Data_Type": 1.0
+        },
+        "f1_score": {
+            "Details": 0.0,
+            "Request_Type": 1.0,
+            "Data_Type": 1.0
+        },
+        "span_accuracy": {
+            "Details": 0.0,
+            "Request_Type": 1.0,
+            "Data_Type": 1.0
+        },
+        "latency": 0.8344373000000047,
+        "prompt_tokens": 108,
+        "completion_tokens": 54,
+        "total_tokens": 162
+    },
+    {
+        "input": "As a nurse, I want to update the Steps_Goals for the patient to 9095.",
+        "ground_truth": {
+            "Data_Type": "Steps",
+            "Request_Type": "Guideline_Update",
+            "Details": {
+                "Steps_Goals": "9095"
+            }
+        },
+        "predicted_entities": {
+            "Data_Type": "Steps",
+            "Request_Type": "Guideline_Update",
+            "Inclusions": {
+                "Steps_Goals": "9095"
+            }
+        },
+        "precision": {
+            "Details": 0.0,
+            "Request_Type": 1.0,
+            "Inclusions": 0.0,
+            "Data_Type": 1.0
+        },
+        "recall": {
+            "Details": 0.0,
+            "Request_Type": 1.0,
+            "Inclusions": 0.0,
+            "Data_Type": 1.0
+        },
+        "f1_score": {
+            "Details": 0.0,
+            "Request_Type": 1.0,
+            "Inclusions": 0.0,
+            "Data_Type": 1.0
+        },
+        "span_accuracy": {
+            "Details": 0.0,
+            "Request_Type": 1.0,
+            "Inclusions": 0.0,
+            "Data_Type": 1.0
+        },
+        "latency": 0.9491895000000028,
+        "prompt_tokens": 105,
+        "completion_tokens": 62,
+        "total_tokens": 167
+    },
+    {
+        "input": "I need to set a new steps goals for the patient's Steps data to 630 as a doctor.",
+        "ground_truth": {
+            "Data_Type": "Steps",
+            "Request_Type": "Guideline_Update",
+            "Details": {
+                "Steps_Goals": "630"
+            }
+        },
+        "predicted_entities": {
+            "Data_Type": "Steps",
+            "Request_Type": "Guideline_Update",
+            "Inclusions": {
+                "User_Type": "Patient"
+            },
+            "Steps_Goals": "630"
+        },
+        "precision": {
+            "Steps_Goals": 0.0,
+            "Details": 0.0,
+            "Request_Type": 1.0,
+            "Inclusions": 0.0,
+            "Data_Type": 1.0
+        },
+        "recall": {
+            "Steps_Goals": 0.0,
+            "Details": 0.0,
+            "Request_Type": 1.0,
+            "Inclusions": 0.0,
+            "Data_Type": 1.0
+        },
+        "f1_score": {
+            "Steps_Goals": 0.0,
+            "Details": 0.0,
+            "Request_Type": 1.0,
+            "Inclusions": 0.0,
+            "Data_Type": 1.0
+        },
+        "span_accuracy": {
+            "Steps_Goals": 0.0,
+            "Details": 0.0,
+            "Request_Type": 1.0,
+            "Inclusions": 0.0,
+            "Data_Type": 1.0
+        },
+        "latency": 1.0414715,
+        "prompt_tokens": 105,
+        "completion_tokens": 61,
+        "total_tokens": 166
+    },
+    {
+        "input": "Please update the Steps_Goals for the patient to 11669 as requested by a carer.",
+        "ground_truth": {
+            "Data_Type": "Steps",
+            "Request_Type": "Guideline_Update",
+            "Details": {
+                "Steps_Goals": "11669"
+            }
+        },
+        "predicted_entities": {
+            "Data_Type": "Steps_Goals",
+            "Request_Type": "Guideline_Update",
+            "Details": {
+                "Patient_ID": "11669"
+            }
+        },
+        "precision": {
+            "Details": 0.0,
+            "Request_Type": 1.0,
+            "Data_Type": 0.5
+        },
+        "recall": {
+            "Details": 0.0,
+            "Request_Type": 1.0,
+            "Data_Type": 1.0
+        },
+        "f1_score": {
+            "Details": 0.0,
+            "Request_Type": 1.0,
+            "Data_Type": 0.6666666666666666
+        },
+        "span_accuracy": {
+            "Details": 0.0,
+            "Request_Type": 1.0,
+            "Data_Type": 0.0
+        },
+        "latency": 0.9233896000000001,
+        "prompt_tokens": 105,
+        "completion_tokens": 55,
+        "total_tokens": 160
+    },
+    {
+        "input": "Please update the Threshold_Heart_Rate for the patient to 93 as requested by a carer.",
+        "ground_truth": {
+            "Data_Type": "Heart_Rate",
+            "Request_Type": "Guideline_Update",
+            "Details": {
+                "Threshold_Heart_Rate": "93"
+            }
+        },
+        "predicted_entities": {
+            "Data_Type": "Heart_Rate",
+            "Request_Type": "Guideline_Update",
+            "Details": "Threshold",
+            "Threshold_Heart_Rate": "93"
+        },
+        "precision": {
+            "Details": 0.0,
+            "Request_Type": 1.0,
+            "Data_Type": 1.0,
+            "Threshold_Heart_Rate": 0.0
+        },
+        "recall": {
+            "Details": 0.0,
+            "Request_Type": 1.0,
+            "Data_Type": 1.0,
+            "Threshold_Heart_Rate": 0.0
+        },
+        "f1_score": {
+            "Details": 0.0,
+            "Request_Type": 1.0,
+            "Data_Type": 1.0,
+            "Threshold_Heart_Rate": 0.0
+        },
+        "span_accuracy": {
+            "Details": 0.0,
+            "Request_Type": 1.0,
+            "Data_Type": 1.0,
+            "Threshold_Heart_Rate": 0.0
+        },
+        "latency": 0.9401457000000022,
+        "prompt_tokens": 105,
+        "completion_tokens": 64,
+        "total_tokens": 169
+    },
+    {
+        "input": "I need to set a new Threshold_Heart_Rate for the patient's Heart_Rate data as a carer.",
+        "ground_truth": {
+            "Data_Type": "Heart_Rate",
+            "Request_Type": "Guideline_Update",
+            "Details": {
+                "Threshold_Heart_Rate": "72"
+            }
+        },
+        "predicted_entities": {
+            "Data_Type": "Heart_Rate",
+            "Request_Type": "Guideline_Update",
+            "Inclusions": {
+                "Threshold_Heart_Rate": "85"
+            }
+        },
+        "precision": {
+            "Details": 0.0,
+            "Request_Type": 1.0,
+            "Inclusions": 0.0,
+            "Data_Type": 1.0
+        },
+        "recall": {
+            "Details": 0.0,
+            "Request_Type": 1.0,
+            "Inclusions": 0.0,
+            "Data_Type": 1.0
+        },
+        "f1_score": {
+            "Details": 0.0,
+            "Request_Type": 1.0,
+            "Inclusions": 0.0,
+            "Data_Type": 1.0
+        },
+        "span_accuracy": {
+            "Details": 0.0,
+            "Request_Type": 1.0,
+            "Inclusions": 0.0,
+            "Data_Type": 1.0
+        },
+        "latency": 0.9275394999999946,
+        "prompt_tokens": 108,
+        "completion_tokens": 56,
+        "total_tokens": 164
+    },
+    {
+        "input": "Please update the Threshold_Heart_Rate for the patient to 63 as requested by a nurse.",
+        "ground_truth": {
+            "Data_Type": "Heart_Rate",
+            "Request_Type": "Guideline_Update",
+            "Details": {
+                "Threshold_Heart_Rate": "63"
+            }
+        },
+        "predicted_entities": {
+            "Data_Type": "Heart_Rate",
+            "Request_Type": "Guideline_Update",
+            "Details": {
+                "Threshold_Heart_Rate": "63"
+            }
+        },
+        "precision": {
+            "Details": 1.0,
+            "Request_Type": 1.0,
+            "Data_Type": 1.0
+        },
+        "recall": {
+            "Details": 1.0,
+            "Request_Type": 1.0,
+            "Data_Type": 1.0
+        },
+        "f1_score": {
+            "Details": 1.0,
+            "Request_Type": 1.0,
+            "Data_Type": 1.0
+        },
+        "span_accuracy": {
+            "Details": 1.0,
+            "Request_Type": 1.0,
+            "Data_Type": 1.0
+        },
+        "latency": 0.9288025000000033,
+        "prompt_tokens": 104,
+        "completion_tokens": 56,
+        "total_tokens": 160
+    },
+    {
+        "input": "I need to set a new Steps_Goals for the patient's steps data as a nurse.",
+        "ground_truth": {
+            "Data_Type": "Steps",
+            "Request_Type": "Guideline_Update",
+            "Details": {
+                "Steps_Goals": "8742"
+            }
+        },
+        "predicted_entities": {
+            "Data_Type": "Steps",
+            "Request_Type": "Guideline_Update",
+            "Inclusions": {
+                "User_Type": "Patient"
+            }
+        },
+        "precision": {
+            "Details": 0.0,
+            "Request_Type": 1.0,
+            "Inclusions": 0.0,
+            "Data_Type": 1.0
+        },
+        "recall": {
+            "Details": 0.0,
+            "Request_Type": 1.0,
+            "Inclusions": 0.0,
+            "Data_Type": 1.0
+        },
+        "f1_score": {
+            "Details": 0.0,
+            "Request_Type": 1.0,
+            "Inclusions": 0.0,
+            "Data_Type": 1.0
+        },
+        "span_accuracy": {
+            "Details": 0.0,
+            "Request_Type": 1.0,
+            "Inclusions": 0.0,
+            "Data_Type": 1.0
+        },
+        "latency": 0.7875119999999995,
+        "prompt_tokens": 104,
+        "completion_tokens": 51,
+        "total_tokens": 155
+    },
+    {
+        "input": "Please update the Threshold_Heart_Rate for the patient to 81 as requested by a nurse.",
+        "ground_truth": {
+            "Data_Type": "Heart_Rate",
+            "Request_Type": "Guideline_Update",
+            "Details": {
+                "Threshold_Heart_Rate": "81"
+            }
+        },
+        "predicted_entities": {
+            "Data_Type": "Heart_Rate",
+            "Request_Type": "Data_Update",
+            "Details": {
+                "Threshold_Heart_Rate": "81"
+            }
+        },
+        "precision": {
+            "Details": 1.0,
+            "Request_Type": 0.875,
+            "Data_Type": 1.0
+        },
+        "recall": {
+            "Details": 1.0,
+            "Request_Type": 0.5833333333333334,
+            "Data_Type": 1.0
+        },
+        "f1_score": {
+            "Details": 1.0,
+            "Request_Type": 0.7000000000000001,
+            "Data_Type": 1.0
+        },
+        "span_accuracy": {
+            "Details": 1.0,
+            "Request_Type": 0.0,
+            "Data_Type": 1.0
+        },
+        "latency": 0.9798910999999961,
+        "prompt_tokens": 104,
+        "completion_tokens": 62,
+        "total_tokens": 166
+    },
+    {
+        "input": "Please update the Steps_Goals for the patient to 9732 as requested by a carer.",
+        "ground_truth": {
+            "Data_Type": "Steps",
+            "Request_Type": "Guideline_Update",
+            "Details": {
+                "Steps_Goals": "9732"
+            }
+        },
+        "predicted_entities": {
+            "Data_Type": "Steps_Goals",
+            "Request_Type": "Data_Update",
+            "Inclusions": {
+                "Patient_ID": "9732"
+            }
+        },
+        "precision": {
+            "Details": 0.0,
+            "Request_Type": 0.875,
+            "Inclusions": 0.0,
+            "Data_Type": 0.5
+        },
+        "recall": {
+            "Details": 0.0,
+            "Request_Type": 0.5833333333333334,
+            "Inclusions": 0.0,
+            "Data_Type": 1.0
+        },
+        "f1_score": {
+            "Details": 0.0,
+            "Request_Type": 0.7000000000000001,
+            "Inclusions": 0.0,
+            "Data_Type": 0.6666666666666666
+        },
+        "span_accuracy": {
+            "Details": 0.0,
+            "Request_Type": 0.0,
+            "Inclusions": 0.0,
+            "Data_Type": 0.0
+        },
+        "latency": 0.9452489999999969,
+        "prompt_tokens": 105,
+        "completion_tokens": 54,
+        "total_tokens": 159
+    },
+    {
+        "input": "I need to set a new Threshold_Heart_Rate for the patient's heart rate data as a carer.",
+        "ground_truth": {
+            "Data_Type": "heart_Rate",
+            "Request_Type": "Guideline_Update",
+            "Details": {
+                "Threshold_Heart_Rate": "75"
+            }
+        },
+        "predicted_entities": {
+            "Data_Type": "Heart_Rate",
+            "Request_Type": "Guideline_Update",
+            "Inclusions": {
+                "User_Type": "Carer"
+            }
+        },
+        "precision": {
+            "Details": 0.0,
+            "Request_Type": 1.0,
+            "Inclusions": 0.0,
+            "Data_Type": 0.8571428571428571
+        },
+        "recall": {
+            "Details": 0.0,
+            "Request_Type": 1.0,
+            "Inclusions": 0.0,
+            "Data_Type": 0.8571428571428571
+        },
+        "f1_score": {
+            "Details": 0.0,
+            "Request_Type": 1.0,
+            "Inclusions": 0.0,
+            "Data_Type": 0.8571428571428571
+        },
+        "span_accuracy": {
+            "Details": 0.0,
+            "Request_Type": 1.0,
+            "Inclusions": 0.0,
+            "Data_Type": 0.0
+        },
+        "latency": 0.8095332000000042,
+        "prompt_tokens": 107,
+        "completion_tokens": 54,
+        "total_tokens": 161
+    },
+    {
+        "input": "Please update the Steps_Goals for the patient to 12919 as requested by a nurse.",
+        "ground_truth": {
+            "Data_Type": "Steps",
+            "Request_Type": "Guideline_Update",
+            "Details": {
+                "Steps_Goals": "12919"
+            }
+        },
+        "predicted_entities": {
+            "Data_Type": "Steps_Goals",
+            "Request_Type": "Data_Update",
+            "Details": {
+                "Steps_Goals_ID": "12919"
+            },
+            "Inclusions": {
+                "Requested_By": "nurse"
+            }
+        },
+        "precision": {
+            "Details": 0.0,
+            "Request_Type": 0.875,
+            "Inclusions": 0.0,
+            "Data_Type": 0.5
+        },
+        "recall": {
+            "Details": 0.0,
+            "Request_Type": 0.5833333333333334,
+            "Inclusions": 0.0,
+            "Data_Type": 1.0
+        },
+        "f1_score": {
+            "Details": 0.0,
+            "Request_Type": 0.7000000000000001,
+            "Inclusions": 0.0,
+            "Data_Type": 0.6666666666666666
+        },
+        "span_accuracy": {
+            "Details": 0.0,
+            "Request_Type": 0.0,
+            "Inclusions": 0.0,
+            "Data_Type": 0.0
+        },
+        "latency": 1.1141130000000032,
+        "prompt_tokens": 104,
+        "completion_tokens": 77,
+        "total_tokens": 181
+    },
+    {
+        "input": "The nurse needs to modify the Threshold_Heart_Rate for the patient.",
+        "ground_truth": {
+            "Data_Type": "Heart_Rate",
+            "Request_Type": "Guideline_Update",
+            "Details": {
+                "Threshold_Heart_Rate": "68"
+            }
+        },
+        "predicted_entities": {
+            "Data_Type": "Heart_Rate",
+            "Request_Type": "Guideline_Update"
+        },
+        "precision": {
+            "Details": 0.0,
+            "Request_Type": 1.0,
+            "Data_Type": 1.0
+        },
+        "recall": {
+            "Details": 0.0,
+            "Request_Type": 1.0,
+            "Data_Type": 1.0
+        },
+        "f1_score": {
+            "Details": 0.0,
+            "Request_Type": 1.0,
+            "Data_Type": 1.0
+        },
+        "span_accuracy": {
+            "Details": 0.0,
+            "Request_Type": 1.0,
+            "Data_Type": 1.0
+        },
+        "latency": 2.044374300000001,
+        "prompt_tokens": 99,
+        "completion_tokens": 53,
+        "total_tokens": 152
+    }
+]
