@@ -1,0 +1,2 @@
+precision,recall,f1_score,span_accuracy,latency,prompt_tokens,completion_tokens,total_tokens
+0.8063194444444446,0.820554761904762,0.8104800904977377,0.745,3.4025155419999993,124.24,87.72,211.96

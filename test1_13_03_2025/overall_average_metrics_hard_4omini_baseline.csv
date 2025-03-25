@@ -1,0 +1,12 @@
+Metric,Value
+TP,20.0
+TN,1.0
+FP,175.0
+FN,227.0
+Precision,0.10256410256410256
+Recall,0.08097165991902834
+F1 Score,0.09049773755656108
+Avg Prompt Tokens,124.24
+Avg Completion Tokens,146.62
+Avg Total Tokens,270.86
+Avg Latency,2.7468452780000003

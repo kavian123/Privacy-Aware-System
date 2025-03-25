@@ -1,0 +1,2744 @@
+[
+    {
+        "input": "Please provide access to the patient's Steps data.",
+        "ground_truth": {
+            "Data_Type": "Steps",
+            "Request_Type": "Data_Access",
+            "Details": "NULL",
+            "Inclusions": "NULL",
+            "Exclusions": "NULL"
+        },
+        "predicted_entities": {
+            "Data_Type": "Steps data",
+            "Request_Type": "Access request",
+            "Details": "Access requested for the patient's Steps data",
+            "Inclusions": [
+                "Steps data"
+            ],
+            "Exclusions": [
+                "Heart rate data",
+                "Calories data"
+            ]
+        },
+        "precision": {
+            "Details": 0.0,
+            "Exclusions": 0.0,
+            "Request_Type": 0.5555555555555556,
+            "Inclusions": 0.0,
+            "Data_Type": 0.625
+        },
+        "recall": {
+            "Details": 0.0,
+            "Exclusions": 0.0,
+            "Request_Type": 0.625,
+            "Inclusions": 0.0,
+            "Data_Type": 1.0
+        },
+        "f1_score": {
+            "Details": 0.0,
+            "Exclusions": 0.0,
+            "Request_Type": 0.5882352941176471,
+            "Inclusions": 0.0,
+            "Data_Type": 0.7692307692307693
+        },
+        "span_accuracy": {
+            "Details": 0.0,
+            "Exclusions": 0.0,
+            "Request_Type": 0.0,
+            "Inclusions": 0.0,
+            "Data_Type": 0.0
+        },
+        "latency": 1.4558582000000002,
+        "prompt_tokens": 94,
+        "completion_tokens": 59,
+        "total_tokens": 153
+    },
+    {
+        "input": "Please provide access to the patient's System_Information data.",
+        "ground_truth": {
+            "Data_Type": "System_Information",
+            "Request_Type": "Data_Access",
+            "Details": "NULL",
+            "Inclusions": "NULL",
+            "Exclusions": "NULL"
+        },
+        "predicted_entities": {
+            "Data_Type": "System_Information",
+            "Request_Type": "Access",
+            "Details": "Provide access to the patient's System_Information data",
+            "Inclusions": [
+                "Patient identification details",
+                "Current system configurations",
+                "System usage logs"
+            ],
+            "Exclusions": [
+                "Personal health information (PHI)",
+                "Financial data"
+            ]
+        },
+        "precision": {
+            "Details": 0.0,
+            "Exclusions": 0.0,
+            "Request_Type": 1.0,
+            "Inclusions": 0.0,
+            "Data_Type": 1.0
+        },
+        "recall": {
+            "Details": 0.0,
+            "Exclusions": 0.0,
+            "Request_Type": 0.5,
+            "Inclusions": 0.0,
+            "Data_Type": 1.0
+        },
+        "f1_score": {
+            "Details": 0.0,
+            "Exclusions": 0.0,
+            "Request_Type": 0.6666666666666666,
+            "Inclusions": 0.0,
+            "Data_Type": 1.0
+        },
+        "span_accuracy": {
+            "Details": 0.0,
+            "Exclusions": 0.0,
+            "Request_Type": 0.0,
+            "Inclusions": 0.0,
+            "Data_Type": 1.0
+        },
+        "latency": 1.1432633999999995,
+        "prompt_tokens": 96,
+        "completion_tokens": 74,
+        "total_tokens": 170
+    },
+    {
+        "input": "Can you give me the patient's System_Information information?",
+        "ground_truth": {
+            "Data_Type": "System_Information",
+            "Request_Type": "Data_Access",
+            "Details": "NULL",
+            "Inclusions": "NULL",
+            "Exclusions": "NULL"
+        },
+        "predicted_entities": {
+            "Data_Type": "Patient Information",
+            "Request_Type": "System Information",
+            "Details": "Request for the patient's system information.",
+            "Inclusions": [
+                "Operating system details",
+                "Hardware information",
+                "Installed software applications"
+            ],
+            "Exclusions": [
+                "Personal identification data",
+                "Sensitive medical information"
+            ]
+        },
+        "precision": {
+            "Details": 0.0,
+            "Exclusions": 0.0,
+            "Request_Type": 0.2857142857142857,
+            "Inclusions": 0.0,
+            "Data_Type": 0.8333333333333334
+        },
+        "recall": {
+            "Details": 0.0,
+            "Exclusions": 0.0,
+            "Request_Type": 0.5,
+            "Inclusions": 0.0,
+            "Data_Type": 0.7142857142857143
+        },
+        "f1_score": {
+            "Details": 0.0,
+            "Exclusions": 0.0,
+            "Request_Type": 0.36363636363636365,
+            "Inclusions": 0.0,
+            "Data_Type": 0.7692307692307692
+        },
+        "span_accuracy": {
+            "Details": 0.0,
+            "Exclusions": 0.0,
+            "Request_Type": 0.0,
+            "Inclusions": 0.0,
+            "Data_Type": 0.0
+        },
+        "latency": 0.9640950999999998,
+        "prompt_tokens": 96,
+        "completion_tokens": 68,
+        "total_tokens": 164
+    },
+    {
+        "input": "I need the patient's Steps data for review.",
+        "ground_truth": {
+            "Data_Type": "Steps",
+            "Request_Type": "Data_Access",
+            "Details": "NULL",
+            "Inclusions": "NULL",
+            "Exclusions": "NULL"
+        },
+        "predicted_entities": {
+            "Data_Type": "Health Data",
+            "Request_Type": "Data Review",
+            "Details": "Steps data of the patient",
+            "Inclusions": [
+                "Steps data"
+            ],
+            "Exclusions": [
+                "Other health metrics"
+            ]
+        },
+        "precision": {
+            "Details": 0.0,
+            "Exclusions": 0.0,
+            "Request_Type": 0.4444444444444444,
+            "Inclusions": 0.0,
+            "Data_Type": 0.25
+        },
+        "recall": {
+            "Details": 0.0,
+            "Exclusions": 0.0,
+            "Request_Type": 0.5,
+            "Inclusions": 0.0,
+            "Data_Type": 0.4
+        },
+        "f1_score": {
+            "Details": 0.0,
+            "Exclusions": 0.0,
+            "Request_Type": 0.47058823529411764,
+            "Inclusions": 0.0,
+            "Data_Type": 0.3076923076923077
+        },
+        "span_accuracy": {
+            "Details": 0.0,
+            "Exclusions": 0.0,
+            "Request_Type": 0.0,
+            "Inclusions": 0.0,
+            "Data_Type": 0.0
+        },
+        "latency": 1.2879725000000004,
+        "prompt_tokens": 94,
+        "completion_tokens": 51,
+        "total_tokens": 145
+    },
+    {
+        "input": "I need the patient's System_Information data for review.",
+        "ground_truth": {
+            "Data_Type": "System_Information",
+            "Request_Type": "Data_Access",
+            "Details": "NULL",
+            "Inclusions": "NULL",
+            "Exclusions": "NULL"
+        },
+        "predicted_entities": {
+            "Data_Type": "System_Information",
+            "Request_Type": "Review",
+            "Details": "Patient's system information data",
+            "Inclusions": [
+                "Hardware details",
+                "Software configurations",
+                "Network settings"
+            ],
+            "Exclusions": [
+                "Personal data",
+                "Sensitive information"
+            ]
+        },
+        "precision": {
+            "Details": 0.0,
+            "Exclusions": 0.0,
+            "Request_Type": 0.2,
+            "Inclusions": 0.0,
+            "Data_Type": 1.0
+        },
+        "recall": {
+            "Details": 0.0,
+            "Exclusions": 0.0,
+            "Request_Type": 0.125,
+            "Inclusions": 0.0,
+            "Data_Type": 1.0
+        },
+        "f1_score": {
+            "Details": 0.0,
+            "Exclusions": 0.0,
+            "Request_Type": 0.15384615384615385,
+            "Inclusions": 0.0,
+            "Data_Type": 1.0
+        },
+        "span_accuracy": {
+            "Details": 0.0,
+            "Exclusions": 0.0,
+            "Request_Type": 0.0,
+            "Inclusions": 0.0,
+            "Data_Type": 1.0
+        },
+        "latency": 1.2723262000000002,
+        "prompt_tokens": 96,
+        "completion_tokens": 62,
+        "total_tokens": 158
+    },
+    {
+        "input": "I need to access the Heart_Rate data of the patient.",
+        "ground_truth": {
+            "Data_Type": "Heart_Rate",
+            "Request_Type": "Data_Access",
+            "Details": "NULL",
+            "Inclusions": "NULL",
+            "Exclusions": "NULL"
+        },
+        "predicted_entities": {
+            "Data_Type": "Health Data",
+            "Request_Type": "Access",
+            "Details": {
+                "Data_Category": "Heart Rate",
+                "Patient_Identifier": "Patient's ID"
+            },
+            "Inclusions": [
+                "Real-time heart rate readings",
+                "Historical heart rate data"
+            ],
+            "Exclusions": []
+        },
+        "precision": {
+            "Details": 0.0,
+            "Exclusions": 0.0,
+            "Request_Type": 1.0,
+            "Inclusions": 0.0,
+            "Data_Type": 0.5
+        },
+        "recall": {
+            "Details": 0.0,
+            "Exclusions": 0.0,
+            "Request_Type": 0.5,
+            "Inclusions": 0.0,
+            "Data_Type": 0.5714285714285714
+        },
+        "f1_score": {
+            "Details": 0.0,
+            "Exclusions": 0.0,
+            "Request_Type": 0.6666666666666666,
+            "Inclusions": 0.0,
+            "Data_Type": 0.5333333333333333
+        },
+        "span_accuracy": {
+            "Details": 0.0,
+            "Exclusions": 0.0,
+            "Request_Type": 0.0,
+            "Inclusions": 0.0,
+            "Data_Type": 0.0
+        },
+        "latency": 1.1856932000000011,
+        "prompt_tokens": 97,
+        "completion_tokens": 77,
+        "total_tokens": 174
+    },
+    {
+        "input": "I want to see the System_Information data for the patient.",
+        "ground_truth": {
+            "Data_Type": "System_Information",
+            "Request_Type": "Data_Access",
+            "Details": "NULL",
+            "Inclusions": "NULL",
+            "Exclusions": "NULL"
+        },
+        "predicted_entities": {
+            "Data_Type": "System_Information",
+            "Request_Type": "View",
+            "Details": "Fetching system information data for the patient",
+            "Inclusions": [
+                "Patient ID",
+                "Medical History",
+                "Allergies",
+                "Current Medications",
+                "Vital Signs"
+            ],
+            "Exclusions": [
+                "Financial Information",
+                "Personal Contact Details"
+            ]
+        },
+        "precision": {
+            "Details": 0.0,
+            "Exclusions": 0.0,
+            "Request_Type": 0.25,
+            "Inclusions": 0.0,
+            "Data_Type": 1.0
+        },
+        "recall": {
+            "Details": 0.0,
+            "Exclusions": 0.0,
+            "Request_Type": 0.125,
+            "Inclusions": 0.0,
+            "Data_Type": 1.0
+        },
+        "f1_score": {
+            "Details": 0.0,
+            "Exclusions": 0.0,
+            "Request_Type": 0.16666666666666666,
+            "Inclusions": 0.0,
+            "Data_Type": 1.0
+        },
+        "span_accuracy": {
+            "Details": 0.0,
+            "Exclusions": 0.0,
+            "Request_Type": 0.0,
+            "Inclusions": 0.0,
+            "Data_Type": 1.0
+        },
+        "latency": 1.0362779,
+        "prompt_tokens": 97,
+        "completion_tokens": 76,
+        "total_tokens": 173
+    },
+    {
+        "input": "Please provide access to the patient's Heart_Rate data.",
+        "ground_truth": {
+            "Data_Type": "Heart_Rate",
+            "Request_Type": "Data_Access",
+            "Details": "NULL",
+            "Inclusions": "NULL",
+            "Exclusions": "NULL"
+        },
+        "predicted_entities": {
+            "Data_Type": "Heart_Rate",
+            "Request_Type": "Access",
+            "Details": "Provide access to the patient's Heart Rate data",
+            "Inclusions": [
+                "Patient identifier"
+            ],
+            "Exclusions": [
+                "Personal identifiable information"
+            ]
+        },
+        "precision": {
+            "Details": 0.0,
+            "Exclusions": 0.0,
+            "Request_Type": 1.0,
+            "Inclusions": 0.0,
+            "Data_Type": 1.0
+        },
+        "recall": {
+            "Details": 0.0,
+            "Exclusions": 0.0,
+            "Request_Type": 0.5,
+            "Inclusions": 0.0,
+            "Data_Type": 1.0
+        },
+        "f1_score": {
+            "Details": 0.0,
+            "Exclusions": 0.0,
+            "Request_Type": 0.6666666666666666,
+            "Inclusions": 0.0,
+            "Data_Type": 1.0
+        },
+        "span_accuracy": {
+            "Details": 0.0,
+            "Exclusions": 0.0,
+            "Request_Type": 0.0,
+            "Inclusions": 0.0,
+            "Data_Type": 1.0
+        },
+        "latency": 0.8399276999999987,
+        "prompt_tokens": 96,
+        "completion_tokens": 55,
+        "total_tokens": 151
+    },
+    {
+        "input": "Can you give me the patient's Steps information?",
+        "ground_truth": {
+            "Data_Type": "Steps",
+            "Request_Type": "Data_Access",
+            "Details": "NULL",
+            "Inclusions": "NULL",
+            "Exclusions": "NULL"
+        },
+        "predicted_entities": {
+            "Data_Type": "Health Data",
+            "Request_Type": "Patient Information",
+            "Details": "Steps data of the patient",
+            "Inclusions": [
+                "Number of steps taken",
+                "Steps goal for the day",
+                "Daily step count trends"
+            ],
+            "Exclusions": [
+                "Personal identifiers",
+                "Health conditions or diagnoses"
+            ]
+        },
+        "precision": {
+            "Details": 0.0,
+            "Exclusions": 0.0,
+            "Request_Type": 0.25,
+            "Inclusions": 0.0,
+            "Data_Type": 0.25
+        },
+        "recall": {
+            "Details": 0.0,
+            "Exclusions": 0.0,
+            "Request_Type": 0.375,
+            "Inclusions": 0.0,
+            "Data_Type": 0.4
+        },
+        "f1_score": {
+            "Details": 0.0,
+            "Exclusions": 0.0,
+            "Request_Type": 0.3,
+            "Inclusions": 0.0,
+            "Data_Type": 0.3076923076923077
+        },
+        "span_accuracy": {
+            "Details": 0.0,
+            "Exclusions": 0.0,
+            "Request_Type": 0.0,
+            "Inclusions": 0.0,
+            "Data_Type": 0.0
+        },
+        "latency": 1.1788724999999989,
+        "prompt_tokens": 94,
+        "completion_tokens": 71,
+        "total_tokens": 165
+    },
+    {
+        "input": "Can you give me the patient's System_Information information?",
+        "ground_truth": {
+            "Data_Type": "System_Information",
+            "Request_Type": "Data_Access",
+            "Details": "NULL",
+            "Inclusions": "NULL",
+            "Exclusions": "NULL"
+        },
+        "predicted_entities": {
+            "Data_Type": "System_Information",
+            "Request_Type": "Specific",
+            "Details": "Patient's system information",
+            "Inclusions": [
+                "Hardware details",
+                "Operating system information",
+                "Installed software list"
+            ],
+            "Exclusions": [
+                "Sensitive personal data",
+                "Network configuration details"
+            ]
+        },
+        "precision": {
+            "Details": 0.0,
+            "Exclusions": 0.0,
+            "Request_Type": 0.3333333333333333,
+            "Inclusions": 0.0,
+            "Data_Type": 1.0
+        },
+        "recall": {
+            "Details": 0.0,
+            "Exclusions": 0.0,
+            "Request_Type": 0.25,
+            "Inclusions": 0.0,
+            "Data_Type": 1.0
+        },
+        "f1_score": {
+            "Details": 0.0,
+            "Exclusions": 0.0,
+            "Request_Type": 0.28571428571428575,
+            "Inclusions": 0.0,
+            "Data_Type": 1.0
+        },
+        "span_accuracy": {
+            "Details": 0.0,
+            "Exclusions": 0.0,
+            "Request_Type": 0.0,
+            "Inclusions": 0.0,
+            "Data_Type": 1.0
+        },
+        "latency": 1.0917372000000007,
+        "prompt_tokens": 96,
+        "completion_tokens": 76,
+        "total_tokens": 172
+    },
+    {
+        "input": "Can you give me the patient's System_Information information?",
+        "ground_truth": {
+            "Data_Type": "System_Information",
+            "Request_Type": "Data_Access",
+            "Details": "NULL",
+            "Inclusions": "NULL",
+            "Exclusions": "NULL"
+        },
+        "predicted_entities": {
+            "Data_Type": "System_Information",
+            "Request_Type": "Specific_Request",
+            "Details": "Patient's system information",
+            "Inclusions": [
+                "Operating system details",
+                "Hardware specifications",
+                "Software versions",
+                "Network configurations"
+            ],
+            "Exclusions": [
+                "Personal identification information",
+                "Medical records or sensitive data"
+            ]
+        },
+        "precision": {
+            "Details": 0.0,
+            "Exclusions": 0.0,
+            "Request_Type": 0.4166666666666667,
+            "Inclusions": 0.0,
+            "Data_Type": 1.0
+        },
+        "recall": {
+            "Details": 0.0,
+            "Exclusions": 0.0,
+            "Request_Type": 0.625,
+            "Inclusions": 0.0,
+            "Data_Type": 1.0
+        },
+        "f1_score": {
+            "Details": 0.0,
+            "Exclusions": 0.0,
+            "Request_Type": 0.5,
+            "Inclusions": 0.0,
+            "Data_Type": 1.0
+        },
+        "span_accuracy": {
+            "Details": 0.0,
+            "Exclusions": 0.0,
+            "Request_Type": 0.0,
+            "Inclusions": 0.0,
+            "Data_Type": 1.0
+        },
+        "latency": 1.0764589000000004,
+        "prompt_tokens": 96,
+        "completion_tokens": 83,
+        "total_tokens": 179
+    },
+    {
+        "input": "Please provide access to the patient's System_Information data.",
+        "ground_truth": {
+            "Data_Type": "System_Information",
+            "Request_Type": "Data_Access",
+            "Details": "NULL",
+            "Inclusions": "NULL",
+            "Exclusions": "NULL"
+        },
+        "predicted_entities": {
+            "Data_Type": "System_Information",
+            "Request_Type": "Access",
+            "Details": "Provide access to the patient's system information data.",
+            "Inclusions": [
+                "System_Information"
+            ],
+            "Exclusions": [
+                "Personal_Information",
+                "Medical_Records"
+            ]
+        },
+        "precision": {
+            "Details": 0.0,
+            "Exclusions": 0.0,
+            "Request_Type": 1.0,
+            "Inclusions": 0.0,
+            "Data_Type": 1.0
+        },
+        "recall": {
+            "Details": 0.0,
+            "Exclusions": 0.0,
+            "Request_Type": 0.5,
+            "Inclusions": 0.0,
+            "Data_Type": 1.0
+        },
+        "f1_score": {
+            "Details": 0.0,
+            "Exclusions": 0.0,
+            "Request_Type": 0.6666666666666666,
+            "Inclusions": 0.0,
+            "Data_Type": 1.0
+        },
+        "span_accuracy": {
+            "Details": 0.0,
+            "Exclusions": 0.0,
+            "Request_Type": 0.0,
+            "Inclusions": 0.0,
+            "Data_Type": 1.0
+        },
+        "latency": 1.1351579000000012,
+        "prompt_tokens": 96,
+        "completion_tokens": 61,
+        "total_tokens": 157
+    },
+    {
+        "input": "I need to access the Steps data of the patient.",
+        "ground_truth": {
+            "Data_Type": "Steps",
+            "Request_Type": "Data_Access",
+            "Details": "NULL",
+            "Inclusions": "NULL",
+            "Exclusions": "NULL"
+        },
+        "predicted_entities": {
+            "Data_Type": "Steps data",
+            "Request_Type": "Access",
+            "Details": "Retrieve the Steps data of the patient for analysis and monitoring.",
+            "Inclusions": [
+                "Steps data of the patient"
+            ],
+            "Exclusions": []
+        },
+        "precision": {
+            "Details": 0.0,
+            "Exclusions": 0.0,
+            "Request_Type": 1.0,
+            "Inclusions": 0.0,
+            "Data_Type": 0.625
+        },
+        "recall": {
+            "Details": 0.0,
+            "Exclusions": 0.0,
+            "Request_Type": 0.5,
+            "Inclusions": 0.0,
+            "Data_Type": 1.0
+        },
+        "f1_score": {
+            "Details": 0.0,
+            "Exclusions": 0.0,
+            "Request_Type": 0.6666666666666666,
+            "Inclusions": 0.0,
+            "Data_Type": 0.7692307692307693
+        },
+        "span_accuracy": {
+            "Details": 0.0,
+            "Exclusions": 0.0,
+            "Request_Type": 0.0,
+            "Inclusions": 0.0,
+            "Data_Type": 0.0
+        },
+        "latency": 0.8646968000000008,
+        "prompt_tokens": 95,
+        "completion_tokens": 55,
+        "total_tokens": 150
+    },
+    {
+        "input": "I need the patient's Heart_Rate data for review.",
+        "ground_truth": {
+            "Data_Type": "Heart_Rate",
+            "Request_Type": "Data_Access",
+            "Details": "NULL",
+            "Inclusions": "NULL",
+            "Exclusions": "NULL"
+        },
+        "predicted_entities": {
+            "Data_Type": "Heart_Rate",
+            "Request_Type": "Review",
+            "Details": "Please provide the patient's heart rate data for review.",
+            "Inclusions": [
+                "Heart_Rate data"
+            ],
+            "Exclusions": [
+                "Other medical data unrelated to heart rate"
+            ]
+        },
+        "precision": {
+            "Details": 0.0,
+            "Exclusions": 0.0,
+            "Request_Type": 0.2,
+            "Inclusions": 0.0,
+            "Data_Type": 1.0
+        },
+        "recall": {
+            "Details": 0.0,
+            "Exclusions": 0.0,
+            "Request_Type": 0.125,
+            "Inclusions": 0.0,
+            "Data_Type": 1.0
+        },
+        "f1_score": {
+            "Details": 0.0,
+            "Exclusions": 0.0,
+            "Request_Type": 0.15384615384615385,
+            "Inclusions": 0.0,
+            "Data_Type": 1.0
+        },
+        "span_accuracy": {
+            "Details": 0.0,
+            "Exclusions": 0.0,
+            "Request_Type": 0.0,
+            "Inclusions": 0.0,
+            "Data_Type": 1.0
+        },
+        "latency": 1.3481477999999996,
+        "prompt_tokens": 96,
+        "completion_tokens": 62,
+        "total_tokens": 158
+    },
+    {
+        "input": "Please provide access to the patient's System_Information data.",
+        "ground_truth": {
+            "Data_Type": "System_Information",
+            "Request_Type": "Data_Access",
+            "Details": "NULL",
+            "Inclusions": "NULL",
+            "Exclusions": "NULL"
+        },
+        "predicted_entities": {
+            "Data_Type": "System_Information",
+            "Request_Type": "Access",
+            "Details": "Access requested for the patient's System Information data.",
+            "Inclusions": [
+                "Hardware specifications",
+                "Operating system details",
+                "Network configurations"
+            ],
+            "Exclusions": [
+                "Sensitive personal information",
+                "Financial data"
+            ]
+        },
+        "precision": {
+            "Details": 0.0,
+            "Exclusions": 0.0,
+            "Request_Type": 1.0,
+            "Inclusions": 0.0,
+            "Data_Type": 1.0
+        },
+        "recall": {
+            "Details": 0.0,
+            "Exclusions": 0.0,
+            "Request_Type": 0.5,
+            "Inclusions": 0.0,
+            "Data_Type": 1.0
+        },
+        "f1_score": {
+            "Details": 0.0,
+            "Exclusions": 0.0,
+            "Request_Type": 0.6666666666666666,
+            "Inclusions": 0.0,
+            "Data_Type": 1.0
+        },
+        "span_accuracy": {
+            "Details": 0.0,
+            "Exclusions": 0.0,
+            "Request_Type": 0.0,
+            "Inclusions": 0.0,
+            "Data_Type": 1.0
+        },
+        "latency": 1.0723821000000022,
+        "prompt_tokens": 96,
+        "completion_tokens": 68,
+        "total_tokens": 164
+    },
+    {
+        "input": "Please provide access to the patient's Heart_Rate data.",
+        "ground_truth": {
+            "Data_Type": "Heart_Rate",
+            "Request_Type": "Data_Access",
+            "Details": "NULL",
+            "Inclusions": "NULL",
+            "Exclusions": "NULL"
+        },
+        "predicted_entities": {
+            "Data_Type": "Health Data",
+            "Request_Type": "Access Request",
+            "Details": "Access to the patient's Heart_Rate data is requested.",
+            "Inclusions": [
+                "Heart_Rate data"
+            ],
+            "Exclusions": []
+        },
+        "precision": {
+            "Details": 0.0,
+            "Exclusions": 0.0,
+            "Request_Type": 0.5555555555555556,
+            "Inclusions": 0.0,
+            "Data_Type": 0.5
+        },
+        "recall": {
+            "Details": 0.0,
+            "Exclusions": 0.0,
+            "Request_Type": 0.625,
+            "Inclusions": 0.0,
+            "Data_Type": 0.5714285714285714
+        },
+        "f1_score": {
+            "Details": 0.0,
+            "Exclusions": 0.0,
+            "Request_Type": 0.5882352941176471,
+            "Inclusions": 0.0,
+            "Data_Type": 0.5333333333333333
+        },
+        "span_accuracy": {
+            "Details": 0.0,
+            "Exclusions": 0.0,
+            "Request_Type": 0.0,
+            "Inclusions": 0.0,
+            "Data_Type": 0.0
+        },
+        "latency": 0.8747332000000014,
+        "prompt_tokens": 96,
+        "completion_tokens": 55,
+        "total_tokens": 151
+    },
+    {
+        "input": "I need to access the Heart_Rate data of the patient.",
+        "ground_truth": {
+            "Data_Type": "Heart_Rate",
+            "Request_Type": "Data_Access",
+            "Details": "NULL",
+            "Inclusions": "NULL",
+            "Exclusions": "NULL"
+        },
+        "predicted_entities": {
+            "Data_Type": "Heart_Rate",
+            "Request_Type": "Access",
+            "Details": "Accessing the heart rate data of the patient for monitoring purposes.",
+            "Inclusions": [
+                "Patient's heart rate data"
+            ],
+            "Exclusions": [
+                "Other health data not related to heart rate"
+            ]
+        },
+        "precision": {
+            "Details": 0.0,
+            "Exclusions": 0.0,
+            "Request_Type": 1.0,
+            "Inclusions": 0.0,
+            "Data_Type": 1.0
+        },
+        "recall": {
+            "Details": 0.0,
+            "Exclusions": 0.0,
+            "Request_Type": 0.5,
+            "Inclusions": 0.0,
+            "Data_Type": 1.0
+        },
+        "f1_score": {
+            "Details": 0.0,
+            "Exclusions": 0.0,
+            "Request_Type": 0.6666666666666666,
+            "Inclusions": 0.0,
+            "Data_Type": 1.0
+        },
+        "span_accuracy": {
+            "Details": 0.0,
+            "Exclusions": 0.0,
+            "Request_Type": 0.0,
+            "Inclusions": 0.0,
+            "Data_Type": 1.0
+        },
+        "latency": 1.0154458999999996,
+        "prompt_tokens": 97,
+        "completion_tokens": 66,
+        "total_tokens": 163
+    },
+    {
+        "input": "I need the patient's Heart_Rate data for review.",
+        "ground_truth": {
+            "Data_Type": "Heart_Rate",
+            "Request_Type": "Data_Access",
+            "Details": "NULL",
+            "Inclusions": "NULL",
+            "Exclusions": "NULL"
+        },
+        "predicted_entities": {
+            "Data_Type": "Heart_Rate",
+            "Request_Type": "Review",
+            "Details": "Patient's Heart Rate data for review",
+            "Inclusions": [
+                "Patient ID",
+                "Heart Rate readings",
+                "Date and Time stamps"
+            ],
+            "Exclusions": [
+                "Other medical data unrelated to Heart Rate"
+            ]
+        },
+        "precision": {
+            "Details": 0.0,
+            "Exclusions": 0.0,
+            "Request_Type": 0.2,
+            "Inclusions": 0.0,
+            "Data_Type": 1.0
+        },
+        "recall": {
+            "Details": 0.0,
+            "Exclusions": 0.0,
+            "Request_Type": 0.125,
+            "Inclusions": 0.0,
+            "Data_Type": 1.0
+        },
+        "f1_score": {
+            "Details": 0.0,
+            "Exclusions": 0.0,
+            "Request_Type": 0.15384615384615385,
+            "Inclusions": 0.0,
+            "Data_Type": 1.0
+        },
+        "span_accuracy": {
+            "Details": 0.0,
+            "Exclusions": 0.0,
+            "Request_Type": 0.0,
+            "Inclusions": 0.0,
+            "Data_Type": 1.0
+        },
+        "latency": 1.0387318999999984,
+        "prompt_tokens": 96,
+        "completion_tokens": 68,
+        "total_tokens": 164
+    },
+    {
+        "input": "I need the patient's Heart_Rate data for review.",
+        "ground_truth": {
+            "Data_Type": "Heart_Rate",
+            "Request_Type": "Data_Access",
+            "Details": "NULL",
+            "Inclusions": "NULL",
+            "Exclusions": "NULL"
+        },
+        "predicted_entities": {
+            "Data_Type": "Heart_Rate",
+            "Request_Type": "Review",
+            "Details": "Patient's heart rate data for review",
+            "Inclusions": [
+                "Heart rate measurements",
+                "Timestamps",
+                "Any relevant notes or comments"
+            ],
+            "Exclusions": [
+                "Other patient health data not related to heart rate"
+            ]
+        },
+        "precision": {
+            "Details": 0.0,
+            "Exclusions": 0.0,
+            "Request_Type": 0.2,
+            "Inclusions": 0.0,
+            "Data_Type": 1.0
+        },
+        "recall": {
+            "Details": 0.0,
+            "Exclusions": 0.0,
+            "Request_Type": 0.125,
+            "Inclusions": 0.0,
+            "Data_Type": 1.0
+        },
+        "f1_score": {
+            "Details": 0.0,
+            "Exclusions": 0.0,
+            "Request_Type": 0.15384615384615385,
+            "Inclusions": 0.0,
+            "Data_Type": 1.0
+        },
+        "span_accuracy": {
+            "Details": 0.0,
+            "Exclusions": 0.0,
+            "Request_Type": 0.0,
+            "Inclusions": 0.0,
+            "Data_Type": 1.0
+        },
+        "latency": 0.9968119999999985,
+        "prompt_tokens": 96,
+        "completion_tokens": 71,
+        "total_tokens": 167
+    },
+    {
+        "input": "I want to see the Steps data for the patient.",
+        "ground_truth": {
+            "Data_Type": "Steps",
+            "Request_Type": "Data_Access",
+            "Details": "NULL",
+            "Inclusions": "NULL",
+            "Exclusions": "NULL"
+        },
+        "predicted_entities": {
+            "Data_Type": "Steps Data",
+            "Request_Type": "Patient Data Request",
+            "Details": "Retrieve Steps data for the patient",
+            "Inclusions": [
+                "Patient ID",
+                "Date",
+                "Number of Steps",
+                "Time Duration"
+            ],
+            "Exclusions": [
+                "Heart Rate Data",
+                "Calories Burned"
+            ]
+        },
+        "precision": {
+            "Details": 0.0,
+            "Exclusions": 0.0,
+            "Request_Type": 0.4166666666666667,
+            "Inclusions": 0.0,
+            "Data_Type": 0.625
+        },
+        "recall": {
+            "Details": 0.0,
+            "Exclusions": 0.0,
+            "Request_Type": 0.625,
+            "Inclusions": 0.0,
+            "Data_Type": 1.0
+        },
+        "f1_score": {
+            "Details": 0.0,
+            "Exclusions": 0.0,
+            "Request_Type": 0.5,
+            "Inclusions": 0.0,
+            "Data_Type": 0.7692307692307693
+        },
+        "span_accuracy": {
+            "Details": 0.0,
+            "Exclusions": 0.0,
+            "Request_Type": 0.0,
+            "Inclusions": 0.0,
+            "Data_Type": 0.0
+        },
+        "latency": 1.1463229000000013,
+        "prompt_tokens": 95,
+        "completion_tokens": 70,
+        "total_tokens": 165
+    },
+    {
+        "input": "Please provide access to the patient's Heart_Rate data.",
+        "ground_truth": {
+            "Data_Type": "Heart_Rate",
+            "Request_Type": "Data_Access",
+            "Details": "NULL",
+            "Inclusions": "NULL",
+            "Exclusions": "NULL"
+        },
+        "predicted_entities": {
+            "Data_Type": "Heart_Rate",
+            "Request_Type": "Access",
+            "Details": "Retrieve the patient's heart rate data",
+            "Inclusions": [
+                "Patient identifier"
+            ],
+            "Exclusions": [
+                "Sensitive personal information"
+            ]
+        },
+        "precision": {
+            "Details": 0.0,
+            "Exclusions": 0.0,
+            "Request_Type": 1.0,
+            "Inclusions": 0.0,
+            "Data_Type": 1.0
+        },
+        "recall": {
+            "Details": 0.0,
+            "Exclusions": 0.0,
+            "Request_Type": 0.5,
+            "Inclusions": 0.0,
+            "Data_Type": 1.0
+        },
+        "f1_score": {
+            "Details": 0.0,
+            "Exclusions": 0.0,
+            "Request_Type": 0.6666666666666666,
+            "Inclusions": 0.0,
+            "Data_Type": 1.0
+        },
+        "span_accuracy": {
+            "Details": 0.0,
+            "Exclusions": 0.0,
+            "Request_Type": 0.0,
+            "Inclusions": 0.0,
+            "Data_Type": 1.0
+        },
+        "latency": 0.8710392999999996,
+        "prompt_tokens": 96,
+        "completion_tokens": 53,
+        "total_tokens": 149
+    },
+    {
+        "input": "Please provide access to the patient's Steps data.",
+        "ground_truth": {
+            "Data_Type": "Steps",
+            "Request_Type": "Data_Access",
+            "Details": "NULL",
+            "Inclusions": "NULL",
+            "Exclusions": "NULL"
+        },
+        "predicted_entities": {
+            "Data_Type": "Health Data",
+            "Request_Type": "Access Request",
+            "Details": "Access to the patient's Steps data has been requested.",
+            "Inclusions": [
+                "Steps data",
+                "Patient's health information"
+            ],
+            "Exclusions": [
+                "Sensitive personal details not related to Steps data",
+                "Non-health related data"
+            ]
+        },
+        "precision": {
+            "Details": 0.0,
+            "Exclusions": 0.0,
+            "Request_Type": 0.5555555555555556,
+            "Inclusions": 0.0,
+            "Data_Type": 0.25
+        },
+        "recall": {
+            "Details": 0.0,
+            "Exclusions": 0.0,
+            "Request_Type": 0.625,
+            "Inclusions": 0.0,
+            "Data_Type": 0.4
+        },
+        "f1_score": {
+            "Details": 0.0,
+            "Exclusions": 0.0,
+            "Request_Type": 0.5882352941176471,
+            "Inclusions": 0.0,
+            "Data_Type": 0.3076923076923077
+        },
+        "span_accuracy": {
+            "Details": 0.0,
+            "Exclusions": 0.0,
+            "Request_Type": 0.0,
+            "Inclusions": 0.0,
+            "Data_Type": 0.0
+        },
+        "latency": 1.1130532999999971,
+        "prompt_tokens": 94,
+        "completion_tokens": 83,
+        "total_tokens": 177
+    },
+    {
+        "input": "I need the patient's Heart_Rate data for review.",
+        "ground_truth": {
+            "Data_Type": "Heart_Rate",
+            "Request_Type": "Data_Access",
+            "Details": "NULL",
+            "Inclusions": "NULL",
+            "Exclusions": "NULL"
+        },
+        "predicted_entities": {
+            "Data_Type": "Health data",
+            "Request_Type": "Data retrieval",
+            "Details": "Heart rate data",
+            "Inclusions": [
+                "Heart rate measurements",
+                "Patient ID or name"
+            ],
+            "Exclusions": [
+                "Other health parameters"
+            ]
+        },
+        "precision": {
+            "Details": 0.0,
+            "Exclusions": 0.0,
+            "Request_Type": 0.4444444444444444,
+            "Inclusions": 0.0,
+            "Data_Type": 0.5
+        },
+        "recall": {
+            "Details": 0.0,
+            "Exclusions": 0.0,
+            "Request_Type": 0.5,
+            "Inclusions": 0.0,
+            "Data_Type": 0.5714285714285714
+        },
+        "f1_score": {
+            "Details": 0.0,
+            "Exclusions": 0.0,
+            "Request_Type": 0.47058823529411764,
+            "Inclusions": 0.0,
+            "Data_Type": 0.5333333333333333
+        },
+        "span_accuracy": {
+            "Details": 0.0,
+            "Exclusions": 0.0,
+            "Request_Type": 0.0,
+            "Inclusions": 0.0,
+            "Data_Type": 0.0
+        },
+        "latency": 1.0206944,
+        "prompt_tokens": 96,
+        "completion_tokens": 56,
+        "total_tokens": 152
+    },
+    {
+        "input": "I want to see the Heart_Rate data for the patient.",
+        "ground_truth": {
+            "Data_Type": "Heart_Rate",
+            "Request_Type": "Data_Access",
+            "Details": "NULL",
+            "Inclusions": "NULL",
+            "Exclusions": "NULL"
+        },
+        "predicted_entities": {
+            "Data_Type": "Heart_Rate",
+            "Request_Type": "View",
+            "Details": "Showing the Heart Rate data for the patient",
+            "Inclusions": [
+                "Timestamp",
+                "Heart_Rate_Value"
+            ],
+            "Exclusions": [
+                "Personal Identifiable Information"
+            ]
+        },
+        "precision": {
+            "Details": 0.0,
+            "Exclusions": 0.0,
+            "Request_Type": 0.25,
+            "Inclusions": 0.0,
+            "Data_Type": 1.0
+        },
+        "recall": {
+            "Details": 0.0,
+            "Exclusions": 0.0,
+            "Request_Type": 0.125,
+            "Inclusions": 0.0,
+            "Data_Type": 1.0
+        },
+        "f1_score": {
+            "Details": 0.0,
+            "Exclusions": 0.0,
+            "Request_Type": 0.16666666666666666,
+            "Inclusions": 0.0,
+            "Data_Type": 1.0
+        },
+        "span_accuracy": {
+            "Details": 0.0,
+            "Exclusions": 0.0,
+            "Request_Type": 0.0,
+            "Inclusions": 0.0,
+            "Data_Type": 1.0
+        },
+        "latency": 1.0648099000000002,
+        "prompt_tokens": 97,
+        "completion_tokens": 69,
+        "total_tokens": 166
+    },
+    {
+        "input": "Please provide access to the patient's Heart_Rate data.",
+        "ground_truth": {
+            "Data_Type": "Heart_Rate",
+            "Request_Type": "Data_Access",
+            "Details": "NULL",
+            "Inclusions": "NULL",
+            "Exclusions": "NULL"
+        },
+        "predicted_entities": {
+            "Data_Type": "Heart_Rate",
+            "Request_Type": "Access",
+            "Details": "Access requested for patient's Heart_Rate data.",
+            "Inclusions": [
+                "Heart_Rate data"
+            ],
+            "Exclusions": []
+        },
+        "precision": {
+            "Details": 0.0,
+            "Exclusions": 0.0,
+            "Request_Type": 1.0,
+            "Inclusions": 0.0,
+            "Data_Type": 1.0
+        },
+        "recall": {
+            "Details": 0.0,
+            "Exclusions": 0.0,
+            "Request_Type": 0.5,
+            "Inclusions": 0.0,
+            "Data_Type": 1.0
+        },
+        "f1_score": {
+            "Details": 0.0,
+            "Exclusions": 0.0,
+            "Request_Type": 0.6666666666666666,
+            "Inclusions": 0.0,
+            "Data_Type": 1.0
+        },
+        "span_accuracy": {
+            "Details": 0.0,
+            "Exclusions": 0.0,
+            "Request_Type": 0.0,
+            "Inclusions": 0.0,
+            "Data_Type": 1.0
+        },
+        "latency": 0.8579368000000009,
+        "prompt_tokens": 96,
+        "completion_tokens": 53,
+        "total_tokens": 149
+    },
+    {
+        "input": "I need to access the Steps data of the patient.",
+        "ground_truth": {
+            "Data_Type": "Steps",
+            "Request_Type": "Data_Access",
+            "Details": "NULL",
+            "Inclusions": "NULL",
+            "Exclusions": "NULL"
+        },
+        "predicted_entities": {
+            "Data_Type": "Steps data",
+            "Request_Type": "Access",
+            "Details": "Requesting access to the steps data of the patient.",
+            "Inclusions": [
+                "Steps data of the patient"
+            ],
+            "Exclusions": []
+        },
+        "precision": {
+            "Details": 0.0,
+            "Exclusions": 0.0,
+            "Request_Type": 1.0,
+            "Inclusions": 0.0,
+            "Data_Type": 0.625
+        },
+        "recall": {
+            "Details": 0.0,
+            "Exclusions": 0.0,
+            "Request_Type": 0.5,
+            "Inclusions": 0.0,
+            "Data_Type": 1.0
+        },
+        "f1_score": {
+            "Details": 0.0,
+            "Exclusions": 0.0,
+            "Request_Type": 0.6666666666666666,
+            "Inclusions": 0.0,
+            "Data_Type": 0.7692307692307693
+        },
+        "span_accuracy": {
+            "Details": 0.0,
+            "Exclusions": 0.0,
+            "Request_Type": 0.0,
+            "Inclusions": 0.0,
+            "Data_Type": 0.0
+        },
+        "latency": 0.9626213999999997,
+        "prompt_tokens": 95,
+        "completion_tokens": 54,
+        "total_tokens": 149
+    },
+    {
+        "input": "I need the patient's Heart_Rate data for review.",
+        "ground_truth": {
+            "Data_Type": "Heart_Rate",
+            "Request_Type": "Data_Access",
+            "Details": "NULL",
+            "Inclusions": "NULL",
+            "Exclusions": "NULL"
+        },
+        "predicted_entities": {
+            "Data_Type": "Heart_Rate",
+            "Request_Type": "Review",
+            "Details": "Please provide the patient's heart rate data for review.",
+            "Inclusions": "Heart rate readings",
+            "Exclusions": "Other irrelevant data"
+        },
+        "precision": {
+            "Details": 0.0,
+            "Exclusions": 0.0,
+            "Request_Type": 0.2,
+            "Inclusions": 0.0,
+            "Data_Type": 1.0
+        },
+        "recall": {
+            "Details": 0.0,
+            "Exclusions": 0.0,
+            "Request_Type": 0.125,
+            "Inclusions": 0.0,
+            "Data_Type": 1.0
+        },
+        "f1_score": {
+            "Details": 0.0,
+            "Exclusions": 0.0,
+            "Request_Type": 0.15384615384615385,
+            "Inclusions": 0.0,
+            "Data_Type": 1.0
+        },
+        "span_accuracy": {
+            "Details": 0.0,
+            "Exclusions": 0.0,
+            "Request_Type": 0.0,
+            "Inclusions": 0.0,
+            "Data_Type": 1.0
+        },
+        "latency": 0.9252921000000001,
+        "prompt_tokens": 96,
+        "completion_tokens": 57,
+        "total_tokens": 153
+    },
+    {
+        "input": "Can you give me the patient's Heart_Rate information?",
+        "ground_truth": {
+            "Data_Type": "Heart_Rate",
+            "Request_Type": "Data_Access",
+            "Details": "NULL",
+            "Inclusions": "NULL",
+            "Exclusions": "NULL"
+        },
+        "predicted_entities": {
+            "Data_Type": "Medical",
+            "Request_Type": "Patient Information",
+            "Details": {
+                "Patient_ID": "ABC123",
+                "Data_Requested": "Heart Rate"
+            },
+            "Inclusions": [
+                "Heart_Rate"
+            ],
+            "Exclusions": [
+                "Personal Identifiable Information"
+            ]
+        },
+        "precision": {
+            "Details": 0.0,
+            "Exclusions": 0.0,
+            "Request_Type": 0.25,
+            "Inclusions": 0.0,
+            "Data_Type": 0.2857142857142857
+        },
+        "recall": {
+            "Details": 0.0,
+            "Exclusions": 0.0,
+            "Request_Type": 0.375,
+            "Inclusions": 0.0,
+            "Data_Type": 0.2857142857142857
+        },
+        "f1_score": {
+            "Details": 0.0,
+            "Exclusions": 0.0,
+            "Request_Type": 0.3,
+            "Inclusions": 0.0,
+            "Data_Type": 0.2857142857142857
+        },
+        "span_accuracy": {
+            "Details": 0.0,
+            "Exclusions": 0.0,
+            "Request_Type": 0.0,
+            "Inclusions": 0.0,
+            "Data_Type": 0.0
+        },
+        "latency": 1.0211205999999997,
+        "prompt_tokens": 96,
+        "completion_tokens": 67,
+        "total_tokens": 163
+    },
+    {
+        "input": "I want to see the Steps data for the patient.",
+        "ground_truth": {
+            "Data_Type": "Steps",
+            "Request_Type": "Data_Access",
+            "Details": "NULL",
+            "Inclusions": "NULL",
+            "Exclusions": "NULL"
+        },
+        "predicted_entities": {
+            "Data_Type": "Steps data",
+            "Request_Type": "View",
+            "Details": "Accessing steps data for the patient",
+            "Inclusions": [
+                "Patient ID",
+                "Date range",
+                "Number of steps taken",
+                "Activity details"
+            ],
+            "Exclusions": [
+                "Heart rate data",
+                "Calories burned data",
+                "Sleep data"
+            ]
+        },
+        "precision": {
+            "Details": 0.0,
+            "Exclusions": 0.0,
+            "Request_Type": 0.25,
+            "Inclusions": 0.0,
+            "Data_Type": 0.625
+        },
+        "recall": {
+            "Details": 0.0,
+            "Exclusions": 0.0,
+            "Request_Type": 0.125,
+            "Inclusions": 0.0,
+            "Data_Type": 1.0
+        },
+        "f1_score": {
+            "Details": 0.0,
+            "Exclusions": 0.0,
+            "Request_Type": 0.16666666666666666,
+            "Inclusions": 0.0,
+            "Data_Type": 0.7692307692307693
+        },
+        "span_accuracy": {
+            "Details": 0.0,
+            "Exclusions": 0.0,
+            "Request_Type": 0.0,
+            "Inclusions": 0.0,
+            "Data_Type": 0.0
+        },
+        "latency": 1.4065416999999982,
+        "prompt_tokens": 95,
+        "completion_tokens": 89,
+        "total_tokens": 184
+    },
+    {
+        "input": "I want to see the Steps data for the patient.",
+        "ground_truth": {
+            "Data_Type": "Steps",
+            "Request_Type": "Data_Access",
+            "Details": "NULL",
+            "Inclusions": "NULL",
+            "Exclusions": "NULL"
+        },
+        "predicted_entities": {
+            "Data_Type": "Steps data",
+            "Request_Type": "Retrieve",
+            "Details": "Patient's steps data",
+            "Inclusions": [
+                "Step count",
+                "Distance walked",
+                "Active minutes"
+            ],
+            "Exclusions": [
+                "Heart rate data",
+                "Calories burned"
+            ]
+        },
+        "precision": {
+            "Details": 0.0,
+            "Exclusions": 0.0,
+            "Request_Type": 0.3333333333333333,
+            "Inclusions": 0.0,
+            "Data_Type": 0.625
+        },
+        "recall": {
+            "Details": 0.0,
+            "Exclusions": 0.0,
+            "Request_Type": 0.25,
+            "Inclusions": 0.0,
+            "Data_Type": 1.0
+        },
+        "f1_score": {
+            "Details": 0.0,
+            "Exclusions": 0.0,
+            "Request_Type": 0.28571428571428575,
+            "Inclusions": 0.0,
+            "Data_Type": 0.7692307692307693
+        },
+        "span_accuracy": {
+            "Details": 0.0,
+            "Exclusions": 0.0,
+            "Request_Type": 0.0,
+            "Inclusions": 0.0,
+            "Data_Type": 0.0
+        },
+        "latency": 0.8380774000000031,
+        "prompt_tokens": 95,
+        "completion_tokens": 62,
+        "total_tokens": 157
+    },
+    {
+        "input": "I need the patient's Steps data for review.",
+        "ground_truth": {
+            "Data_Type": "Steps",
+            "Request_Type": "Data_Access",
+            "Details": "NULL",
+            "Inclusions": "NULL",
+            "Exclusions": "NULL"
+        },
+        "predicted_entities": {
+            "Data_Type": "Health Data",
+            "Request_Type": "Review Request",
+            "Details": "The patient's Steps data",
+            "Inclusions": [
+                "Steps data"
+            ],
+            "Exclusions": [
+                "Personal identifying information"
+            ]
+        },
+        "precision": {
+            "Details": 0.0,
+            "Exclusions": 0.0,
+            "Request_Type": 0.3,
+            "Inclusions": 0.0,
+            "Data_Type": 0.25
+        },
+        "recall": {
+            "Details": 0.0,
+            "Exclusions": 0.0,
+            "Request_Type": 0.375,
+            "Inclusions": 0.0,
+            "Data_Type": 0.4
+        },
+        "f1_score": {
+            "Details": 0.0,
+            "Exclusions": 0.0,
+            "Request_Type": 0.33333333333333326,
+            "Inclusions": 0.0,
+            "Data_Type": 0.3076923076923077
+        },
+        "span_accuracy": {
+            "Details": 0.0,
+            "Exclusions": 0.0,
+            "Request_Type": 0.0,
+            "Inclusions": 0.0,
+            "Data_Type": 0.0
+        },
+        "latency": 1.5606634000000028,
+        "prompt_tokens": 94,
+        "completion_tokens": 51,
+        "total_tokens": 145
+    },
+    {
+        "input": "Can you give me the patient's Steps information?",
+        "ground_truth": {
+            "Data_Type": "Steps",
+            "Request_Type": "Data_Access",
+            "Details": "NULL",
+            "Inclusions": "NULL",
+            "Exclusions": "NULL"
+        },
+        "predicted_entities": {
+            "Data_Type": "Health Data",
+            "Request_Type": "Patient Information",
+            "Details": "Steps information",
+            "Inclusions": [
+                "Daily step count",
+                "Step goal",
+                "Step tracking history"
+            ],
+            "Exclusions": [
+                "Personal identification details",
+                "Health condition specifics"
+            ]
+        },
+        "precision": {
+            "Details": 0.0,
+            "Exclusions": 0.0,
+            "Request_Type": 0.25,
+            "Inclusions": 0.0,
+            "Data_Type": 0.25
+        },
+        "recall": {
+            "Details": 0.0,
+            "Exclusions": 0.0,
+            "Request_Type": 0.375,
+            "Inclusions": 0.0,
+            "Data_Type": 0.4
+        },
+        "f1_score": {
+            "Details": 0.0,
+            "Exclusions": 0.0,
+            "Request_Type": 0.3,
+            "Inclusions": 0.0,
+            "Data_Type": 0.3076923076923077
+        },
+        "span_accuracy": {
+            "Details": 0.0,
+            "Exclusions": 0.0,
+            "Request_Type": 0.0,
+            "Inclusions": 0.0,
+            "Data_Type": 0.0
+        },
+        "latency": 1.0902421999999987,
+        "prompt_tokens": 94,
+        "completion_tokens": 74,
+        "total_tokens": 168
+    },
+    {
+        "input": "I want to see the System_Information data for the patient.",
+        "ground_truth": {
+            "Data_Type": "System_Information",
+            "Request_Type": "Data_Access",
+            "Details": "NULL",
+            "Inclusions": "NULL",
+            "Exclusions": "NULL"
+        },
+        "predicted_entities": {
+            "Data_Type": "System_Information",
+            "Request_Type": "View",
+            "Details": "Accessing system information for the patient",
+            "Inclusions": [
+                "Patient's basic demographics",
+                "Medical history",
+                "Current medications",
+                "Vital signs",
+                "Lab test results"
+            ],
+            "Exclusions": [
+                "Personal identifiers (e.g., social security number)",
+                "Sensitive medical information not relevant to the request"
+            ]
+        },
+        "precision": {
+            "Details": 0.0,
+            "Exclusions": 0.0,
+            "Request_Type": 0.25,
+            "Inclusions": 0.0,
+            "Data_Type": 1.0
+        },
+        "recall": {
+            "Details": 0.0,
+            "Exclusions": 0.0,
+            "Request_Type": 0.125,
+            "Inclusions": 0.0,
+            "Data_Type": 1.0
+        },
+        "f1_score": {
+            "Details": 0.0,
+            "Exclusions": 0.0,
+            "Request_Type": 0.16666666666666666,
+            "Inclusions": 0.0,
+            "Data_Type": 1.0
+        },
+        "span_accuracy": {
+            "Details": 0.0,
+            "Exclusions": 0.0,
+            "Request_Type": 0.0,
+            "Inclusions": 0.0,
+            "Data_Type": 1.0
+        },
+        "latency": 1.3458143000000007,
+        "prompt_tokens": 97,
+        "completion_tokens": 108,
+        "total_tokens": 205
+    },
+    {
+        "input": "I need to access the Heart_Rate data of the patient.",
+        "ground_truth": {
+            "Data_Type": "Heart_Rate",
+            "Request_Type": "Data_Access",
+            "Details": "NULL",
+            "Inclusions": "NULL",
+            "Exclusions": "NULL"
+        },
+        "predicted_entities": {
+            "Data_Type": "Heart_Rate",
+            "Request_Type": "Access",
+            "Details": "Accessing the heart rate data of the patient for monitoring and analysis.",
+            "Inclusions": [
+                "Real-time heart rate readings",
+                "Historical heart rate data",
+                "Patient's heart rate trends"
+            ],
+            "Exclusions": [
+                "Sensitive personal information not related to heart rate",
+                "Access to data of other vital signs without specific request"
+            ]
+        },
+        "precision": {
+            "Details": 0.0,
+            "Exclusions": 0.0,
+            "Request_Type": 1.0,
+            "Inclusions": 0.0,
+            "Data_Type": 1.0
+        },
+        "recall": {
+            "Details": 0.0,
+            "Exclusions": 0.0,
+            "Request_Type": 0.5,
+            "Inclusions": 0.0,
+            "Data_Type": 1.0
+        },
+        "f1_score": {
+            "Details": 0.0,
+            "Exclusions": 0.0,
+            "Request_Type": 0.6666666666666666,
+            "Inclusions": 0.0,
+            "Data_Type": 1.0
+        },
+        "span_accuracy": {
+            "Details": 0.0,
+            "Exclusions": 0.0,
+            "Request_Type": 0.0,
+            "Inclusions": 0.0,
+            "Data_Type": 1.0
+        },
+        "latency": 3.263927499999994,
+        "prompt_tokens": 97,
+        "completion_tokens": 104,
+        "total_tokens": 201
+    },
+    {
+        "input": "Can you give me the patient's System_Information information?",
+        "ground_truth": {
+            "Data_Type": "System_Information",
+            "Request_Type": "Data_Access",
+            "Details": "NULL",
+            "Inclusions": "NULL",
+            "Exclusions": "NULL"
+        },
+        "predicted_entities": {
+            "Data_Type": "System_Information",
+            "Request_Type": "Query",
+            "Details": "Retrieve patient's system information",
+            "Inclusions": [
+                "Operating System",
+                "Hardware Specifications",
+                "Network Configuration",
+                "Software Versions"
+            ],
+            "Exclusions": [
+                "Personal Identification Information",
+                "Medical Records",
+                "Financial Data"
+            ]
+        },
+        "precision": {
+            "Details": 0.0,
+            "Exclusions": 0.0,
+            "Request_Type": 0.2,
+            "Inclusions": 0.0,
+            "Data_Type": 1.0
+        },
+        "recall": {
+            "Details": 0.0,
+            "Exclusions": 0.0,
+            "Request_Type": 0.125,
+            "Inclusions": 0.0,
+            "Data_Type": 1.0
+        },
+        "f1_score": {
+            "Details": 0.0,
+            "Exclusions": 0.0,
+            "Request_Type": 0.15384615384615385,
+            "Inclusions": 0.0,
+            "Data_Type": 1.0
+        },
+        "span_accuracy": {
+            "Details": 0.0,
+            "Exclusions": 0.0,
+            "Request_Type": 0.0,
+            "Inclusions": 0.0,
+            "Data_Type": 1.0
+        },
+        "latency": 1.0164709999999957,
+        "prompt_tokens": 96,
+        "completion_tokens": 84,
+        "total_tokens": 180
+    },
+    {
+        "input": "Can you give me the patient's Heart_Rate information?",
+        "ground_truth": {
+            "Data_Type": "Heart_Rate",
+            "Request_Type": "Data_Access",
+            "Details": "NULL",
+            "Inclusions": "NULL",
+            "Exclusions": "NULL"
+        },
+        "predicted_entities": {
+            "Data_Type": "Health_Data",
+            "Request_Type": "Retrieve",
+            "Details": "Patient's Heart Rate Information",
+            "Inclusions": [
+                "Heart Rate",
+                "Timestamp"
+            ],
+            "Exclusions": [
+                "Personal Identifiable Information"
+            ]
+        },
+        "precision": {
+            "Details": 0.0,
+            "Exclusions": 0.0,
+            "Request_Type": 0.3333333333333333,
+            "Inclusions": 0.0,
+            "Data_Type": 0.625
+        },
+        "recall": {
+            "Details": 0.0,
+            "Exclusions": 0.0,
+            "Request_Type": 0.25,
+            "Inclusions": 0.0,
+            "Data_Type": 0.7142857142857143
+        },
+        "f1_score": {
+            "Details": 0.0,
+            "Exclusions": 0.0,
+            "Request_Type": 0.28571428571428575,
+            "Inclusions": 0.0,
+            "Data_Type": 0.6666666666666666
+        },
+        "span_accuracy": {
+            "Details": 0.0,
+            "Exclusions": 0.0,
+            "Request_Type": 0.0,
+            "Inclusions": 0.0,
+            "Data_Type": 0.0
+        },
+        "latency": 1.1607620999999995,
+        "prompt_tokens": 96,
+        "completion_tokens": 54,
+        "total_tokens": 150
+    },
+    {
+        "input": "Can you give me the patient's Heart_Rate information?",
+        "ground_truth": {
+            "Data_Type": "Heart_Rate",
+            "Request_Type": "Data_Access",
+            "Details": "NULL",
+            "Inclusions": "NULL",
+            "Exclusions": "NULL"
+        },
+        "predicted_entities": {
+            "Data_Type": "Vital_Sign",
+            "Request_Type": "Specific_Data",
+            "Details": "Heart Rate information for the patient",
+            "Inclusions": [
+                "Heart Rate value",
+                "Timestamp"
+            ],
+            "Exclusions": [
+                "Personal identification details",
+                "Irrelevant medical data"
+            ]
+        },
+        "precision": {
+            "Details": 0.0,
+            "Exclusions": 0.0,
+            "Request_Type": 0.6,
+            "Inclusions": 0.0,
+            "Data_Type": 0.3333333333333333
+        },
+        "recall": {
+            "Details": 0.0,
+            "Exclusions": 0.0,
+            "Request_Type": 0.75,
+            "Inclusions": 0.0,
+            "Data_Type": 0.42857142857142855
+        },
+        "f1_score": {
+            "Details": 0.0,
+            "Exclusions": 0.0,
+            "Request_Type": 0.6666666666666665,
+            "Inclusions": 0.0,
+            "Data_Type": 0.375
+        },
+        "span_accuracy": {
+            "Details": 0.0,
+            "Exclusions": 0.0,
+            "Request_Type": 0.0,
+            "Inclusions": 0.0,
+            "Data_Type": 0.0
+        },
+        "latency": 0.9729978999999958,
+        "prompt_tokens": 96,
+        "completion_tokens": 64,
+        "total_tokens": 160
+    },
+    {
+        "input": "I want to see the Steps data for the patient.",
+        "ground_truth": {
+            "Data_Type": "Steps",
+            "Request_Type": "Data_Access",
+            "Details": "NULL",
+            "Inclusions": "NULL",
+            "Exclusions": "NULL"
+        },
+        "predicted_entities": {
+            "Data_Type": "Steps",
+            "Request_Type": "Access",
+            "Details": "Retrieve Steps data for the patient",
+            "Inclusions": [
+                "Step count per day",
+                "Distance walked",
+                "Calories burned"
+            ],
+            "Exclusions": [
+                "Heart rate data",
+                "Sleep data"
+            ]
+        },
+        "precision": {
+            "Details": 0.0,
+            "Exclusions": 0.0,
+            "Request_Type": 1.0,
+            "Inclusions": 0.0,
+            "Data_Type": 1.0
+        },
+        "recall": {
+            "Details": 0.0,
+            "Exclusions": 0.0,
+            "Request_Type": 0.5,
+            "Inclusions": 0.0,
+            "Data_Type": 1.0
+        },
+        "f1_score": {
+            "Details": 0.0,
+            "Exclusions": 0.0,
+            "Request_Type": 0.6666666666666666,
+            "Inclusions": 0.0,
+            "Data_Type": 1.0
+        },
+        "span_accuracy": {
+            "Details": 0.0,
+            "Exclusions": 0.0,
+            "Request_Type": 0.0,
+            "Inclusions": 0.0,
+            "Data_Type": 1.0
+        },
+        "latency": 1.165477199999998,
+        "prompt_tokens": 95,
+        "completion_tokens": 80,
+        "total_tokens": 175
+    },
+    {
+        "input": "I need the patient's System_Information data for review.",
+        "ground_truth": {
+            "Data_Type": "System_Information",
+            "Request_Type": "Data_Access",
+            "Details": "NULL",
+            "Inclusions": "NULL",
+            "Exclusions": "NULL"
+        },
+        "predicted_entities": {
+            "Data_Type": "System_Information",
+            "Request_Type": "Review",
+            "Details": "Patient's system information data",
+            "Inclusions": [
+                "Operating system details",
+                "Hardware specifications",
+                "Installed software and versions",
+                "Network configuration"
+            ],
+            "Exclusions": [
+                "Sensitive personal information",
+                "Financial data",
+                "Medical records"
+            ]
+        },
+        "precision": {
+            "Details": 0.0,
+            "Exclusions": 0.0,
+            "Request_Type": 0.2,
+            "Inclusions": 0.0,
+            "Data_Type": 1.0
+        },
+        "recall": {
+            "Details": 0.0,
+            "Exclusions": 0.0,
+            "Request_Type": 0.125,
+            "Inclusions": 0.0,
+            "Data_Type": 1.0
+        },
+        "f1_score": {
+            "Details": 0.0,
+            "Exclusions": 0.0,
+            "Request_Type": 0.15384615384615385,
+            "Inclusions": 0.0,
+            "Data_Type": 1.0
+        },
+        "span_accuracy": {
+            "Details": 0.0,
+            "Exclusions": 0.0,
+            "Request_Type": 0.0,
+            "Inclusions": 0.0,
+            "Data_Type": 1.0
+        },
+        "latency": 1.3820125000000019,
+        "prompt_tokens": 96,
+        "completion_tokens": 87,
+        "total_tokens": 183
+    },
+    {
+        "input": "I want to see the System_Information data for the patient.",
+        "ground_truth": {
+            "Data_Type": "System_Information",
+            "Request_Type": "Data_Access",
+            "Details": "NULL",
+            "Inclusions": "NULL",
+            "Exclusions": "NULL"
+        },
+        "predicted_entities": {
+            "Data_Type": "System_Information",
+            "Request_Type": "View",
+            "Details": "Provide system information data for the patient.",
+            "Inclusions": [
+                "Patient's vital signs",
+                "Patient's medical history",
+                "Patient's current medications",
+                "Patient's allergies",
+                "Patient's recent lab results"
+            ],
+            "Exclusions": [
+                "Patient's personal contact information",
+                "Patient's financial information"
+            ]
+        },
+        "precision": {
+            "Details": 0.0,
+            "Exclusions": 0.0,
+            "Request_Type": 0.25,
+            "Inclusions": 0.0,
+            "Data_Type": 1.0
+        },
+        "recall": {
+            "Details": 0.0,
+            "Exclusions": 0.0,
+            "Request_Type": 0.125,
+            "Inclusions": 0.0,
+            "Data_Type": 1.0
+        },
+        "f1_score": {
+            "Details": 0.0,
+            "Exclusions": 0.0,
+            "Request_Type": 0.16666666666666666,
+            "Inclusions": 0.0,
+            "Data_Type": 1.0
+        },
+        "span_accuracy": {
+            "Details": 0.0,
+            "Exclusions": 0.0,
+            "Request_Type": 0.0,
+            "Inclusions": 0.0,
+            "Data_Type": 1.0
+        },
+        "latency": 1.7366668000000018,
+        "prompt_tokens": 97,
+        "completion_tokens": 100,
+        "total_tokens": 197
+    },
+    {
+        "input": "I need to access the Steps data of the patient.",
+        "ground_truth": {
+            "Data_Type": "Steps",
+            "Request_Type": "Data_Access",
+            "Details": "NULL",
+            "Inclusions": "NULL",
+            "Exclusions": "NULL"
+        },
+        "predicted_entities": {
+            "Data_Type": "Steps data",
+            "Request_Type": "Access",
+            "Details": "The user needs to access the steps data of the patient.",
+            "Inclusions": [
+                "Steps data"
+            ],
+            "Exclusions": [
+                "Sensitive personal information"
+            ]
+        },
+        "precision": {
+            "Details": 0.0,
+            "Exclusions": 0.0,
+            "Request_Type": 1.0,
+            "Inclusions": 0.0,
+            "Data_Type": 0.625
+        },
+        "recall": {
+            "Details": 0.0,
+            "Exclusions": 0.0,
+            "Request_Type": 0.5,
+            "Inclusions": 0.0,
+            "Data_Type": 1.0
+        },
+        "f1_score": {
+            "Details": 0.0,
+            "Exclusions": 0.0,
+            "Request_Type": 0.6666666666666666,
+            "Inclusions": 0.0,
+            "Data_Type": 0.7692307692307693
+        },
+        "span_accuracy": {
+            "Details": 0.0,
+            "Exclusions": 0.0,
+            "Request_Type": 0.0,
+            "Inclusions": 0.0,
+            "Data_Type": 0.0
+        },
+        "latency": 1.0248465000000024,
+        "prompt_tokens": 95,
+        "completion_tokens": 56,
+        "total_tokens": 151
+    },
+    {
+        "input": "I need to access the Heart_Rate data of the patient.",
+        "ground_truth": {
+            "Data_Type": "Heart_Rate",
+            "Request_Type": "Data_Access",
+            "Details": "NULL",
+            "Inclusions": "NULL",
+            "Exclusions": "NULL"
+        },
+        "predicted_entities": {
+            "Data_Type": "Heart_Rate",
+            "Request_Type": "Access",
+            "Details": "Retrieve the heart rate data of the patient for monitoring purposes.",
+            "Inclusions": [
+                "Real-time heart rate measurements",
+                "Historical heart rate data"
+            ],
+            "Exclusions": [
+                "Other physiological data",
+                "Personal identifying information"
+            ]
+        },
+        "precision": {
+            "Details": 0.0,
+            "Exclusions": 0.0,
+            "Request_Type": 1.0,
+            "Inclusions": 0.0,
+            "Data_Type": 1.0
+        },
+        "recall": {
+            "Details": 0.0,
+            "Exclusions": 0.0,
+            "Request_Type": 0.5,
+            "Inclusions": 0.0,
+            "Data_Type": 1.0
+        },
+        "f1_score": {
+            "Details": 0.0,
+            "Exclusions": 0.0,
+            "Request_Type": 0.6666666666666666,
+            "Inclusions": 0.0,
+            "Data_Type": 1.0
+        },
+        "span_accuracy": {
+            "Details": 0.0,
+            "Exclusions": 0.0,
+            "Request_Type": 0.0,
+            "Inclusions": 0.0,
+            "Data_Type": 1.0
+        },
+        "latency": 1.182918799999996,
+        "prompt_tokens": 97,
+        "completion_tokens": 82,
+        "total_tokens": 179
+    },
+    {
+        "input": "I need to access the Steps data of the patient.",
+        "ground_truth": {
+            "Data_Type": "Steps",
+            "Request_Type": "Data_Access",
+            "Details": "NULL",
+            "Inclusions": "NULL",
+            "Exclusions": "NULL"
+        },
+        "predicted_entities": {
+            "Data_Type": "Healthcare Data",
+            "Request_Type": "Access",
+            "Details": "Steps data of the patient",
+            "Inclusions": [
+                "Steps data"
+            ],
+            "Exclusions": [
+                "Sensitive health information"
+            ]
+        },
+        "precision": {
+            "Details": 0.0,
+            "Exclusions": 0.0,
+            "Request_Type": 1.0,
+            "Inclusions": 0.0,
+            "Data_Type": 0.2
+        },
+        "recall": {
+            "Details": 0.0,
+            "Exclusions": 0.0,
+            "Request_Type": 0.5,
+            "Inclusions": 0.0,
+            "Data_Type": 0.4
+        },
+        "f1_score": {
+            "Details": 0.0,
+            "Exclusions": 0.0,
+            "Request_Type": 0.6666666666666666,
+            "Inclusions": 0.0,
+            "Data_Type": 0.26666666666666666
+        },
+        "span_accuracy": {
+            "Details": 0.0,
+            "Exclusions": 0.0,
+            "Request_Type": 0.0,
+            "Inclusions": 0.0,
+            "Data_Type": 0.0
+        },
+        "latency": 0.8043546000000035,
+        "prompt_tokens": 95,
+        "completion_tokens": 51,
+        "total_tokens": 146
+    },
+    {
+        "input": "I want to see the System_Information data for the patient.",
+        "ground_truth": {
+            "Data_Type": "System_Information",
+            "Request_Type": "Data_Access",
+            "Details": "NULL",
+            "Inclusions": "NULL",
+            "Exclusions": "NULL"
+        },
+        "predicted_entities": {
+            "Data_Type": "System_Information",
+            "Request_Type": "Access",
+            "Details": "Retrieve system information data for the patient",
+            "Inclusions": [
+                "Patient's medical history",
+                "Vital signs monitoring data",
+                "Medication records",
+                "Allergies and existing conditions"
+            ],
+            "Exclusions": [
+                "Personal identifying information (PII)",
+                "Financial data",
+                "Non-medical related information"
+            ]
+        },
+        "precision": {
+            "Details": 0.0,
+            "Exclusions": 0.0,
+            "Request_Type": 1.0,
+            "Inclusions": 0.0,
+            "Data_Type": 1.0
+        },
+        "recall": {
+            "Details": 0.0,
+            "Exclusions": 0.0,
+            "Request_Type": 0.5,
+            "Inclusions": 0.0,
+            "Data_Type": 1.0
+        },
+        "f1_score": {
+            "Details": 0.0,
+            "Exclusions": 0.0,
+            "Request_Type": 0.6666666666666666,
+            "Inclusions": 0.0,
+            "Data_Type": 1.0
+        },
+        "span_accuracy": {
+            "Details": 0.0,
+            "Exclusions": 0.0,
+            "Request_Type": 0.0,
+            "Inclusions": 0.0,
+            "Data_Type": 1.0
+        },
+        "latency": 1.3940762000000007,
+        "prompt_tokens": 97,
+        "completion_tokens": 102,
+        "total_tokens": 199
+    },
+    {
+        "input": "Please provide access to the patient's Steps data.",
+        "ground_truth": {
+            "Data_Type": "Steps",
+            "Request_Type": "Data_Access",
+            "Details": "NULL",
+            "Inclusions": "NULL",
+            "Exclusions": "NULL"
+        },
+        "predicted_entities": {
+            "Data_Type": "Health Data",
+            "Request_Type": "Access Request",
+            "Details": "Access to the patient's Steps data has been requested.",
+            "Inclusions": [
+                "Steps data"
+            ],
+            "Exclusions": []
+        },
+        "precision": {
+            "Details": 0.0,
+            "Exclusions": 0.0,
+            "Request_Type": 0.5555555555555556,
+            "Inclusions": 0.0,
+            "Data_Type": 0.25
+        },
+        "recall": {
+            "Details": 0.0,
+            "Exclusions": 0.0,
+            "Request_Type": 0.625,
+            "Inclusions": 0.0,
+            "Data_Type": 0.4
+        },
+        "f1_score": {
+            "Details": 0.0,
+            "Exclusions": 0.0,
+            "Request_Type": 0.5882352941176471,
+            "Inclusions": 0.0,
+            "Data_Type": 0.3076923076923077
+        },
+        "span_accuracy": {
+            "Details": 0.0,
+            "Exclusions": 0.0,
+            "Request_Type": 0.0,
+            "Inclusions": 0.0,
+            "Data_Type": 0.0
+        },
+        "latency": 0.933500500000001,
+        "prompt_tokens": 94,
+        "completion_tokens": 52,
+        "total_tokens": 146
+    },
+    {
+        "input": "Can you give me the patient's Heart_Rate information?",
+        "ground_truth": {
+            "Data_Type": "Heart_Rate",
+            "Request_Type": "Data_Access",
+            "Details": "NULL",
+            "Inclusions": "NULL",
+            "Exclusions": "NULL"
+        },
+        "predicted_entities": {
+            "Data_Type": "Heart_Rate",
+            "Request_Type": "Specific",
+            "Details": "Patient's heart rate information",
+            "Inclusions": [
+                "Heart rate measurements",
+                "Heart rate trends"
+            ],
+            "Exclusions": [
+                "Patient's personal details",
+                "Medical history"
+            ]
+        },
+        "precision": {
+            "Details": 0.0,
+            "Exclusions": 0.0,
+            "Request_Type": 0.3333333333333333,
+            "Inclusions": 0.0,
+            "Data_Type": 1.0
+        },
+        "recall": {
+            "Details": 0.0,
+            "Exclusions": 0.0,
+            "Request_Type": 0.25,
+            "Inclusions": 0.0,
+            "Data_Type": 1.0
+        },
+        "f1_score": {
+            "Details": 0.0,
+            "Exclusions": 0.0,
+            "Request_Type": 0.28571428571428575,
+            "Inclusions": 0.0,
+            "Data_Type": 1.0
+        },
+        "span_accuracy": {
+            "Details": 0.0,
+            "Exclusions": 0.0,
+            "Request_Type": 0.0,
+            "Inclusions": 0.0,
+            "Data_Type": 1.0
+        },
+        "latency": 1.2116589999999974,
+        "prompt_tokens": 96,
+        "completion_tokens": 62,
+        "total_tokens": 158
+    },
+    {
+        "input": "Can you give me the patient's System_Information information?",
+        "ground_truth": {
+            "Data_Type": "System_Information",
+            "Request_Type": "Data_Access",
+            "Details": "NULL",
+            "Inclusions": "NULL",
+            "Exclusions": "NULL"
+        },
+        "predicted_entities": {
+            "Data_Type": "Patient_System_Information",
+            "Request_Type": "Specific",
+            "Details": "The patient's system information includes data related to the patient's electronic health record (EHR), such as medical history, medications, allergies, lab results, and vital signs.",
+            "Inclusions": [
+                "Electronic Health Record (EHR)",
+                "Medical History",
+                "Medications",
+                "Allergies",
+                "Lab Results",
+                "Vital Signs"
+            ],
+            "Exclusions": [
+                "Personal identification information (PII)",
+                "Financial data"
+            ]
+        },
+        "precision": {
+            "Details": 0.0,
+            "Exclusions": 0.0,
+            "Request_Type": 0.3333333333333333,
+            "Inclusions": 0.0,
+            "Data_Type": 0.9333333333333333
+        },
+        "recall": {
+            "Details": 0.0,
+            "Exclusions": 0.0,
+            "Request_Type": 0.25,
+            "Inclusions": 0.0,
+            "Data_Type": 1.0
+        },
+        "f1_score": {
+            "Details": 0.0,
+            "Exclusions": 0.0,
+            "Request_Type": 0.28571428571428575,
+            "Inclusions": 0.0,
+            "Data_Type": 0.9655172413793104
+        },
+        "span_accuracy": {
+            "Details": 0.0,
+            "Exclusions": 0.0,
+            "Request_Type": 0.0,
+            "Inclusions": 0.0,
+            "Data_Type": 0.0
+        },
+        "latency": 1.6722113000000007,
+        "prompt_tokens": 96,
+        "completion_tokens": 129,
+        "total_tokens": 225
+    },
+    {
+        "input": "I need the patient's Steps data for review.",
+        "ground_truth": {
+            "Data_Type": "Steps",
+            "Request_Type": "Data_Access",
+            "Details": "NULL",
+            "Inclusions": "NULL",
+            "Exclusions": "NULL"
+        },
+        "predicted_entities": {
+            "Data_Type": "Health Data",
+            "Request_Type": "Data Retrieval",
+            "Details": "Retrieve the patient's Steps data for review.",
+            "Inclusions": [
+                "Steps data of the patient",
+                "Date and time stamps of the recorded steps",
+                "Any additional relevant health data related to steps tracking"
+            ],
+            "Exclusions": [
+                "Personal identifying information of the patient",
+                "Unrelated health data not related to steps tracking"
+            ]
+        },
+        "precision": {
+            "Details": 0.0,
+            "Exclusions": 0.0,
+            "Request_Type": 0.4,
+            "Inclusions": 0.0,
+            "Data_Type": 0.25
+        },
+        "recall": {
+            "Details": 0.0,
+            "Exclusions": 0.0,
+            "Request_Type": 0.5,
+            "Inclusions": 0.0,
+            "Data_Type": 0.4
+        },
+        "f1_score": {
+            "Details": 0.0,
+            "Exclusions": 0.0,
+            "Request_Type": 0.4444444444444445,
+            "Inclusions": 0.0,
+            "Data_Type": 0.3076923076923077
+        },
+        "span_accuracy": {
+            "Details": 0.0,
+            "Exclusions": 0.0,
+            "Request_Type": 0.0,
+            "Inclusions": 0.0,
+            "Data_Type": 0.0
+        },
+        "latency": 1.221217799999998,
+        "prompt_tokens": 94,
+        "completion_tokens": 104,
+        "total_tokens": 198
+    },
+    {
+        "input": "I need to access the Steps data of the patient.",
+        "ground_truth": {
+            "Data_Type": "Steps",
+            "Request_Type": "Data_Access",
+            "Details": "NULL",
+            "Inclusions": "NULL",
+            "Exclusions": "NULL"
+        },
+        "predicted_entities": {
+            "Data_Type": "Health Data",
+            "Request_Type": "Access",
+            "Details": "Steps data of the patient",
+            "Inclusions": [
+                "Steps data"
+            ],
+            "Exclusions": []
+        },
+        "precision": {
+            "Details": 0.0,
+            "Exclusions": 0.0,
+            "Request_Type": 1.0,
+            "Inclusions": 0.0,
+            "Data_Type": 0.25
+        },
+        "recall": {
+            "Details": 0.0,
+            "Exclusions": 0.0,
+            "Request_Type": 0.5,
+            "Inclusions": 0.0,
+            "Data_Type": 0.4
+        },
+        "f1_score": {
+            "Details": 0.0,
+            "Exclusions": 0.0,
+            "Request_Type": 0.6666666666666666,
+            "Inclusions": 0.0,
+            "Data_Type": 0.3076923076923077
+        },
+        "span_accuracy": {
+            "Details": 0.0,
+            "Exclusions": 0.0,
+            "Request_Type": 0.0,
+            "Inclusions": 0.0,
+            "Data_Type": 0.0
+        },
+        "latency": 0.9318073999999967,
+        "prompt_tokens": 95,
+        "completion_tokens": 50,
+        "total_tokens": 145
+    },
+    {
+        "input": "Please provide access to the patient's Steps data.",
+        "ground_truth": {
+            "Data_Type": "Steps",
+            "Request_Type": "Data_Access",
+            "Details": "NULL",
+            "Inclusions": "NULL",
+            "Exclusions": "NULL"
+        },
+        "predicted_entities": {
+            "Data_Type": "Steps data",
+            "Request_Type": "Access request",
+            "Details": "Access requested for the patient's Steps data.",
+            "Inclusions": [
+                "Patient ID",
+                "Steps data for the specified time period",
+                "Authorization for access"
+            ],
+            "Exclusions": [
+                "Any other health data not specified",
+                "Data from unrelated time periods",
+                "Access without proper authorization"
+            ]
+        },
+        "precision": {
+            "Details": 0.0,
+            "Exclusions": 0.0,
+            "Request_Type": 0.5555555555555556,
+            "Inclusions": 0.0,
+            "Data_Type": 0.625
+        },
+        "recall": {
+            "Details": 0.0,
+            "Exclusions": 0.0,
+            "Request_Type": 0.625,
+            "Inclusions": 0.0,
+            "Data_Type": 1.0
+        },
+        "f1_score": {
+            "Details": 0.0,
+            "Exclusions": 0.0,
+            "Request_Type": 0.5882352941176471,
+            "Inclusions": 0.0,
+            "Data_Type": 0.7692307692307693
+        },
+        "span_accuracy": {
+            "Details": 0.0,
+            "Exclusions": 0.0,
+            "Request_Type": 0.0,
+            "Inclusions": 0.0,
+            "Data_Type": 0.0
+        },
+        "latency": 1.3502291,
+        "prompt_tokens": 94,
+        "completion_tokens": 96,
+        "total_tokens": 190
+    }
+]
